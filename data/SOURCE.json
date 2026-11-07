@@ -1,0 +1,27 @@
+{
+ "source": "Kaiacord !rpg (utils/ttrpg, docs/ttrpg)",
+ "git_ref": "refs/heads/main",
+ "git_commit": "f20bfc16e8ee9c17417958f41f343eab8a269130",
+ "files": {
+  "utils/ttrpg/monster_registry.py": "2c70648ef1abed3f18bae5f40f87670520d934e132471c5b07c7afb2ca42ed27",
+  "utils/ttrpg/equipment_registry.py": "34eee5db5b99432c290ca1d21680e2ba57596ad2fdfe6e42b9ed6b782b33950e",
+  "utils/ttrpg/loot_tables.py": "44bfbbb98acd7a3cbaba13dd1094827f5aecb1d7d84e3ccece15cc16d5bf6e08",
+  "utils/ttrpg/class_advancement.py": "ebf62734426c1fc7c1cd0173245e430c47e74e7099baab7d6f891ca5913bf87c",
+  "utils/ttrpg/alchemy.py": "bf1e98bfbb4386c3c0ed81c172237a9c933923974a37465da78dfad36bc4d599",
+  "utils/ttrpg/lore.py": "c3f021deeaf141d91d2aea645264380db48c51a7830b9e216f4d78f9f32add9a",
+  "utils/ttrpg/npc_registry.py": "31677a58947434ee3c2d9f1ca648945973e6f8a694ace945dfe6080a39da4e9f",
+  "utils/ttrpg/quest_registry.py": "bcbb0d6f157369185fbf10d8215611217261da91c5109307874024af215c53d1",
+  "utils/ttrpg/pantheon.py": "2f61c73b590bd01dfb176b3969512e9f553601a9448d8757a758172b9e0e1c00",
+  "utils/ttrpg/progression.py": "fd90c665075fdb16e9a5913b6b757b4ad123832d3b74b2e16ad25c34b5280e33",
+  "utils/ttrpg/dungeon.py": "07b1f5ab752b944988c729cbfb3849418385d528a47418c1041982aa56195a0b",
+  "utils/ttrpg/rare_spawns.py": "33295f8156addc595511c522af7a69f47739debaa289ec1c599a6b97ccf352d8",
+  "utils/ttrpg/combat_engine.py": "e4987d7e95bed569f12b8edf91ffeab08adad41c19bf02e98ecbed8e802cd718",
+  "utils/ttrpg/world.py": "fcfadb7e5ff9a4031983d9346572850c3791330d771002303aec84776fe3582d",
+  "utils/ttrpg/spine_dungeon.py": "570fdcdc5accc6ed440ecd4d294c14101af3eaef2a8d59891a72fd84a3d60959",
+  "utils/ttrpg/spine_layouts.json": "1e72aeea2f81f77e9dcced9d700fd233a596faf099c155b589bb01fd4dc68981",
+  "utils/ttrpg/rpg_character_creation_handler.py": "f857811e7e65e0ba0b1e0a50e87e1219704b4e675f2eca90a3a67f9004ef9be7",
+  "docs/ttrpg/aethelgard_lore_bible.md": "3eda5efb34a93725646e47a327a8935ab46576cf6fe3012055673ec76dc1c5e2"
+ },
+ "renamed": 112,
+ "unscrubbed_mentions": []
+}

@@ -1,0 +1,612 @@
+{
+  "_comment": "Kaiacord's !rpg borrows creature, item and character names from other franchises (Final Fantasy, Magic: The Gathering, D&D product identity, Dragonlance). Aethelgard Crawler is a standalone game, so import_kaiacord.py renames those entries here. Stats, tiers, descriptions and placement are kept. Edit this file and re-run the importer to change a name.",
+  "monsters": {
+    "flan": [
+      "quivering_ooze",
+      "Quivering Ooze"
+    ],
+    "black_flan": [
+      "black_ooze",
+      "Black Ooze"
+    ],
+    "mud_flan": [
+      "mud_ooze",
+      "Mud Ooze"
+    ],
+    "moldwynd": [
+      "mold_wisp",
+      "Mold Wisp"
+    ],
+    "microchu": [
+      "pod_creeper",
+      "Pod Creeper"
+    ],
+    "stroper": [
+      "stalk_lurker",
+      "Stalk Lurker"
+    ],
+    "crew_dust": [
+      "mote_swarm",
+      "Mote Swarm"
+    ],
+    "grat": [
+      "bramble_grub",
+      "Bramble Grub"
+    ],
+    "nutkin": [
+      "acorn_imp",
+      "Acorn Imp"
+    ],
+    "elf_toad": [
+      "hex_toad",
+      "Hex Toad"
+    ],
+    "sahagin": [
+      "reef_raider",
+      "Reef Raider"
+    ],
+    "pink_puff": [
+      "puffcap",
+      "Puffcap"
+    ],
+    "bomb": [
+      "cinder_mote",
+      "Cinder Mote"
+    ],
+    "grenade": [
+      "ember_bloat",
+      "Ember Bloat"
+    ],
+    "coeurl": [
+      "lash_cat",
+      "Lash Cat"
+    ],
+    "pugil": [
+      "snap_eel",
+      "Snap Eel"
+    ],
+    "zu_ff": [
+      "great_roc",
+      "Great Roc"
+    ],
+    "sea_serpent_ff": [
+      "sea_serpent",
+      "Sea Serpent"
+    ],
+    "ochu": [
+      "bloom_maw",
+      "Bloom Maw"
+    ],
+    "dhorme_chimera": [
+      "ruin_chimera",
+      "Ruin Chimera"
+    ],
+    "abductor": [
+      "hollow_snatcher",
+      "Hollow Snatcher"
+    ],
+    "mini_satana": [
+      "cinder_fiend",
+      "Cinder Fiend"
+    ],
+    "magic_pot": [
+      "whispering_urn",
+      "Whispering Urn"
+    ],
+    "reflect_mage": [
+      "mirror_adept",
+      "Mirror Adept"
+    ],
+    "cray_claw": [
+      "bog_claw",
+      "Bog Claw"
+    ],
+    "tonberry": [
+      "hollow_pilgrim",
+      "Hollow Pilgrim"
+    ],
+    "tonberry_king": [
+      "pilgrim_king",
+      "The Pilgrim King"
+    ],
+    "malboro": [
+      "rot_maw",
+      "Rot Maw"
+    ],
+    "jura_aevis": [
+      "crag_raptor",
+      "Crag Raptor"
+    ],
+    "archaeoaevis": [
+      "elder_raptor",
+      "Elder Raptor"
+    ],
+    "magic_dragon": [
+      "arcane_drake",
+      "Arcane Drake"
+    ],
+    "page_256": [
+      "living_folio",
+      "The Living Folio"
+    ],
+    "birostris": [
+      "gloom_ray",
+      "Gloom Ray"
+    ],
+    "adamantoise": [
+      "bastion_tortoise",
+      "Bastion Tortoise"
+    ],
+    "omega": [
+      "the_last_engine",
+      "The Last Engine"
+    ],
+    "omega_ff5": [
+      "the_last_engine_unbound",
+      "The Last Engine, Unbound"
+    ],
+    "shinryu": [
+      "deepwater_wyrm",
+      "Deepwater Wyrm"
+    ],
+    "shinryu_ff5": [
+      "deepwater_sovereign",
+      "The Deepwater Sovereign"
+    ],
+    "exdeath_tree": [
+      "accursed_tree",
+      "The Accursed Tree"
+    ],
+    "exdeath_ff5": [
+      "the_sealed_one",
+      "The Sealed One"
+    ],
+    "azulmagia": [
+      "azure_savant",
+      "Azure Savant"
+    ],
+    "necrophobe": [
+      "dread_sigil",
+      "Dread Sigil"
+    ],
+    "gilgamesh": [
+      "wandering_blademaster",
+      "The Wandering Blademaster"
+    ],
+    "cactuar": [
+      "needle_sprite",
+      "Needle Sprite"
+    ],
+    "atomos": [
+      "hungering_maw",
+      "The Hungering Maw"
+    ],
+    "chaos_ff1": [
+      "the_unmaking",
+      "The Unmaking"
+    ],
+    "zeromus_ff4": [
+      "the_starless_one",
+      "The Starless One"
+    ],
+    "kefka_ascended": [
+      "the_laughing_ascendant",
+      "The Laughing Ascendant"
+    ],
+    "bahamut_ff": [
+      "dragon_sovereign",
+      "The Dragon Sovereign"
+    ],
+    "iron_giant_ff": [
+      "iron_colossus",
+      "Iron Colossus"
+    ],
+    "death_claw": [
+      "rend_claw",
+      "Rend Claw"
+    ],
+    "giant_rat_mtg": [
+      "giant_rat",
+      "Giant Rat"
+    ],
+    "goblin_guide": [
+      "goblin_pathfinder",
+      "Goblin Pathfinder"
+    ],
+    "llanowar_scout": [
+      "thornwood_scout",
+      "Thornwood Scout"
+    ],
+    "serra_angel": [
+      "spire_seraph",
+      "Spire Seraph"
+    ],
+    "craw_wurm": [
+      "burrow_wurm",
+      "Burrow Wurm"
+    ],
+    "shivan_dragon": [
+      "cinderpeak_dragon",
+      "Cinderpeak Dragon"
+    ],
+    "vampire_nighthawk": [
+      "nightwing_vampire",
+      "Night-Wing Vampire"
+    ],
+    "nicol_bolas_echo": [
+      "echo_of_the_tyrant",
+      "Echo of the Dragon-Tyrant"
+    ],
+    "nightmare_mtg": [
+      "nightmare",
+      "Nightmare"
+    ],
+    "beholder": [
+      "gaze_tyrant",
+      "Gaze Tyrant"
+    ],
+    "death_tyrant": [
+      "dead_gaze_tyrant",
+      "Dead Gaze Tyrant"
+    ],
+    "beholder_king": [
+      "gaze_sovereign",
+      "The Gaze Sovereign"
+    ],
+    "mindflayer": [
+      "thought_reaver",
+      "Thought Reaver"
+    ],
+    "mind_flayer": [
+      "thought_reaver_elder",
+      "Elder Thought Reaver"
+    ],
+    "mind_flayer_outcast": [
+      "thought_reaver_outcast",
+      "Thought Reaver Outcast"
+    ],
+    "elder_brain": [
+      "the_elder_mind",
+      "The Elder Mind"
+    ],
+    "displacer_beast": [
+      "phase_panther",
+      "Phase Panther"
+    ],
+    "thri_kreen": [
+      "mantis_warrior",
+      "Mantis Warrior"
+    ],
+    "umber_hulk": [
+      "tunnel_hulk",
+      "Tunnel Hulk"
+    ],
+    "hook_horror": [
+      "hook_beast",
+      "Hook Beast"
+    ],
+    "xvart": [
+      "burrow_knave",
+      "Burrow Knave"
+    ],
+    "skum": [
+      "deep_spawn",
+      "Deep Spawn"
+    ],
+    "kenku": [
+      "crow_folk",
+      "Crow-Folk"
+    ],
+    "myconid": [
+      "spore_folk",
+      "Spore Folk"
+    ],
+    "vegepygmy": [
+      "moss_pygmy",
+      "Moss Pygmy"
+    ],
+    "ettercap": [
+      "web_tender",
+      "Web Tender"
+    ],
+    "grimlock": [
+      "blind_ravager",
+      "Blind Ravager"
+    ],
+    "aboleth_dreamer": [
+      "the_drowned_dreamer",
+      "The Drowned Dreamer"
+    ],
+    "tiamat_avatar": [
+      "avatar_of_the_hoard_mother",
+      "Avatar of the Hoard Mother"
+    ],
+    "vecna_lich_god": [
+      "the_eyeless_lich_god",
+      "The Eyeless Lich-God"
+    ],
+    "acererak": [
+      "the_tomb_sovereign",
+      "The Tomb Sovereign"
+    ],
+    "lord_soth": [
+      "the_ashen_knight_lord",
+      "The Ashen Knight-Lord"
+    ],
+    "strahd_lord_of_shadows": [
+      "the_count_of_shadows",
+      "The Count of Shadows"
+    ],
+    "lolth_emissary": [
+      "emissary_of_the_web_queen",
+      "Emissary of the Web Queen"
+    ],
+    "demogorgon_echo": [
+      "echo_of_the_twin_maw",
+      "Echo of the Twin-Maw"
+    ],
+    "orcus_aspect": [
+      "aspect_of_the_undying_prince",
+      "Aspect of the Undying Prince"
+    ],
+    "grazzt_avatar": [
+      "avatar_of_the_dark_prince",
+      "Avatar of the Dark Prince"
+    ],
+    "juiblex_shadow": [
+      "shadow_of_the_faceless_ooze",
+      "Shadow of the Faceless Ooze"
+    ],
+    "ashardalon_echo": [
+      "echo_of_the_burning_heart",
+      "Echo of the Burning Heart"
+    ],
+    "harpy_dd": [
+      "greater_harpy",
+      "Greater Harpy"
+    ],
+    "gorgon_dd": [
+      "gorgon",
+      "Gorgon"
+    ],
+    "chimera_dd": [
+      "chimera_beast",
+      "Chimera Beast"
+    ],
+    "kraken_dd": [
+      "kraken",
+      "Kraken"
+    ],
+    "balor_dd": [
+      "balor",
+      "Balor"
+    ],
+    "death_knight_dd": [
+      "death_knight",
+      "Death Knight"
+    ],
+    "lizardfolk_dd": [
+      "lizardfolk",
+      "Lizardfolk"
+    ]
+  },
+  "items": {
+    "phoenix_down": [
+      "phoenix_feather",
+      "Phoenix Feather"
+    ],
+    "hi_potion": [
+      "greater_potion",
+      "Greater Potion"
+    ],
+    "tonberry_knife": [
+      "pilgrims_knife",
+      "Pilgrim's Knife"
+    ],
+    "mognet_letter": [
+      "wingpost_letter",
+      "Wingpost Letter"
+    ],
+    "soft": [
+      "softening_draught",
+      "Softening Draught"
+    ],
+    "maidens_kiss": [
+      "hexbreaker_draught",
+      "Hexbreaker Draught"
+    ],
+    "gold_needle": [
+      "stone_thaw_needle",
+      "Stone-Thaw Needle"
+    ],
+    "ultima_weapon": [
+      "apex_blade",
+      "Apex Blade"
+    ],
+    "yoichi_bow": [
+      "archer_saints_bow",
+      "Archer-Saint's Bow"
+    ],
+    "ykesha_sword": [
+      "sword_of_the_drowned_king",
+      "Sword of the Drowned King"
+    ],
+    "mox_pearl": [
+      "resonant_pearl",
+      "Resonant Pearl"
+    ]
+  },
+  "text": [
+    [
+      "Gold Needle",
+      "Stone-Thaw Needle"
+    ],
+    [
+      "Maiden's Kiss",
+      "Hexbreaker Draught"
+    ],
+    [
+      "Elder Brain",
+      "Elder Mind"
+    ],
+    [
+      "illithids",
+      "thought-reavers"
+    ],
+    [
+      "illithid",
+      "thought-reaver"
+    ],
+    [
+      "Illithid",
+      "Thought-reaver"
+    ],
+    [
+      "beholders",
+      "gaze tyrants"
+    ],
+    [
+      "beholder",
+      "gaze tyrant"
+    ],
+    [
+      "Beholder",
+      "Gaze tyrant"
+    ],
+    [
+      "mind flayers",
+      "thought reavers"
+    ],
+    [
+      "mind flayer",
+      "thought reaver"
+    ],
+    [
+      "Mind Flayer",
+      "Thought Reaver"
+    ],
+    [
+      "flans",
+      "oozes"
+    ],
+    [
+      "flan",
+      "ooze"
+    ],
+    [
+      "Flan",
+      "Ooze"
+    ],
+    [
+      "Tonberry King",
+      "Pilgrim King"
+    ],
+    [
+      "Tonberry Ledger",
+      "Pilgrim's Ledger"
+    ],
+    [
+      "tonberries",
+      "hollow pilgrims"
+    ],
+    [
+      "Tonberries",
+      "Hollow pilgrims"
+    ],
+    [
+      "tonberry",
+      "hollow pilgrim"
+    ],
+    [
+      "Tonberry",
+      "Hollow Pilgrim"
+    ],
+    [
+      "Mognet",
+      "Wingpost"
+    ],
+    [
+      "mognet",
+      "wingpost"
+    ],
+    [
+      "moogles",
+      "courier-sprites"
+    ],
+    [
+      "Moogles",
+      "Courier-sprites"
+    ],
+    [
+      "moogle",
+      "courier-sprite"
+    ],
+    [
+      "Moogle",
+      "Courier-sprite"
+    ],
+    [
+      "chocobo",
+      "ridgestrider"
+    ],
+    [
+      "Chocobo",
+      "Ridgestrider"
+    ],
+    [
+      "Cactuar",
+      "Needle Sprite"
+    ],
+    [
+      "cactuar",
+      "needle sprite"
+    ],
+    [
+      "Phoenix Down",
+      "Phoenix Feather"
+    ],
+    [
+      "Hi-Potion",
+      "Greater Potion"
+    ],
+    [
+      "Mox Pearl",
+      "Resonant Pearl"
+    ],
+    [
+      "Exdeath",
+      "The Sealed One"
+    ],
+    [
+      "Final Fantasy V",
+      "older tales"
+    ],
+    [
+      "Final Fantasy",
+      "older tales"
+    ],
+    [
+      " gil",
+      " gold"
+    ],
+    [
+      "Gil ",
+      "Gold "
+    ],
+    [
+      " Gil",
+      " Gold"
+    ],
+    [
+      "(gil)",
+      "(gold)"
+    ]
+  ],
+  "flag_regex": "(?i)\\b(tonberr|moogle|mognet|chocobo|cactuar|flan\\b|malboro|exdeath|kefka|zeromus|shinryu|bahamut|gilgamesh|beholder|mind ?flayer|illithid|vecna|acererak|strahd|lolth|tiamat|orcus|demogorgon|graz.?zt|juiblex|soth\\b|nicol bolas|serra angel|shivan|llanowar|mox |phoenix down|hi-potion|\\bgil\\b)",
+  "keys": {
+    "gil": "gold",
+    "tonberry_1": "pilgrim_1",
+    "tonberry_2": "pilgrim_2",
+    "tonberry_3": "pilgrim_3"
+  }
+}

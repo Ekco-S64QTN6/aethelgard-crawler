@@ -1,0 +1,14 @@
+{
+  "name": "aethelgard-crawler",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A first-person grid dungeon crawler set in Aethelgard.",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --test tests/",
+    "data": "python3 -I tools/import_kaiacord.py",
+    "assets": "python3 -I tools/gen_assets.py",
+    "classic": "python3 -I tools/import_dhplus.py"
+  }
+}

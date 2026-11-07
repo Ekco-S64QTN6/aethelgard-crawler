@@ -1,0 +1,694 @@
+{
+ "attack_stat": {
+  "Warrior": "str",
+  "Ranger": "dex",
+  "Mage": "int",
+  "Rogue": "dex",
+  "Cleric": "wis"
+ },
+ "hp_per_level": {
+  "Warrior": 8,
+  "Ranger": 7,
+  "Mage": 5,
+  "Rogue": 5,
+  "Cleric": 6
+ },
+ "procs": {
+  "Warrior": {
+   "name": "Onslaught",
+   "type": "bonus_die",
+   "die": "weapon",
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Ranger": {
+   "name": "True Shot",
+   "type": "bonus_die",
+   "die": "weapon",
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Mage": {
+   "name": "Arcane Surge",
+   "type": "bonus_die",
+   "die": 8,
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Rogue": {
+   "name": "Backstab",
+   "type": "bonus_die",
+   "die": "weapon",
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Cleric": {
+   "name": "Undead Bane",
+   "type": "undead",
+   "die": 6,
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Paladin": {
+   "name": "Holy Smite",
+   "type": "undead",
+   "die": 8,
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Shadowknight": {
+   "name": "Harm Touch",
+   "type": "bonus_die",
+   "die": 8,
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Hunter": {
+   "name": "Predator",
+   "type": "bonus_die",
+   "die": "weapon",
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Warden": {
+   "name": "Forest Fury",
+   "type": "bonus_die",
+   "die": 8,
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Wizard": {
+   "name": "Arcane Nova",
+   "type": "bonus_die",
+   "die": 10,
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Necromancer": {
+   "name": "Death Touch",
+   "type": "undead",
+   "die": 8,
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Shadowblade": {
+   "name": "Shadow Strike",
+   "type": "bonus_die",
+   "die": "weapon",
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Trickster": {
+   "name": "Lucky Break",
+   "type": "bonus_die",
+   "die": 6,
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "High Priest": {
+   "name": "Divine Touch",
+   "type": "heal",
+   "heal": 25,
+   "base": 0.1,
+   "crit": 0.5
+  },
+  "Shaman": {
+   "name": "Spirit Wrath",
+   "type": "bonus_die",
+   "die": 8,
+   "base": 0.1,
+   "crit": 0.5
+  }
+ },
+ "advanced": {
+  "Warrior": {
+   "Warrior": {
+    "description": "Master of arms. Onslaught proc on every hit.",
+    "bonuses": {
+     "atk_bonus": 1,
+     "def_bonus": 1,
+     "hp_bonus": 5
+    },
+    "flavor": "You don't need a new name. The old one was enough.",
+    "is_stay": true
+   },
+   "Paladin": {
+    "description": "Holy warrior. Holy Smite proc vs undead. Heals on kill.",
+    "bonuses": {
+     "atk_vs_undead": 2,
+     "heal_on_kill": 3,
+     "def_bonus": 1,
+     "hp_bonus": 5
+    },
+    "flavor": "Aerthis acknowledges your oath. The flame at the Shrine burns white-blue."
+   },
+   "Shadowknight": {
+    "description": "Dark blade. Harm Touch proc. Drains life on every hit.",
+    "bonuses": {
+     "lifesteal_pct": 0.15,
+     "atk_bonus": 2,
+     "hp_bonus": 5
+    },
+    "flavor": "Morvenna is watching. The flame at the Shrine burns amber-black."
+   }
+  },
+  "Ranger": {
+   "Ranger": {
+    "description": "Seasoned tracker. True Shot proc on every hit. +1 daily hunt.",
+    "bonuses": {
+     "atk_bonus": 1,
+     "extra_hunt": 1,
+     "hp_bonus": 4
+    },
+    "flavor": "The forest doesn't change. You do. That's the difference.",
+    "is_stay": true
+   },
+   "Hunter": {
+    "description": "Predator proc on every hit. Extended crit range.",
+    "bonuses": {
+     "crit_threshold": 18,
+     "atk_bonus": 2,
+     "hp_bonus": 4
+    },
+    "flavor": "The forest edge accepts you as part of its pattern. Something shifts."
+   },
+   "Warden": {
+    "description": "Forest Fury proc on hit. Hard to kill — strong defense.",
+    "bonuses": {
+     "def_bonus": 3,
+     "hp_bonus": 10,
+     "forest_def_bonus": 2,
+     "heal_on_combat_end": 5,
+     "xp_bonus_pct": 0.1
+    },
+    "flavor": "Thornax approves. The Whisperwood breathes with you."
+   }
+  },
+  "Mage": {
+   "Mage": {
+    "description": "Pure arcane focus. Arcane Surge proc on hit.",
+    "bonuses": {
+     "spell_atk_bonus": 2,
+     "hp_bonus": 4
+    },
+    "flavor": "The resonance hums louder now. You've always known. You just listen better.",
+    "is_stay": true
+   },
+   "Wizard": {
+    "description": "INT drives all attack rolls. Arcane Nova proc (1d10).",
+    "bonuses": {
+     "int_to_atk": true,
+     "spell_atk_bonus": 3,
+     "hp_bonus": 4
+    },
+    "flavor": "Sylvara tears open the door for you. The resonance sings aloud."
+   },
+   "Necromancer": {
+    "description": "Death Touch proc vs undead. Deep attunement to the dead.",
+    "bonuses": {
+     "atk_vs_undead": 3,
+     "hp_bonus": 4
+    },
+    "flavor": "Morvenna welcomes your final lesson. The Shrine goes dead quiet."
+   }
+  },
+  "Rogue": {
+   "Rogue": {
+    "description": "Survivor. Backstab proc on every hit.",
+    "bonuses": {
+     "atk_bonus": 1,
+     "gil_bonus_pct": 0.1,
+     "hp_bonus": 3
+    },
+    "flavor": "You've survived this long without a title. That IS the title.",
+    "is_stay": true
+   },
+   "Shadowblade": {
+    "description": "Shadow Strike proc on every hit. Crits on 17+.",
+    "bonuses": {
+     "crit_threshold": 17,
+     "crit_damage_bonus": 4,
+     "atk_bonus": 1,
+     "hp_bonus": 3
+    },
+    "flavor": "The knife feels lighter. The dark feels familiar in a way it didn't before."
+   },
+   "Trickster": {
+    "description": "Lucky Break proc on hit. Gold mastery. Gambling advantage.",
+    "bonuses": {
+     "gil_bonus_pct": 0.25,
+     "gamble_edge": true,
+     "hp_bonus": 3
+    },
+    "flavor": "A courier-sprite winks at you from a dark corner of the Stone Hearth. You don't question it."
+   }
+  },
+  "Cleric": {
+   "Cleric": {
+    "description": "Devoted healer. Undead Bane proc. Enhanced consumable healing.",
+    "bonuses": {
+     "heal_mult": 1.25,
+     "def_bonus": 1,
+     "hp_bonus": 4
+    },
+    "flavor": "The flame doesn't change. But it burns a little steadier when you're near.",
+    "is_stay": true
+   },
+   "High Priest": {
+    "description": "WIS drives attack rolls. Divine Touch proc — heals 25 HP on proc.",
+    "bonuses": {
+     "heal_mult": 1.5,
+     "wis_to_atk": true,
+     "hp_bonus": 4
+    },
+    "flavor": "The flame at the Shrine burns three times as bright for a moment. Then settles."
+   },
+   "Shaman": {
+    "description": "Spirit Wrath proc on hit. Forest XP bonus. Passive heal on forest events.",
+    "bonuses": {
+     "forest_xp_bonus": 0.2,
+     "def_bonus": 1,
+     "nature_heal_on_event": 4,
+     "hp_bonus": 4
+    },
+    "flavor": "The Whisperwood acknowledges you as something more than a visitor. That distinction matters."
+   }
+  }
+ },
+ "titles": {
+  "Warrior": {
+   "1": "Grunt",
+   "3": "Soldier",
+   "5": "Veteran",
+   "7": "Warlord",
+   "9": "Champion",
+   "11": "Conqueror",
+   "13": "Overlord",
+   "15": "Legend"
+  },
+  "Ranger": {
+   "1": "Scout",
+   "3": "Tracker",
+   "5": "Pathfinder",
+   "7": "Outrider",
+   "9": "Stalker",
+   "11": "Vanguard",
+   "13": "Windwalker",
+   "15": "Mythwalker"
+  },
+  "Mage": {
+   "1": "Apprentice",
+   "3": "Channeler",
+   "5": "Invoker",
+   "7": "Arcanist",
+   "9": "Magister",
+   "11": "Sage",
+   "13": "Archon",
+   "15": "Resonance Lord"
+  },
+  "Rogue": {
+   "1": "Cutpurse",
+   "3": "Shadow",
+   "5": "Blade",
+   "7": "Phantom",
+   "9": "Wraith",
+   "11": "Specter",
+   "13": "Revenant",
+   "15": "Myth"
+  },
+  "Cleric": {
+   "1": "Novice",
+   "3": "Acolyte",
+   "5": "Cleric",
+   "7": "Devout",
+   "9": "Saint",
+   "11": "Hierophant",
+   "13": "Oracle",
+   "15": "Exalted"
+  },
+  "Paladin": {
+   "5": "Initiate",
+   "7": "Knight",
+   "9": "Champion of Silence",
+   "10": "Blessed Blade",
+   "11": "Crusader",
+   "13": "Exemplar",
+   "15": "Aegis of Silence"
+  },
+  "Shadowknight": {
+   "5": "Shade",
+   "7": "Dread Knight",
+   "9": "Deathbringer",
+   "10": "Terror of the Ruins",
+   "11": "Dread Lord",
+   "13": "Abyssal Knight",
+   "15": "The Undying"
+  },
+  "Hunter": {
+   "5": "Stalker",
+   "7": "Predator",
+   "9": "Apex Hunter",
+   "10": "Legend of the Forest",
+   "11": "Apex",
+   "13": "Ghost of the Wood",
+   "15": "The Unseen"
+  },
+  "Warden": {
+   "5": "Keeper",
+   "7": "Sentinel",
+   "9": "Guardian of the Deep",
+   "10": "Heart of Whisperwood",
+   "11": "Ancient",
+   "13": "Earthbound",
+   "15": "Worldroot"
+  },
+  "Wizard": {
+   "5": "Scholar",
+   "7": "Arcanist",
+   "9": "Archmage",
+   "10": "Resonance-Touched",
+   "11": "Sage",
+   "13": "Resonance Master",
+   "15": "Ascendant"
+  },
+  "Necromancer": {
+   "5": "Student of Death",
+   "7": "Bone Whisperer",
+   "9": "Lich-Touched",
+   "10": "Morvenna's Hand",
+   "11": "Death Speaker",
+   "13": "Grave Lord",
+   "15": "Morvenna's Chosen"
+  },
+  "Shadowblade": {
+   "5": "Knife in the Dark",
+   "7": "Ghost",
+   "9": "Phantom",
+   "10": "The Last Face You See",
+   "11": "Void Walker",
+   "13": "Dusk",
+   "15": "The Nothing"
+  },
+  "Trickster": {
+   "5": "Scoundrel",
+   "7": "Schemer",
+   "9": "Legend",
+   "10": "Myth and Rumor",
+   "11": "Fable",
+   "13": "Paradox",
+   "15": "The Impossible"
+  },
+  "High Priest": {
+   "5": "Acolyte",
+   "7": "Priest",
+   "9": "Voice of the Silent",
+   "10": "They Who Are Heard",
+   "11": "Archbishop",
+   "13": "Voice Eternal",
+   "15": "The Silence Itself"
+  },
+  "Shaman": {
+   "5": "Listener",
+   "7": "Speaker",
+   "9": "Worldsong",
+   "10": "The Forest's Voice",
+   "11": "Spiritcaller",
+   "13": "World Whisperer",
+   "15": "The Forest Made Flesh"
+  }
+ },
+ "undead_names": [
+  "dark knight",
+  "decaying skeleton",
+  "dullahan",
+  "elara (turned)",
+  "ghost",
+  "ghoul",
+  "lich",
+  "dread_sigil",
+  "revenant",
+  "shadow dancer",
+  "shadow lich",
+  "skeleton",
+  "skull knight",
+  "spectre",
+  "hollow pilgrim king",
+  "wight",
+  "zombie"
+ ],
+ "xp_thresholds": {
+  "1": 0,
+  "2": 300,
+  "3": 900,
+  "4": 2700,
+  "5": 5000,
+  "6": 11000,
+  "7": 19000,
+  "8": 28000,
+  "9": 48000,
+  "10": 64000,
+  "11": 85000,
+  "12": 112000,
+  "13": 148000,
+  "14": 195000,
+  "15": 256000
+ },
+ "races": {
+  "Human": {
+   "str": 1,
+   "dex": 1,
+   "con": 1,
+   "int": 1,
+   "wis": 1,
+   "cha": 1
+  },
+  "Elf": {
+   "dex": 2,
+   "int": 1,
+   "wis": 1
+  },
+  "Silvani": {
+   "dex": 2,
+   "wis": 2
+  },
+  "Dwarf": {
+   "con": 2,
+   "str": 1
+  },
+  "Glimmerkin": {
+   "cha": 2,
+   "int": 1,
+   "dex": 1
+  },
+  "Veiled": {
+   "int": 2,
+   "cha": 2
+  }
+ },
+ "deities": {
+  "aerthis": {
+   "name": "Aerthis",
+   "title": "The Unbending",
+   "domain": "Order, law, structure, light",
+   "symbol": "A balanced scale, one side holding flame",
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Paladin"
+   ],
+   "alignment": "lawful",
+   "holy_days": [
+    "First Day of Spring",
+    "The Remembrance"
+   ],
+   "shrine_flavor": "The flame at the Shrine burns white-blue when Aerthis is acknowledged.",
+   "epithets": [
+    "the Unbending",
+    "the Lawgiver",
+    "He Who Does Not Yield",
+    "First Light",
+    "the Undimmed"
+   ],
+   "npc_topics": [
+    "Aerthis does not reward the devout for faith. He rewards them for action. There's a distinction.",
+    "A Paladin's oath to Aerthis is not symbolic. The god hears every word.",
+    "Aerthis and Sylvara have not spoken since the Sundering. Neither will say why.",
+    "The Shrine was Aerthis's first. The other gods arrived later, as guests."
+   ],
+   "monster_connection": "Undead are anathema to Aerthis — his priests are compelled to destroy them.",
+   "desc": "God of Order, law, and unwavering light. Patron of Clerics and Paladins."
+  },
+  "sylvara": {
+   "name": "Sylvara",
+   "title": "The Unbound",
+   "domain": "Chaos, change, raw magic, storms",
+   "symbol": "A broken circle with lightning across the gap",
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "alignment": "chaotic",
+   "holy_days": [
+    "Festival of Fools",
+    "The Amber Night"
+   ],
+   "shrine_flavor": "The flame stutters and forks when Sylvara's power moves through an area.",
+   "epithets": [
+    "the Unbound",
+    "the Stormcaller",
+    "She Who Breaks the Circle",
+    "Wild Fire",
+    "the Unmade"
+   ],
+   "npc_topics": [
+    "Sylvara doesn't grant power. She tears open the door to it and steps aside.",
+    "The gap between an Apprentice and a Wizard is the moment they stopped asking permission from the rules.",
+    "Necromancy is Sylvara's gift misunderstood. Death is change. She sees no difference.",
+    "Aeridor's mages served Sylvara, at the end. That's one theory for why it ended the way it did."
+   ],
+   "monster_connection": "Magic constructs and resonance entities are touched by her domain.",
+   "desc": "Goddess of chaos, raw magic, and change. Patron of Mages and Wizards."
+  },
+  "thornax": {
+   "name": "Thornax",
+   "title": "The Patient",
+   "domain": "Balance, nature, cycles, seasons",
+   "symbol": "Three roots coiled into a spiral",
+   "classes": [
+    "Ranger",
+    "Warden",
+    "Shaman",
+    "Hunter"
+   ],
+   "alignment": "neutral",
+   "holy_days": [
+    "Beltane — The Long Fire",
+    "First Day of Autumn"
+   ],
+   "shrine_flavor": "The Whisperwood is Thornax's expression. The forest has opinions, and they are his.",
+   "epithets": [
+    "the Patient",
+    "the Root-Speaker",
+    "He Who Grows Around",
+    "Balance",
+    "the Oldest Watcher"
+   ],
+   "npc_topics": [
+    "Thornax doesn't answer prayers. He answers behavior. Prove you belong, and the forest opens.",
+    "The Whisperwood is not a place Thornax made. It is a part of him that became too large to contain.",
+    "Rangers pray to Thornax before the first hunt of a season. Not for luck. For permission.",
+    "The Silvani call him by a different name. They say ours is a child's word for something older."
+   ],
+   "monster_connection": "The elder treants and deep forest creatures are his to command.",
+   "desc": "God of balance, nature, and cycles. Patron of Rangers, Wardens, and Shamans."
+  },
+  "morvenna": {
+   "name": "Morvenna",
+   "title": "The Inevitable",
+   "domain": "Death, transformation, endings, undeath",
+   "symbol": "A moth above a candle flame",
+   "classes": [
+    "Shadowknight",
+    "Necromancer"
+   ],
+   "alignment": "dark",
+   "holy_days": [
+    "Morvenna's Eve"
+   ],
+   "shrine_flavor": "The flame burns amber-black on Morvenna's feast night. Elara calls it a warning. The Hooded Figure calls it an invitation.",
+   "epithets": [
+    "the Inevitable",
+    "the Last Warmth",
+    "She Who Waits at the Door",
+    "the Transformer",
+    "the Welcomed End"
+   ],
+   "npc_topics": [
+    "Morvenna doesn't want worship. She wants witnesses. Someone to see what death really is.",
+    "A Shadowknight serves Morvenna not because they fear death, but because they've stopped.",
+    "Necromancy isn't defying death. It's reading her handwriting aloud.",
+    "On Morvenna's Eve, she walks Aethelgard like anyone else. She says she just wants to see how it's going."
+   ],
+   "monster_connection": "The undead are her soldiers, her failed experiments, and sometimes her messengers.",
+   "desc": "Goddess of death, transformation, and endings. Patron of Shadowknights and Necromancers."
+  },
+  "vethran": {
+   "name": "Vethran",
+   "title": "The Blade Forged",
+   "domain": "War, honor, the blade, strength",
+   "symbol": "A greatsword driven into an anvil",
+   "classes": [
+    "Warrior"
+   ],
+   "alignment": "neutral",
+   "holy_days": [
+    "The Amber Night"
+   ],
+   "shrine_flavor": "There is no shrine to Vethran in Oakhaven. Warriors carve his mark into their weapons instead.",
+   "epithets": [
+    "the Blade Forged",
+    "the Unwavering",
+    "He Who Stands Last",
+    "the Tested",
+    "the Weight of Iron"
+   ],
+   "npc_topics": [
+    "Vethran has no church. He has veterans.",
+    "A warrior who survives enough battles stops praying and starts being answered.",
+    "Vethran doesn't distinguish between a soldier and a mercenary. He only distinguishes between those who held and those who ran.",
+    "Hemlock keeps a chip of iron behind the counter. Old custom. Vethran's domain, gold's domain — both about value held in the hand."
+   ],
+   "monster_connection": "None specific — Vethran claims the fallen of all sides.",
+   "desc": "God of war, honor, and the blade. Patron of Warriors."
+  },
+  "corvus": {
+   "name": "Corvus",
+   "title": "The Laughing Road",
+   "domain": "Travelers, merchants, trickery, secrets, luck",
+   "symbol": "A coin balanced on its edge",
+   "classes": [
+    "Rogue",
+    "Trickster"
+   ],
+   "alignment": "chaotic",
+   "holy_days": [
+    "Festival of Fools",
+    "New Year — The Turning"
+   ],
+   "shrine_flavor": "Corvus has no shrine. He has back rooms, loose floorboards, and the pause before someone laughs.",
+   "epithets": [
+    "the Laughing Road",
+    "the Slim Margin",
+    "He Who Travels Ahead",
+    "the Coin's Edge",
+    "the Well-Named Stranger"
+   ],
+   "npc_topics": [
+    "Corvus blesses no one. He arranges circumstances. What you do with them is your prayer.",
+    "Every caravan runner carries his mark. Not faith — insurance. He's the one who knows where all the roads lead.",
+    "Rogues call him the Patron of Favorable Odds. He would say that's an overcompliment. He just likes being in the room.",
+    "The Hooded Figure paid in Corvus coins once. Nobody knows what that means."
+   ],
+   "monster_connection": "Corvus claims no monsters — only the people who made poor choices near them.",
+   "desc": "God of travelers, merchants, trickery, and luck. Patron of Rogues and Tricksters."
+  }
+ },
+ "class_deity": {
+  "Warrior": "vethran",
+  "Ranger": "thornax",
+  "Mage": "sylvara",
+  "Rogue": "corvus",
+  "Cleric": "aerthis",
+  "Paladin": "aerthis",
+  "Shadowknight": "morvenna",
+  "Hunter": "thornax",
+  "Warden": "thornax",
+  "Wizard": "sylvara",
+  "Necromancer": "morvenna",
+  "Shadowblade": "corvus",
+  "Trickster": "corvus",
+  "High Priest": "aerthis",
+  "Shaman": "thornax"
+ }
+}

@@ -1,0 +1,11 @@
+# Classic art pack: decoded from commercial games (Dungeon Hack, Eye of the
+# Beholder I-III, Menzoberranzan) by Dungeon Hack+ from the user's own copies.
+# Local use only. Rebuild with `npm run classic`.
+assets/imported/
+
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db

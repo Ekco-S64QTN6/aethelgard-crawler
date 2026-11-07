@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aethelgard Crawler</title>
+  <link rel="icon" href="assets/generated/sprites/icon_coin.png">
+  <link rel="stylesheet" href="src/ui/style.css">
+</head>
+<body>
+  <div id="app">
+    <main id="stage">
+      <div id="view-wrap">
+        <canvas id="view" width="320" height="200" aria-label="First-person view of the dungeon"></canvas>
+        <div id="view-fx"></div>
+        <div id="town" hidden></div>
+        <div id="hand-hint" hidden></div>
+      </div>
+      <div id="bar">
+        <div id="nav">
+          <button data-cmd="tl" title="Turn left (Q)">&#x21B6;</button>
+          <button data-cmd="fw" title="Forward (W)">&#x25B2;</button>
+          <button data-cmd="tr" title="Turn right (E)">&#x21B7;</button>
+          <button data-cmd="sl" title="Strafe left (A)">&#x25C0;</button>
+          <button data-cmd="bk" title="Back (S)">&#x25BC;</button>
+          <button data-cmd="sr" title="Strafe right (D)">&#x25B6;</button>
+        </div>
+        <div id="status">
+          <div id="where"></div>
+          <div id="compass-ley"><span id="compass"></span><span id="ley" title="Ley-Bleed where the party stands: casting here is stronger and riskier"></span><span id="gold"></span></div>
+          <ol id="log" aria-live="polite"></ol>
+        </div>
+      </div>
+    </main>
+    <aside id="side">
+      <div id="party"></div>
+      <div id="tools">
+        <button data-ui="inv" title="Inventory (I)">Inventory</button>
+        <button data-ui="map" title="Automap (M)">Map</button>
+        <button data-ui="codex" title="Lore Codex, bestiary, quests (C)">Codex</button>
+        <button data-ui="menu" title="Menu (Esc)">Menu</button>
+      </div>
+    </aside>
+  </div>
+  <div id="overlay" hidden><div id="panel" role="dialog"></div></div>
+  <div id="cursor-item" hidden></div>
+  <div id="boot">Loading Aethelgard...</div>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

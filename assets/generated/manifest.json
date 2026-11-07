@@ -1,0 +1,268 @@
+{
+ "pack": "generated",
+ "themes": {
+  "aeridor": {
+   "wall": "generated/tex/aeridor_wall.png",
+   "floor": "generated/tex/aeridor_floor.png",
+   "ceil": "generated/tex/aeridor_ceil.png",
+   "door": "door_aeridor",
+   "fog": [
+    8,
+    10,
+    18
+   ]
+  },
+  "tunnels": {
+   "wall": "generated/tex/tunnels_wall.png",
+   "floor": "generated/tex/tunnels_floor.png",
+   "ceil": "generated/tex/tunnels_ceil.png",
+   "door": "door_wood",
+   "fog": [
+    6,
+    4,
+    2
+   ]
+  },
+  "bones": {
+   "wall": "generated/tex/bones_wall.png",
+   "floor": "generated/tex/bones_floor.png",
+   "ceil": "generated/tex/bones_ceil.png",
+   "door": "door_wood",
+   "fog": [
+    8,
+    6,
+    4
+   ]
+  },
+  "forge": {
+   "wall": "generated/tex/forge_wall.png",
+   "floor": "generated/tex/forge_floor.png",
+   "ceil": "generated/tex/forge_ceil.png",
+   "door": "door_iron",
+   "fog": [
+    20,
+    6,
+    0
+   ]
+  },
+  "deep": {
+   "wall": "generated/tex/deep_wall.png",
+   "floor": "generated/tex/deep_floor.png",
+   "ceil": "generated/tex/deep_ceil.png",
+   "door": "door_iron",
+   "fog": [
+    2,
+    0,
+    8
+   ]
+  },
+  "heart": {
+   "wall": "generated/tex/heart_wall.png",
+   "floor": "generated/tex/heart_floor.png",
+   "ceil": "generated/tex/heart_ceil.png",
+   "door": "door_iron",
+   "fog": [
+    14,
+    0,
+    4
+   ]
+  }
+ },
+ "doors": {
+  "door_wood": "generated/tex/door_wood.png",
+  "door_iron": "generated/tex/door_iron.png",
+  "door_aeridor": "generated/tex/door_aeridor.png",
+  "portcullis": "generated/tex/portcullis.png"
+ },
+ "decor": {
+  "stairs_down": "generated/tex/stairs_down.png",
+  "stairs_up": "generated/tex/stairs_up.png",
+  "button_off": "generated/tex/button_off.png",
+  "button_on": "generated/tex/button_on.png",
+  "lever_up": "generated/tex/lever_up.png",
+  "lever_down": "generated/tex/lever_down.png",
+  "keyhole": "generated/tex/keyhole.png",
+  "crystal": "generated/tex/crystal.png",
+  "crystal_cracked": "generated/tex/crystal_cracked.png",
+  "crystal_sealed": "generated/tex/crystal_sealed.png",
+  "seal_sealed": "generated/tex/seal_sealed.png",
+  "seal_awake": "generated/tex/seal_awake.png",
+  "seal_spent": "generated/tex/seal_spent.png",
+  "inscription": "generated/tex/inscription.png",
+  "sconce": "generated/tex/sconce.png"
+ },
+ "floor_decor": {
+  "plate": "generated/tex/plate.png",
+  "pit": "generated/tex/pit.png"
+ },
+ "monsters": {
+  "undead": "generated/sprites/undead.png",
+  "construct": "generated/sprites/construct.png",
+  "beast": "generated/sprites/beast.png",
+  "ooze": "generated/sprites/ooze.png",
+  "dragon": "generated/sprites/dragon.png",
+  "elemental": "generated/sprites/elemental.png",
+  "demon": "generated/sprites/demon.png",
+  "insect": "generated/sprites/insect.png",
+  "plant": "generated/sprites/plant.png",
+  "horror": "generated/sprites/horror.png",
+  "giant": "generated/sprites/giant.png",
+  "humanoid": "generated/sprites/humanoid.png"
+ },
+ "objects": {
+  "chest": "generated/sprites/chest.png",
+  "chest_open": "generated/sprites/chest_open.png"
+ },
+ "icons": {
+  "weapon": "generated/sprites/icon_weapon.png",
+  "bow": "generated/sprites/icon_bow.png",
+  "staff": "generated/sprites/icon_staff.png",
+  "armor": "generated/sprites/icon_armor.png",
+  "head": "generated/sprites/icon_head.png",
+  "boots": "generated/sprites/icon_boots.png",
+  "accessory": "generated/sprites/icon_accessory.png",
+  "potion": "generated/sprites/icon_potion.png",
+  "ether": "generated/sprites/icon_ether.png",
+  "elixir": "generated/sprites/icon_elixir.png",
+  "herb": "generated/sprites/icon_herb.png",
+  "gem": "generated/sprites/icon_gem.png",
+  "key": "generated/sprites/icon_key.png",
+  "page": "generated/sprites/icon_page.png",
+  "shard": "generated/sprites/icon_shard.png",
+  "torch": "generated/sprites/icon_torch.png",
+  "coin": "generated/sprites/icon_coin.png",
+  "bag": "generated/sprites/icon_bag.png"
+ },
+ "portraits": [
+  {
+   "race": "Human",
+   "src": "generated/portraits/human_0.png"
+  },
+  {
+   "race": "Human",
+   "src": "generated/portraits/human_1.png"
+  },
+  {
+   "race": "Human",
+   "src": "generated/portraits/human_2.png"
+  },
+  {
+   "race": "Human",
+   "src": "generated/portraits/human_3.png"
+  },
+  {
+   "race": "Elf",
+   "src": "generated/portraits/elf_0.png"
+  },
+  {
+   "race": "Elf",
+   "src": "generated/portraits/elf_1.png"
+  },
+  {
+   "race": "Elf",
+   "src": "generated/portraits/elf_2.png"
+  },
+  {
+   "race": "Elf",
+   "src": "generated/portraits/elf_3.png"
+  },
+  {
+   "race": "Silvani",
+   "src": "generated/portraits/silvani_0.png"
+  },
+  {
+   "race": "Silvani",
+   "src": "generated/portraits/silvani_1.png"
+  },
+  {
+   "race": "Silvani",
+   "src": "generated/portraits/silvani_2.png"
+  },
+  {
+   "race": "Silvani",
+   "src": "generated/portraits/silvani_3.png"
+  },
+  {
+   "race": "Dwarf",
+   "src": "generated/portraits/dwarf_0.png"
+  },
+  {
+   "race": "Dwarf",
+   "src": "generated/portraits/dwarf_1.png"
+  },
+  {
+   "race": "Dwarf",
+   "src": "generated/portraits/dwarf_2.png"
+  },
+  {
+   "race": "Dwarf",
+   "src": "generated/portraits/dwarf_3.png"
+  },
+  {
+   "race": "Glimmerkin",
+   "src": "generated/portraits/glimmerkin_0.png"
+  },
+  {
+   "race": "Glimmerkin",
+   "src": "generated/portraits/glimmerkin_1.png"
+  },
+  {
+   "race": "Glimmerkin",
+   "src": "generated/portraits/glimmerkin_2.png"
+  },
+  {
+   "race": "Glimmerkin",
+   "src": "generated/portraits/glimmerkin_3.png"
+  },
+  {
+   "race": "Veiled",
+   "src": "generated/portraits/veiled_0.png"
+  },
+  {
+   "race": "Veiled",
+   "src": "generated/portraits/veiled_1.png"
+  },
+  {
+   "race": "Veiled",
+   "src": "generated/portraits/veiled_2.png"
+  },
+  {
+   "race": "Veiled",
+   "src": "generated/portraits/veiled_3.png"
+  }
+ ],
+ "sfx": {
+  "amb_aeridor": "generated/sfx/amb_aeridor.wav",
+  "amb_bones": "generated/sfx/amb_bones.wav",
+  "amb_deep": "generated/sfx/amb_deep.wav",
+  "amb_forge": "generated/sfx/amb_forge.wav",
+  "amb_heart": "generated/sfx/amb_heart.wav",
+  "amb_tunnels": "generated/sfx/amb_tunnels.wav",
+  "bump": "generated/sfx/bump.wav",
+  "button": "generated/sfx/button.wav",
+  "cast": "generated/sfx/cast.wav",
+  "coin": "generated/sfx/coin.wav",
+  "death": "generated/sfx/death.wav",
+  "door": "generated/sfx/door.wav",
+  "fizzle": "generated/sfx/fizzle.wav",
+  "gate": "generated/sfx/gate.wav",
+  "growl": "generated/sfx/growl.wav",
+  "heal": "generated/sfx/heal.wav",
+  "hit": "generated/sfx/hit.wav",
+  "hurt": "generated/sfx/hurt.wav",
+  "key": "generated/sfx/key.wav",
+  "levelup": "generated/sfx/levelup.wav",
+  "lever": "generated/sfx/lever.wav",
+  "leybleed": "generated/sfx/leybleed.wav",
+  "miss": "generated/sfx/miss.wav",
+  "monster_die": "generated/sfx/monster_die.wav",
+  "pickup": "generated/sfx/pickup.wav",
+  "plate": "generated/sfx/plate.wav",
+  "quake": "generated/sfx/quake.wav",
+  "seal": "generated/sfx/seal.wav",
+  "stairs": "generated/sfx/stairs.wav",
+  "step": "generated/sfx/step.wav",
+  "swing": "generated/sfx/swing.wav",
+  "trap": "generated/sfx/trap.wav"
+ }
+}

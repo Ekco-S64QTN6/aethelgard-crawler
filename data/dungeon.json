@@ -1,0 +1,1355 @@
+{
+ "themes": {
+  "undead": {
+   "name": "Undead Crypts",
+   "emoji": "💀",
+   "flavor": "The air reeks of old death. Something was interred here and refused to stay down.",
+   "pools": {
+    "1": [
+     "decaying_skeleton",
+     "zombie",
+     "ghoul",
+     "ghost",
+     "blood_slime"
+    ],
+    "2": [
+     "skeleton",
+     "ghoul",
+     "ghost",
+     "wight",
+     "revenant"
+    ],
+    "3": [
+     "skull_knight",
+     "wight",
+     "spectral_knight",
+     "dullahan",
+     "lich"
+    ],
+    "4": [
+     "shadow_lich",
+     "vampire_lord",
+     "dark_rider",
+     "death_knight",
+     "bone_devil"
+    ],
+    "5": [
+     "lich",
+     "shadow_lich",
+     "dead_gaze_tyrant",
+     "echo_of_the_tyrant",
+     "the_eyeless_lich_god"
+    ]
+   },
+   "boss_pools": {
+    "1": [
+     "dullahan",
+     "revenant",
+     "ghoul"
+    ],
+    "2": [
+     "skull_knight",
+     "dark_knight",
+     "wight"
+    ],
+    "3": [
+     "lich",
+     "shadow_lich",
+     "pilgrim_king"
+    ],
+    "4": [
+     "dead_gaze_tyrant",
+     "vampire_lord",
+     "death_knight"
+    ],
+    "5": [
+     "the_eyeless_lich_god",
+     "the_tomb_sovereign",
+     "the_ashen_knight_lord"
+    ]
+   }
+  },
+  "constructs": {
+   "name": "Aeridorian Vault",
+   "emoji": "💎",
+   "flavor": "Crystal formations absorb light. The constructs still remember their orders.",
+   "pools": {
+    "1": [
+     "mote_swarm",
+     "gargoyle",
+     "soldier",
+     "quivering_ooze"
+    ],
+    "2": [
+     "gargoyle",
+     "soldier",
+     "golem",
+     "crystelle",
+     "dark_wizard"
+    ],
+    "3": [
+     "soldier",
+     "crystelle",
+     "iron_giant",
+     "clay_golem",
+     "skull_knight"
+    ],
+    "4": [
+     "iron_golem",
+     "iron_colossus",
+     "gaze_tyrant",
+     "thought_reaver_elder",
+     "crystelle"
+    ],
+    "5": [
+     "the_last_engine",
+     "bastion_tortoise",
+     "avatar_of_the_hoard_mother",
+     "dragon_sovereign",
+     "iron_golem"
+    ]
+   },
+   "boss_pools": {
+    "1": [
+     "gargoyle",
+     "dark_wizard"
+    ],
+    "2": [
+     "golem",
+     "crystelle",
+     "dark_knight"
+    ],
+    "3": [
+     "iron_giant",
+     "crystelle"
+    ],
+    "4": [
+     "iron_colossus",
+     "gaze_tyrant",
+     "thought_reaver_elder"
+    ],
+    "5": [
+     "the_last_engine_unbound",
+     "aeridorian_guardian",
+     "deepwater_sovereign"
+    ]
+   }
+  },
+  "beasts": {
+   "name": "Hunting Grounds",
+   "emoji": "🐺",
+   "flavor": "Something territorial has nested here. Claw marks on every stone.",
+   "pools": {
+    "1": [
+     "wolf",
+     "bat",
+     "large_bat",
+     "spiderling",
+     "forest_boar"
+    ],
+    "2": [
+     "wolf",
+     "werewolf",
+     "basilisk",
+     "lash_cat",
+     "harpy"
+    ],
+    "3": [
+     "manticore",
+     "werewolf",
+     "wyvern",
+     "earth_bear",
+     "crag_raptor"
+    ],
+    "4": [
+     "behemoth",
+     "great_behemoth",
+     "dragon",
+     "hydra",
+     "red_dragon"
+    ],
+    "5": [
+     "king_behemoth",
+     "deepwater_wyrm",
+     "ancient_red_dragon",
+     "frost_dragon",
+     "cinderpeak_dragon"
+    ]
+   },
+   "boss_pools": {
+    "1": [
+     "cockatrice",
+     "wolf"
+    ],
+    "2": [
+     "manticore",
+     "wyvern",
+     "griffon"
+    ],
+    "3": [
+     "behemoth",
+     "crag_raptor",
+     "arcane_drake"
+    ],
+    "4": [
+     "great_behemoth",
+     "dragon",
+     "hydra"
+    ],
+    "5": [
+     "king_behemoth",
+     "deepwater_sovereign",
+     "dragon_sovereign"
+    ]
+   }
+  },
+  "deepwood": {
+   "name": "Living Depths",
+   "emoji": "🌑",
+   "flavor": "The roots have grown through the walls. The Whisperwood consumed this place long ago.",
+   "pools": {
+    "1": [
+     "spore_folk",
+     "bramble_grub",
+     "bloom_maw",
+     "moss_pygmy",
+     "leg_eater"
+    ],
+    "2": [
+     "bloom_maw",
+     "lamia",
+     "bog_claw",
+     "wind_serpent",
+     "treant"
+    ],
+    "3": [
+     "treant",
+     "rot_maw",
+     "lamia",
+     "earth_bear",
+     "killer_mantis"
+    ],
+    "4": [
+     "elder_treant",
+     "accursed_tree",
+     "apocalypse",
+     "great_behemoth",
+     "burrow_wurm"
+    ],
+    "5": [
+     "whisperwood_heart",
+     "hungering_maw",
+     "deepwater_wyrm",
+     "king_behemoth",
+     "accursed_tree"
+    ]
+   },
+   "boss_pools": {
+    "1": [
+     "bloom_maw",
+     "bramble_grub"
+    ],
+    "2": [
+     "treant",
+     "lamia"
+    ],
+    "3": [
+     "elder_treant",
+     "rot_maw"
+    ],
+    "4": [
+     "accursed_tree",
+     "great_behemoth",
+     "apocalypse"
+    ],
+    "5": [
+     "whisperwood_heart",
+     "elder_treant",
+     "the_sealed_one"
+    ]
+   }
+  },
+  "demons": {
+   "name": "Infernal Breach",
+   "emoji": "🔥",
+   "flavor": "The walls are scorched. Something forced its way through here — from below.",
+   "pools": {
+    "1": [
+     "imp",
+     "cinder_mote",
+     "black_ooze",
+     "blood_slime"
+    ],
+    "2": [
+     "ember_bloat",
+     "cinder_fiend",
+     "dark_wizard",
+     "nachtmahr"
+    ],
+    "3": [
+     "dark_knight",
+     "nachtmahr",
+     "shadow_dancer",
+     "dullahan"
+    ],
+    "4": [
+     "balor",
+     "marilith",
+     "glabrezu",
+     "bone_devil",
+     "hezrou"
+    ],
+    "5": [
+     "echo_of_the_twin_maw",
+     "aspect_of_the_undying_prince",
+     "avatar_of_the_dark_prince",
+     "the_laughing_ascendant",
+     "balor"
+    ]
+   },
+   "boss_pools": {
+    "1": [
+     "dark_wizard",
+     "cinder_fiend"
+    ],
+    "2": [
+     "dark_knight",
+     "nachtmahr"
+    ],
+    "3": [
+     "wandering_blademaster",
+     "apocalypse"
+    ],
+    "4": [
+     "balor",
+     "marilith",
+     "storm_giant"
+    ],
+    "5": [
+     "the_unmaking",
+     "the_laughing_ascendant",
+     "echo_of_the_twin_maw"
+    ]
+   }
+  }
+ },
+ "location_theme_weights": {
+  "whisperwood_edge": [
+   [
+    "beasts",
+    45
+   ],
+   [
+    "deepwood",
+    30
+   ],
+   [
+    "undead",
+    25
+   ]
+  ],
+  "whisperwood_deep": [
+   [
+    "deepwood",
+    40
+   ],
+   [
+    "undead",
+    30
+   ],
+   [
+    "beasts",
+    20
+   ],
+   [
+    "demons",
+    10
+   ]
+  ],
+  "aeridor_ruins": [
+   [
+    "constructs",
+    45
+   ],
+   [
+    "undead",
+    30
+   ],
+   [
+    "demons",
+    25
+   ]
+  ],
+  "trade_road": [
+   [
+    "undead",
+    35
+   ],
+   [
+    "beasts",
+    35
+   ],
+   [
+    "demons",
+    30
+   ]
+  ]
+ },
+ "boss_prefixes": [
+  "Rotting",
+  "Hollow",
+  "Ancient",
+  "Ashen",
+  "Sunken",
+  "Cursed",
+  "Broken",
+  "Pale",
+  "Silent",
+  "Festering",
+  "Forgotten",
+  "Bleeding",
+  "Shattered",
+  "Withered",
+  "Voided",
+  "Bound",
+  "Seething"
+ ],
+ "boss_titles": [
+  "Warden",
+  "Remnant",
+  "Sentinel",
+  "Walker",
+  "Keeper",
+  "Revenant",
+  "Hollow",
+  "Sovereign",
+  "Exile",
+  "Aberration",
+  "Thrall",
+  "Witness",
+  "Architect",
+  "Inheritor",
+  "Executioner",
+  "Hunger",
+  "Vigil"
+ ],
+ "boss_suffixes": [
+  "of the Deep",
+  "of Aeridor",
+  "of the Ruin",
+  "of the Whisperwood",
+  "of the Forgotten Age",
+  "of the Third Vault",
+  "of Broken Stone",
+  "of the Silent Ones",
+  "",
+  "",
+  "",
+  ""
+ ],
+ "shrine_sealed": "An alcove with a single candle. Ancient Aeridorian script. A circular seal in the stone — *three flames intertwined*. It feels like it's waiting for something.",
+ "shrine_unlocked": "An alcove with a single candle. The seal glows faintly when you approach. Your hand finds the groove naturally. Something inside the stone shifts.",
+ "shrine_completed": "An alcove with a single candle. The seal is dark now — whatever was stored here has been given.",
+ "encounter_tables": {
+  "whisperwood_edge": [
+   [
+    "bat",
+    10
+   ],
+   [
+    "goblin",
+    8
+   ],
+   [
+    "goblin_guard",
+    6
+   ],
+   [
+    "quivering_ooze",
+    6
+   ],
+   [
+    "mud_ooze",
+    6
+   ],
+   [
+    "bramble_grub",
+    6
+   ],
+   [
+    "forest_boar",
+    6
+   ],
+   [
+    "leaf_bunny",
+    5
+   ],
+   [
+    "wisp",
+    5
+   ],
+   [
+    "acorn_imp",
+    5
+   ],
+   [
+    "spore_folk",
+    5
+   ],
+   [
+    "thorn_lizard",
+    5
+   ],
+   [
+    "snipper",
+    4
+   ],
+   [
+    "wolf",
+    3
+   ],
+   [
+    "pod_creeper",
+    3
+   ],
+   [
+    "hex_toad",
+    3
+   ],
+   [
+    "kobold",
+    8
+   ],
+   [
+    "giant_rat",
+    7
+   ],
+   [
+    "slime",
+    7
+   ],
+   [
+    "stirge",
+    6
+   ],
+   [
+    "moss_pygmy",
+    5
+   ],
+   [
+    "homunculus",
+    4
+   ],
+   [
+    "reef_raider",
+    4
+   ],
+   [
+    "thornwood_scout",
+    3
+   ],
+   [
+    "mud_element",
+    3
+   ],
+   [
+    "deep_spawn",
+    3
+   ],
+   [
+    "fire_beetle",
+    5
+   ],
+   [
+    "large_bat",
+    4
+   ],
+   [
+    "gnoll_pup",
+    4
+   ],
+   [
+    "spiderling",
+    4
+   ],
+   [
+    "hornet",
+    3
+   ],
+   [
+    "imp",
+    3
+   ],
+   [
+    "leg_eater",
+    3
+   ],
+   [
+    "wererat",
+    3
+   ],
+   [
+    "decaying_skeleton",
+    3
+   ],
+   [
+    "black_ooze",
+    4
+   ],
+   [
+    "blood_slime",
+    4
+   ],
+   [
+    "summer_hornet",
+    3
+   ],
+   [
+    "zombie",
+    3
+   ],
+   [
+    "black_goblin",
+    3
+   ],
+   [
+    "moth",
+    2
+   ],
+   [
+    "antler_stag",
+    2
+   ],
+   [
+    "giant_centipede",
+    2
+   ],
+   [
+    "wood_spider",
+    5
+   ],
+   [
+    "decayed_shambler",
+    5
+   ]
+  ],
+  "whisperwood_deep": [
+   [
+    "wolf",
+    14
+   ],
+   [
+    "werewolf",
+    12
+   ],
+   [
+    "ghoul",
+    12
+   ],
+   [
+    "ghost",
+    10
+   ],
+   [
+    "harpy",
+    8
+   ],
+   [
+    "wind_serpent",
+    7
+   ],
+   [
+    "treant",
+    5
+   ],
+   [
+    "owlbear",
+    8
+   ],
+   [
+    "bugbear",
+    7
+   ],
+   [
+    "phase_panther",
+    6
+   ],
+   [
+    "gnoll_hunter",
+    6
+   ],
+   [
+    "manticore",
+    5
+   ],
+   [
+    "wyvern",
+    5
+   ],
+   [
+    "bulette",
+    4
+   ],
+   [
+    "rot_maw",
+    4
+   ],
+   [
+    "web_tender",
+    4
+   ],
+   [
+    "chimera_beast",
+    3
+   ],
+   [
+    "hook_beast",
+    3
+   ],
+   [
+    "tunnel_hulk",
+    3
+   ],
+   [
+    "blind_ravager",
+    3
+   ],
+   [
+    "troglodyte",
+    3
+   ],
+   [
+    "great_roc",
+    2
+   ],
+   [
+    "lash_cat",
+    6
+   ],
+   [
+    "basilisk",
+    5
+   ],
+   [
+    "cinder_mote",
+    4
+   ],
+   [
+    "gnoll",
+    4
+   ],
+   [
+    "ogre",
+    3
+   ],
+   [
+    "stalk_lurker",
+    5
+   ],
+   [
+    "bloom_creeper",
+    5
+   ],
+   [
+    "puffcap",
+    4
+   ],
+   [
+    "lamia",
+    4
+   ],
+   [
+    "ruin_chimera",
+    3
+   ],
+   [
+    "hollow_snatcher",
+    3
+   ],
+   [
+    "bog_claw",
+    3
+   ],
+   [
+    "cinder_fiend",
+    3
+   ],
+   [
+    "whispering_urn",
+    2
+   ],
+   [
+    "mirror_adept",
+    2
+   ],
+   [
+    "alchemist",
+    2
+   ],
+   [
+    "crag_raptor",
+    2
+   ],
+   [
+    "elder_raptor",
+    2
+   ],
+   [
+    "killer_mantis",
+    2
+   ],
+   [
+    "minotaur",
+    2
+   ],
+   [
+    "gloom_ray",
+    2
+   ],
+   [
+    "veiled_stalker",
+    2
+   ],
+   [
+    "behemoth",
+    2
+   ],
+   [
+    "antlion",
+    2
+   ],
+   [
+    "griffon",
+    2
+   ],
+   [
+    "whisperwood_crayfish",
+    8
+   ],
+   [
+    "forest_adder",
+    8
+   ],
+   [
+    "briar_slime",
+    8
+   ],
+   [
+    "canopy_leaper",
+    8
+   ],
+   [
+    "mossy_troll",
+    6
+   ],
+   [
+    "whisperwood_terror",
+    4
+   ]
+  ],
+  "trade_road": [
+   [
+    "goblin",
+    25
+   ],
+   [
+    "goblin_guard",
+    15
+   ],
+   [
+    "bandit",
+    20
+   ],
+   [
+    "wolf",
+    12
+   ],
+   [
+    "cockatrice",
+    5
+   ],
+   [
+    "kobold",
+    12
+   ],
+   [
+    "mudbrawler",
+    10
+   ],
+   [
+    "burrow_knave",
+    8
+   ],
+   [
+    "crow_folk",
+    7
+   ],
+   [
+    "lizardfolk",
+    6
+   ],
+   [
+    "goblin_pathfinder",
+    5
+   ],
+   [
+    "orc_pawn",
+    8
+   ],
+   [
+    "orc_centurion",
+    5
+   ],
+   [
+    "gnoll",
+    4
+   ],
+   [
+    "snap_eel",
+    3
+   ],
+   [
+    "sand_angler",
+    3
+   ],
+   [
+    "gigas",
+    5
+   ],
+   [
+    "lizardman",
+    4
+   ],
+   [
+    "sea_snake",
+    4
+   ],
+   [
+    "earth_bear",
+    3
+   ],
+   [
+    "trade_road_highwayman",
+    12
+   ],
+   [
+    "drake_hatchling",
+    6
+   ]
+  ],
+  "aeridor_ruins": {
+   "working_tunnels": [
+    [
+     "tunnel_crawler",
+     15
+    ],
+    [
+     "abandoned_miner_ghoul",
+     15
+    ],
+    [
+     "cave_troll",
+     8
+    ],
+    [
+     "blind_cave_leech",
+     10
+    ],
+    [
+     "rust_lung_miner",
+     10
+    ],
+    [
+     "chittering_skitterer",
+     10
+    ],
+    [
+     "iron_blight_bat",
+     8
+    ],
+    [
+     "subterranean_prowler",
+     6
+    ],
+    [
+     "foremans_enforcer",
+     5
+    ],
+    [
+     "pit_viper",
+     10
+    ],
+    [
+     "rubble_golem",
+     6
+    ],
+    [
+     "gas_spore",
+     8
+    ],
+    [
+     "ore_mimic",
+     5
+    ],
+    [
+     "tunnel_wyrm",
+     5
+    ],
+    [
+     "mud_golem",
+     8
+    ],
+    [
+     "stone_construct",
+     8
+    ]
+   ],
+   "bone_warrens": [
+    [
+     "bone_weaver_spider",
+     14
+    ],
+    [
+     "crypt_stalker",
+     14
+    ],
+    [
+     "ossuary_golem",
+     8
+    ],
+    [
+     "marrow_hound",
+     12
+    ],
+    [
+     "crypt_warden",
+     8
+    ],
+    [
+     "whispering_skull_swarm",
+     8
+    ],
+    [
+     "ash_wraith",
+     5
+    ],
+    [
+     "ossified_terror",
+     5
+    ],
+    [
+     "entombed_scholar",
+     4
+    ],
+    [
+     "bone_amalgam",
+     8
+    ],
+    [
+     "corpse_lantern",
+     5
+    ],
+    [
+     "charnel_crawler",
+     5
+    ],
+    [
+     "burial_mimic",
+     4
+    ],
+    [
+     "cairn_wight",
+     5
+    ],
+    [
+     "shadow_wisp",
+     8
+    ],
+    [
+     "whispering_shade",
+     6
+    ]
+   ],
+   "sunken_forge": [
+    [
+     "forge_fire_elemental",
+     14
+    ],
+    [
+     "slag_horror",
+     14
+    ],
+    [
+     "iron_sentinel",
+     8
+    ],
+    [
+     "slag_crawler_spine",
+     8
+    ],
+    [
+     "ignited_sentinel",
+     8
+    ],
+    [
+     "smoldering_ash_walker",
+     8
+    ],
+    [
+     "molten_slime",
+     8
+    ],
+    [
+     "brass_plated_hound",
+     5
+    ],
+    [
+     "forge_fire_wisp",
+     4
+    ],
+    [
+     "crucible_ooze",
+     6
+    ],
+    [
+     "bellows_construct",
+     5
+    ],
+    [
+     "anvil_golem",
+     4
+    ],
+    [
+     "chain_horror",
+     4
+    ],
+    [
+     "furnace_wight",
+     4
+    ],
+    [
+     "ruin_crawler",
+     8
+    ]
+   ],
+   "deep_dark": [
+    [
+     "void_stalker",
+     14
+    ],
+    [
+     "abyssal_crawler",
+     14
+    ],
+    [
+     "thought_reaver_outcast",
+     8
+    ],
+    [
+     "void_touched_weaver",
+     8
+    ],
+    [
+     "deep_stalker",
+     8
+    ],
+    [
+     "abyssal_leech_spine",
+     8
+    ],
+    [
+     "eyeless_horror",
+     6
+    ],
+    [
+     "resonance_warped_troll",
+     5
+    ],
+    [
+     "the_lurking_shadow",
+     4
+    ],
+    [
+     "void_lamprey",
+     6
+    ],
+    [
+     "psychic_leech",
+     4
+    ],
+    [
+     "null_wraith",
+     4
+    ],
+    [
+     "thought_eater",
+     4
+    ],
+    [
+     "depth_crawler",
+     5
+    ],
+    [
+     "cave_bear",
+     6
+    ],
+    [
+     "cave_hydra",
+     4
+    ]
+   ],
+   "heart_of_mountain": [
+    [
+     "crystal_golem",
+     14
+    ],
+    [
+     "resonance_wraith",
+     14
+    ],
+    [
+     "core_guardian",
+     8
+    ],
+    [
+     "pulse_walker",
+     8
+    ],
+    [
+     "crystalline_abomination",
+     8
+    ],
+    [
+     "flesh_forged_construct",
+     6
+    ],
+    [
+     "the_mountains_white_blood",
+     6
+    ],
+    [
+     "aeridorian_echo",
+     5
+    ],
+    [
+     "core_warped_behemoth",
+     4
+    ],
+    [
+     "resonance_golem",
+     6
+    ],
+    [
+     "vessel_husk",
+     4
+    ],
+    [
+     "core_parasite",
+     4
+    ],
+    [
+     "mountain_nerve",
+     5
+    ],
+    [
+     "tithe_collector",
+     4
+    ],
+    [
+     "aeridorian_sentinel",
+     6
+    ],
+    [
+     "bog_hag",
+     6
+    ],
+    [
+     "ruin_gorgon",
+     4
+    ],
+    [
+     "void_stalker_prime",
+     4
+    ],
+    [
+     "chimera",
+     4
+    ]
+   ]
+  }
+ },
+ "rare_variants": {
+  "gilded": {
+   "prefix": "Gilded",
+   "emoji": "🪙",
+   "hp": 1.3,
+   "xp": 2.0,
+   "gold": 5.0,
+   "drop": "gem",
+   "desc": "Gold leaf flecks its hide. Nobody put it there."
+  },
+  "elder": {
+   "prefix": "Elder",
+   "emoji": "🌳",
+   "hp": 1.6,
+   "xp": 3.0,
+   "gold": 2.0,
+   "drop": "gear",
+   "desc": "Older than it has any right to be. It has outlived everyone who hunted it."
+  },
+  "pale": {
+   "prefix": "Pale",
+   "emoji": "🌫️",
+   "hp": 1.4,
+   "xp": 2.5,
+   "gold": 2.0,
+   "drop": "lore:any",
+   "night_only": true,
+   "desc": "Colourless, as if the night had worn it thin. It makes no sound at all."
+  },
+  "whispering": {
+   "prefix": "Whispering",
+   "emoji": "🍃",
+   "hp": 1.4,
+   "xp": 2.5,
+   "gold": 2.0,
+   "drop": "lore:silvani",
+   "locations": [
+    "whisperwood_deep",
+    "whisperwood_edge"
+   ],
+   "desc": "The leaves around it repeat what it says. It is saying your name."
+  },
+  "resonant": {
+   "prefix": "Resonant",
+   "emoji": "💎",
+   "hp": 1.4,
+   "xp": 2.5,
+   "gold": 2.5,
+   "drop": "lore:aeridor",
+   "locations": [
+    "aeridor_ruins"
+   ],
+   "desc": "Crystal grows along its spine and rings faintly whenever it moves."
+  }
+ },
+ "rare_one_in": 40,
+ "gem_drops": [
+  [
+   "opal",
+   50
+  ],
+  [
+   "black_pearl",
+   30
+  ],
+  [
+   "star_ruby",
+   15
+  ],
+  [
+   "diamond",
+   5
+  ]
+ ]
+}

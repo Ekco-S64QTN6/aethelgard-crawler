@@ -1,0 +1,8979 @@
+{
+ "items": {
+  "miners_rebellion_pick": {
+   "name": "Miners' Rebellion Pick",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "proc": {
+    "name": "Iron Fury",
+    "emoji": "⛏️",
+    "die": 6,
+    "element": "physical"
+   },
+   "slot": "weapon"
+  },
+  "bone_woven_bow": {
+   "name": "Bone-Woven Bow",
+   "attack_bonus": 2,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 1350,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "proc": {
+    "name": "Marrow Snap",
+    "emoji": "💀",
+    "die": 6,
+    "element": "physical"
+   },
+   "slot": "weapon"
+  },
+  "echo_chime_focus": {
+   "name": "Echo Chime Focus",
+   "attack_bonus": 2,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "proc": {
+    "name": "Resonance Pulse",
+    "emoji": "🔔",
+    "die": 6,
+    "element": "arcane"
+   },
+   "slot": "weapon"
+  },
+  "soot_stained_cleaver": {
+   "name": "Soot-Stained Cleaver",
+   "attack_bonus": 2,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 1350,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "proc": {
+    "name": "Choking Ash",
+    "emoji": "🌫️",
+    "die": 6,
+    "element": "shadow"
+   },
+   "slot": "weapon"
+  },
+  "crypt_warden_mace": {
+   "name": "Crypt Warden's Mace",
+   "attack_bonus": 2,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Paladin"
+   ],
+   "proc": {
+    "name": "Sanctified Strike",
+    "emoji": "✨",
+    "die": 6,
+    "element": "holy"
+   },
+   "slot": "weapon"
+  },
+  "heart_forged_greatsword": {
+   "name": "Heart-Forged Greatsword",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 2800,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "proc": {
+    "name": "Core Eruption",
+    "emoji": "🤍",
+    "die": 8,
+    "element": "force"
+   },
+   "slot": "weapon"
+  },
+  "void_touched_longbow": {
+   "name": "Void-Touched Longbow",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 2,
+   "value": 2700,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "proc": {
+    "name": "Abyssal Arrow",
+    "emoji": "🌑",
+    "die": 8,
+    "element": "void"
+   },
+   "slot": "weapon"
+  },
+  "aeridorian_spine_staff": {
+   "name": "Aeridorian Spine-Staff",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 2,
+   "value": 2800,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "proc": {
+    "name": "Resonance Cascade",
+    "emoji": "💠",
+    "die": 8,
+    "element": "arcane"
+   },
+   "slot": "weapon"
+  },
+  "elaras_betrayal_dagger": {
+   "name": "Elara's Betrayal",
+   "attack_bonus": 2,
+   "damage_die": 8,
+   "damage_bonus": 2,
+   "value": 2700,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "proc": {
+    "name": "Treachery",
+    "emoji": "🗡️",
+    "die": 8,
+    "element": "shadow"
+   },
+   "slot": "weapon"
+  },
+  "forge_masters_hammer": {
+   "name": "Forge-Master's Hammer",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 2,
+   "value": 2800,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Paladin"
+   ],
+   "proc": {
+    "name": "Molten Judgement",
+    "emoji": "🔥",
+    "die": 8,
+    "element": "fire"
+   },
+   "slot": "weapon"
+  },
+  "rusty_dagger": {
+   "name": "Rusty Dagger",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 12,
+   "tier": 1,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster",
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Ranger",
+    "Warden",
+    "Hunter"
+   ],
+   "slot": "weapon"
+  },
+  "wooden_club": {
+   "name": "Wooden Club",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 8,
+   "tier": 1,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Cleric",
+    "High Priest",
+    "Paladin",
+    "Shaman"
+   ],
+   "slot": "weapon"
+  },
+  "wooden_staff": {
+   "name": "Wooden Staff",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 18,
+   "tier": 1,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "weapon"
+  },
+  "shortbow": {
+   "name": "Shortbow",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 28,
+   "tier": 1,
+   "classes": [
+    "Ranger",
+    "Warden",
+    "Hunter",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "weapon"
+  },
+  "rusty_hand_axe": {
+   "name": "Rusty Hand Axe",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 22,
+   "tier": 1,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Ranger",
+    "Warden",
+    "Hunter"
+   ],
+   "slot": "weapon"
+  },
+  "rusty_stiletto": {
+   "name": "Rusty Stiletto",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 24,
+   "tier": 1,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "weapon"
+  },
+  "rusty_mace": {
+   "name": "Rusty Mace",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 20,
+   "tier": 1,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "iron_sword": {
+   "name": "Iron Sword",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 260,
+   "tier": 2,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "weapon"
+  },
+  "iron_staff": {
+   "name": "Iron-Shod Staff",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 255,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "weapon"
+  },
+  "iron_spear": {
+   "name": "Iron Spear",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 270,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Ranger",
+    "Warden",
+    "Hunter",
+    "Paladin"
+   ],
+   "slot": "weapon"
+  },
+  "crossbow": {
+   "name": "Crossbow",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 295,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Warden",
+    "Hunter",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "weapon"
+  },
+  "iron_battle_axe": {
+   "name": "Iron Battle Axe",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 280,
+   "tier": 2,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "iron_dirk": {
+   "name": "Iron Dirk",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 260,
+   "tier": 2,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "weapon"
+  },
+  "iron_morning_star": {
+   "name": "Iron Morning Star",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 265,
+   "tier": 2,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "steel_longsword": {
+   "name": "Steel Longsword",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 800,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "steel_dagger": {
+   "name": "Steel Dagger",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 950,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "weapon"
+  },
+  "flame_sword": {
+   "name": "Flame Sword",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 870,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Mage",
+    "Necromancer",
+    "Wizard"
+   ],
+   "proc": {
+    "name": "Engulfing Flames",
+    "emoji": "🔥",
+    "die": 4,
+    "element": "fire"
+   },
+   "slot": "weapon"
+  },
+  "ice_brand": {
+   "name": "Ice Brand",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 895,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Mage",
+    "Necromancer",
+    "Wizard"
+   ],
+   "proc": {
+    "name": "Frost Shock",
+    "emoji": "❄️",
+    "die": 4,
+    "element": "ice"
+   },
+   "slot": "weapon"
+  },
+  "flame_scepter": {
+   "name": "Flame Scepter",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 980,
+   "tier": 3,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "Shaman",
+    "High Priest"
+   ],
+   "proc": {
+    "name": "Scorching Bolt",
+    "emoji": "🔥",
+    "die": 4,
+    "element": "fire"
+   },
+   "slot": "weapon"
+  },
+  "ghoulbane": {
+   "name": "Ghoulbane",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 1050,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Paladin",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "proc": {
+    "name": "Spirit Strike",
+    "emoji": "👻",
+    "die": 4,
+    "element": "holy"
+   },
+   "slot": "weapon"
+  },
+  "flametongue": {
+   "name": "Flametongue",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 1150,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Paladin"
+   ],
+   "proc": {
+    "name": "Searing Strike",
+    "emoji": "🔥",
+    "die": 4,
+    "element": "fire"
+   },
+   "slot": "weapon"
+  },
+  "frostbrand": {
+   "name": "Frostbrand",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 1150,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Paladin"
+   ],
+   "proc": {
+    "name": "Glacial Spike",
+    "emoji": "❄️",
+    "die": 4,
+    "element": "ice"
+   },
+   "slot": "weapon"
+  },
+  "resonance_staff": {
+   "name": "Resonance Staff",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1200,
+   "tier": 4,
+   "classes": [
+    "Mage",
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "resonance_bow": {
+   "name": "Resonance Bow",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1250,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Warden",
+    "Hunter"
+   ],
+   "slot": "weapon"
+  },
+  "aeridorian_axe": {
+   "name": "Aeridorian Axe",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1500,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "masamune": {
+   "name": "Masamune",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1700,
+   "tier": 4,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "fiery_avenger": {
+   "name": "Fiery Avenger",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Paladin"
+   ],
+   "proc": {
+    "name": "Flames of Virtue",
+    "emoji": "🔥",
+    "die": 6,
+    "element": "fire"
+   },
+   "slot": "weapon"
+  },
+  "blood_sword": {
+   "name": "Blood Sword",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1300,
+   "tier": 4,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Blood Leech",
+    "emoji": "🩸",
+    "die": 6,
+    "element": "drain"
+   },
+   "slot": "weapon"
+  },
+  "shining_staff": {
+   "name": "Shining Staff",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1300,
+   "tier": 4,
+   "classes": [
+    "Mage",
+    "Necromancer",
+    "Cleric",
+    "Shaman",
+    "Wizard",
+    "High Priest"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "archer_saints_bow": {
+   "name": "Archer-Saint's Bow",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Warden",
+    "Hunter"
+   ],
+   "slot": "weapon"
+  },
+  "sun_blade": {
+   "name": "Sun Blade",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1800,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Paladin"
+   ],
+   "proc": {
+    "name": "Sunfire",
+    "emoji": "☀️",
+    "die": 6,
+    "element": "holy"
+   },
+   "slot": "weapon"
+  },
+  "sword_of_the_drowned_king": {
+   "name": "Sword of the Drowned King",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1250,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "proc": {
+    "name": "Ykesha's Curse",
+    "emoji": "🟣",
+    "die": 6,
+    "element": "shadow"
+   },
+   "slot": "weapon"
+  },
+  "disruption_mace": {
+   "name": "Mace of Disruption",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1500,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "Shaman",
+    "Paladin",
+    "High Priest"
+   ],
+   "proc": {
+    "name": "Disruption",
+    "emoji": "💥",
+    "die": 6,
+    "element": "holy"
+   },
+   "slot": "weapon"
+  },
+  "void_blade": {
+   "name": "Void Blade",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 3250,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Shadowblade"
+   ],
+   "proc": {
+    "name": "Void Touch",
+    "emoji": "🌑",
+    "die": 8,
+    "element": "void"
+   },
+   "slot": "weapon"
+  },
+  "holy_avenger": {
+   "name": "Holy Avenger",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 3750,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Paladin"
+   ],
+   "proc": {
+    "name": "Holy Wrath",
+    "emoji": "✨",
+    "die": 8,
+    "element": "holy"
+   },
+   "slot": "weapon"
+  },
+  "vorpal_sword": {
+   "name": "Vorpal Sword",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 2833,
+   "tier": 5,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Vorpal Strike",
+    "emoji": "⚡",
+    "die": 8,
+    "element": "vorpal"
+   },
+   "slot": "weapon"
+  },
+  "staff_magi": {
+   "name": "Staff of the Magi",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 3750,
+   "tier": 5,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Arcane Blast",
+    "emoji": "🔮",
+    "die": 8,
+    "element": "arcane"
+   },
+   "slot": "weapon"
+  },
+  "stardust_rod": {
+   "name": "Stardust Rod",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 3750,
+   "tier": 5,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Cosmic Resonance",
+    "emoji": "🌠",
+    "die": 8,
+    "element": "arcane"
+   },
+   "slot": "weapon"
+  },
+  "soulfire": {
+   "name": "Soulfire",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 2,
+   "value": 2666,
+   "tier": 5,
+   "classes": [
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Soulfire Blaze",
+    "emoji": "🔥",
+    "die": 8,
+    "element": "fire"
+   },
+   "slot": "weapon"
+  },
+  "excalibur_ff": {
+   "name": "Excalibur",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 3166,
+   "tier": 5,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Excalibur's Light",
+    "emoji": "✨",
+    "die": 8,
+    "element": "holy"
+   },
+   "slot": "weapon"
+  },
+  "ragnarok_ff": {
+   "name": "Ragnarok",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 3000,
+   "tier": 5,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Ragnarok Flame",
+    "emoji": "🔥",
+    "die": 8,
+    "element": "fire"
+   },
+   "slot": "weapon"
+  },
+  "apex_blade": {
+   "name": "Apex Blade",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 4333,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "proc": {
+    "name": "Ultima Burst",
+    "emoji": "💠",
+    "die": 8,
+    "element": "arcane"
+   },
+   "slot": "weapon"
+  },
+  "mjolnir": {
+   "name": "Mjolnir",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 3900,
+   "tier": 5,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Paladin",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Lightning Bolt",
+    "emoji": "⚡",
+    "die": 8,
+    "element": "lightning"
+   },
+   "slot": "weapon"
+  },
+  "rusted_greatsword": {
+   "name": "Rusted Greatsword",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 20,
+   "tier": 1,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "iron_greatsword": {
+   "name": "Iron Greatsword",
+   "attack_bonus": 1,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 285,
+   "tier": 2,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "iron_halberd": {
+   "name": "Iron Halberd",
+   "attack_bonus": 1,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 275,
+   "tier": 2,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "steel_greatsword": {
+   "name": "Steel Greatsword",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 845,
+   "tier": 3,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "war_halberd": {
+   "name": "War Halberd",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 870,
+   "tier": 3,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "aeridorian_greatsword": {
+   "name": "Aeridorian Greatsword",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1500,
+   "tier": 4,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "champion_spear": {
+   "name": "Champion's Spear",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1350,
+   "tier": 4,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "spine_cleaver": {
+   "name": "Spine Cleaver",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 2666,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "proc": {
+    "name": "Bone Splinter",
+    "emoji": "💀",
+    "die": 8,
+    "element": "physical"
+   },
+   "slot": "weapon"
+  },
+  "champions_legacy": {
+   "name": "Champion's Legacy",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 3500,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Paladin"
+   ],
+   "slot": "weapon"
+  },
+  "hunting_bow": {
+   "name": "Hunting Bow",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 25,
+   "tier": 1,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "weapon"
+  },
+  "skinning_knife": {
+   "name": "Skinning Knife",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 14,
+   "tier": 1,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "weapon"
+  },
+  "composite_bow": {
+   "name": "Composite Bow",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 290,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "weapon"
+  },
+  "forester_shortbow": {
+   "name": "Forester's Shortbow",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 268,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "weapon"
+  },
+  "whisperwood_recurve": {
+   "name": "Whisperwood Recurve",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 820,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "weapon"
+  },
+  "hunters_knife": {
+   "name": "Hunter's Knife",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 800,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "weapon"
+  },
+  "aeridor_longbow": {
+   "name": "Aeridor Longbow",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1350,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Warden",
+    "Hunter"
+   ],
+   "slot": "weapon"
+  },
+  "moonbow": {
+   "name": "Moonbow",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1600,
+   "tier": 4,
+   "classes": [
+    "Ranger",
+    "Warden",
+    "Hunter"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "silent_stalker_bow": {
+   "name": "Silent Stalker Bow",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 3750,
+   "tier": 5,
+   "classes": [
+    "Ranger",
+    "Warden",
+    "Hunter"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "apprentice_wand": {
+   "name": "Apprentice Wand",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 16,
+   "tier": 1,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "weapon"
+  },
+  "novice_focus": {
+   "name": "Novice Focus",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 12,
+   "tier": 1,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "weapon"
+  },
+  "crystal_wand": {
+   "name": "Crystal Wand",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 272,
+   "tier": 2,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "weapon"
+  },
+  "resonance_focus": {
+   "name": "Resonance Focus",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 278,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "weapon"
+  },
+  "aeridor_wand": {
+   "name": "Aeridor Wand",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 920,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "weapon"
+  },
+  "elder_orb": {
+   "name": "Elder Orb",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 895,
+   "tier": 3,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "void_orb": {
+   "name": "Void Orb",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1400,
+   "tier": 4,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "the_whispering_wand": {
+   "name": "The Whispering Wand",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1550,
+   "tier": 4,
+   "classes": [
+    "Mage",
+    "Necromancer",
+    "Wizard"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "null_scepter": {
+   "name": "Null Scepter",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 2,
+   "value": 3900,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "proc": {
+    "name": "Null Void",
+    "emoji": "🌑",
+    "die": 8,
+    "element": "void"
+   },
+   "slot": "weapon"
+  },
+  "shiv": {
+   "name": "Shiv",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 8,
+   "tier": 1,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "weapon"
+  },
+  "throwing_knife": {
+   "name": "Throwing Knife",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 14,
+   "tier": 1,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "weapon"
+  },
+  "shadow_blade": {
+   "name": "Shadow Blade",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 295,
+   "tier": 2,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "assassin_stiletto": {
+   "name": "Assassin's Stiletto",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 272,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "weapon"
+  },
+  "gutting_knife": {
+   "name": "Gutting Knife",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 975,
+   "tier": 3,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "obsidian_dagger": {
+   "name": "Obsidian Dagger",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 895,
+   "tier": 3,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "whisper_blade": {
+   "name": "Whisper Blade",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1350,
+   "tier": 4,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "the_quiet_death": {
+   "name": "The Quiet Death",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1550,
+   "tier": 4,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "voidstep_blade": {
+   "name": "Voidstep Blade",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 2800,
+   "tier": 5,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Shadow Rift",
+    "emoji": "🌑",
+    "die": 8,
+    "element": "void"
+   },
+   "slot": "weapon"
+  },
+  "the_last_laugh": {
+   "name": "The Last Laugh",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 3650,
+   "tier": 5,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "acolyte_mace": {
+   "name": "Acolyte's Mace",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 18,
+   "tier": 1,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "weapon"
+  },
+  "iron_flail": {
+   "name": "Iron Flail",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 16,
+   "tier": 1,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "shrine_warhammer": {
+   "name": "Shrine Warhammer",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 272,
+   "tier": 2,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "silver_mace": {
+   "name": "Silver Mace",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 285,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "weapon"
+  },
+  "temple_hammer": {
+   "name": "Temple Hammer",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 820,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "weapon"
+  },
+  "sanctuary_mace": {
+   "name": "Sanctuary Mace",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 975,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "weapon"
+  },
+  "dawn_hammer": {
+   "name": "Dawn Hammer",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1450,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "Shaman",
+    "Paladin",
+    "High Priest"
+   ],
+   "slot": "weapon"
+  },
+  "silent_one_mace": {
+   "name": "Silent One's Mace",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1350,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "weapon"
+  },
+  "morvenna_flail": {
+   "name": "Morvenna's Flail",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 3750,
+   "tier": 5,
+   "classes": [
+    "Cleric",
+    "Shaman",
+    "Shadowknight",
+    "High Priest"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Morvenna's Wail",
+    "emoji": "🟣",
+    "die": 8,
+    "element": "shadow"
+   },
+   "slot": "weapon"
+  },
+  "voice_of_dawn": {
+   "name": "Voice of Dawn",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 2833,
+   "tier": 5,
+   "classes": [
+    "Cleric",
+    "Shaman",
+    "Paladin",
+    "High Priest"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "ruinbreaker": {
+   "name": "Ruinbreaker",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 6500,
+   "tier": 6,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Ruin Shatter",
+    "emoji": "💥",
+    "die": 10,
+    "element": "force"
+   },
+   "slot": "weapon"
+  },
+  "oathkeeper": {
+   "name": "Oathkeeper",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 7200,
+   "tier": 6,
+   "classes": [
+    "Warrior",
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Sacred Vow",
+    "emoji": "✝️",
+    "die": 10,
+    "element": "holy"
+   },
+   "slot": "weapon"
+  },
+  "whisperwind_bow": {
+   "name": "Whisperwind Bow",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 6800,
+   "tier": 6,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Wind Pierce",
+    "emoji": "🌬️",
+    "die": 10,
+    "element": "wind"
+   },
+   "slot": "weapon"
+  },
+  "predators_fang": {
+   "name": "Predator's Fang",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 6200,
+   "tier": 6,
+   "classes": [
+    "Ranger",
+    "Hunter"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "resonance_spire": {
+   "name": "Resonance Spire",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 7000,
+   "tier": 6,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Resonance Pulse",
+    "emoji": "💎",
+    "die": 10,
+    "element": "arcane"
+   },
+   "slot": "weapon"
+  },
+  "aethervane": {
+   "name": "Aethervane",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 7500,
+   "tier": 6,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Aether Surge",
+    "emoji": "🌀",
+    "die": 10,
+    "element": "arcane"
+   },
+   "slot": "weapon"
+  },
+  "nightfall_edge": {
+   "name": "Nightfall Edge",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 6300,
+   "tier": 6,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Eclipse Strike",
+    "emoji": "🌑",
+    "die": 10,
+    "element": "shadow"
+   },
+   "slot": "weapon"
+  },
+  "deaths_whisper": {
+   "name": "Death's Whisper",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 6900,
+   "tier": 6,
+   "classes": [
+    "Rogue",
+    "Shadowblade"
+   ],
+   "droppable_only": true,
+   "slot": "weapon"
+  },
+  "dawnforged_mace": {
+   "name": "Dawnforged Mace",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 7100,
+   "tier": 6,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Dawn's Judgment",
+    "emoji": "☀️",
+    "die": 10,
+    "element": "holy"
+   },
+   "slot": "weapon"
+  },
+  "silence_speaker": {
+   "name": "Silence Speaker",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 6600,
+   "tier": 6,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Void Whisper",
+    "emoji": "🟣",
+    "die": 10,
+    "element": "shadow"
+   },
+   "slot": "weapon"
+  },
+  "dragon_slayer": {
+   "name": "Dragon Slayer",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 5500,
+   "tier": 6,
+   "droppable_only": true,
+   "proc": {
+    "name": "Wyrm's Bane",
+    "emoji": "🐉",
+    "die": 10,
+    "element": "fire"
+   },
+   "slot": "weapon"
+  },
+  "stormcaller": {
+   "name": "Stormcaller",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 7800,
+   "tier": 6,
+   "droppable_only": true,
+   "proc": {
+    "name": "Thunder Strike",
+    "emoji": "⚡",
+    "die": 10,
+    "element": "lightning"
+   },
+   "slot": "weapon"
+  },
+  "worldsplitter": {
+   "name": "Worldsplitter",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 3,
+   "value": 18000,
+   "tier": 7,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Rift Cleave",
+    "emoji": "🌌",
+    "die": 12,
+    "element": "void"
+   },
+   "slot": "weapon"
+  },
+  "morvenna_scythe": {
+   "name": "Morvenna's Scythe",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 3,
+   "value": 16500,
+   "tier": 7,
+   "classes": [
+    "Shadowknight",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Reap",
+    "emoji": "💀",
+    "die": 12,
+    "element": "shadow"
+   },
+   "slot": "weapon"
+  },
+  "starfall_bow": {
+   "name": "Starfall Bow",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 3,
+   "value": 17000,
+   "tier": 7,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Starfall",
+    "emoji": "🌠",
+    "die": 12,
+    "element": "celestial"
+   },
+   "slot": "weapon"
+  },
+  "resonance_singularity": {
+   "name": "Resonance Singularity",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 3,
+   "value": 19000,
+   "tier": 7,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Singularity Burst",
+    "emoji": "⚫",
+    "die": 12,
+    "element": "void"
+   },
+   "slot": "weapon"
+  },
+  "aeridorian_cipher": {
+   "name": "Aeridorian Cipher",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 3,
+   "value": 20000,
+   "tier": 7,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Ancient Reckoning",
+    "emoji": "📜",
+    "die": 12,
+    "element": "arcane"
+   },
+   "slot": "weapon"
+  },
+  "phantom_reaver": {
+   "name": "Phantom Reaver",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 3,
+   "value": 15500,
+   "tier": 7,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Phase Strike",
+    "emoji": "👻",
+    "die": 12,
+    "element": "shadow"
+   },
+   "slot": "weapon"
+  },
+  "voice_of_the_silent_ones": {
+   "name": "Voice of the Silent Ones",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 3,
+   "value": 18500,
+   "tier": 7,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "proc": {
+    "name": "Divine Silence",
+    "emoji": "🤫",
+    "die": 12,
+    "element": "holy"
+   },
+   "slot": "weapon"
+  },
+  "aeridorian_terminus": {
+   "name": "Aeridorian Terminus",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 3,
+   "value": 13000,
+   "tier": 7,
+   "droppable_only": true,
+   "proc": {
+    "name": "Final Resonance",
+    "emoji": "💫",
+    "die": 12,
+    "element": "arcane"
+   },
+   "slot": "weapon"
+  },
+  "crown_of_ruin": {
+   "name": "Crown of Ruin",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 3,
+   "value": 14000,
+   "tier": 7,
+   "droppable_only": true,
+   "proc": {
+    "name": "Ruination",
+    "emoji": "👑",
+    "die": 12,
+    "element": "void"
+   },
+   "slot": "weapon"
+  },
+  "the_end": {
+   "name": "The End",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 3,
+   "value": 20000,
+   "tier": 7,
+   "droppable_only": true,
+   "proc": {
+    "name": "Finality",
+    "emoji": "🕳️",
+    "die": 12,
+    "element": "void"
+   },
+   "slot": "weapon"
+  },
+  "miner_pickaxe": {
+   "name": "Miner's Pickaxe",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 900,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "weapon"
+  },
+  "bone_cleaver": {
+   "name": "Bone Cleaver",
+   "attack_bonus": 2,
+   "damage_die": 10,
+   "damage_bonus": 1,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "weapon"
+  },
+  "forge_hammer": {
+   "name": "Forge Hammer",
+   "attack_bonus": 2,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 3100,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "weapon"
+  },
+  "void_blade_spine": {
+   "name": "Void Blade",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 2,
+   "value": 6000,
+   "tier": 6,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "proc": {
+    "name": "Void Strike",
+    "emoji": "🌑",
+    "die": 10,
+    "element": "void"
+   },
+   "slot": "weapon"
+  },
+  "crystal_heart_sword": {
+   "name": "Crystal Heart Sword",
+   "attack_bonus": 3,
+   "damage_die": 12,
+   "damage_bonus": 3,
+   "value": 18000,
+   "tier": 7,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "proc": {
+    "name": "Resonance Shatter",
+    "emoji": "💠",
+    "die": 12,
+    "element": "arcane"
+   },
+   "slot": "weapon"
+  },
+  "hand_axe": {
+   "name": "Rusty Hand Axe",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 22,
+   "tier": 1,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Ranger",
+    "Warden",
+    "Hunter"
+   ],
+   "slot": "weapon"
+  },
+  "stiletto": {
+   "name": "Rusty Stiletto",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 24,
+   "tier": 1,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "weapon"
+  },
+  "mace": {
+   "name": "Rusty Mace",
+   "attack_bonus": 0,
+   "damage_die": 6,
+   "damage_bonus": 0,
+   "value": 20,
+   "tier": 1,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "spear": {
+   "name": "Iron Spear",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 270,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Ranger",
+    "Warden",
+    "Hunter",
+    "Paladin"
+   ],
+   "slot": "weapon"
+  },
+  "battle_axe": {
+   "name": "Iron Battle Axe",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 280,
+   "tier": 2,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "morning_star": {
+   "name": "Iron Morning Star",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 0,
+   "value": 265,
+   "tier": 2,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "longsword": {
+   "name": "Steel Longsword",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 800,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "weapon"
+  },
+  "steel_blade": {
+   "name": "Steel Dagger",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 950,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "weapon"
+  },
+  "defender": {
+   "name": "Flame Scepter",
+   "attack_bonus": 1,
+   "damage_die": 8,
+   "damage_bonus": 1,
+   "value": 980,
+   "tier": 3,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "Shaman",
+    "High Priest"
+   ],
+   "proc": {
+    "name": "Scorching Bolt",
+    "emoji": "🔥",
+    "die": 4,
+    "element": "fire"
+   },
+   "slot": "weapon"
+  },
+  "rusted_ironclad_plate": {
+   "name": "Rusted Ironclad Plate",
+   "defense_bonus": 5,
+   "stat_bonus": {
+    "str": 1
+   },
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "desc": "Standard issue for the Grimstone deep-guards. The inside of the breastplate has frantic claw marks.",
+   "slot": "armor"
+  },
+  "scouts_bone_leather": {
+   "name": "Scout's Bone Leather",
+   "defense_bonus": 5,
+   "stat_bonus": {
+    "dex": 1
+   },
+   "value": 1350,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "desc": "Treated with marrow oil from the Bone Warrens. The leather is eerily light.",
+   "slot": "armor"
+  },
+  "ash_woven_robes": {
+   "name": "Ash-Woven Robes",
+   "defense_bonus": 5,
+   "stat_bonus": {
+    "int": 1
+   },
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "desc": "Garments worn by the Entombed Scholars. If you listen closely, you can hear a woman apologizing.",
+   "slot": "armor"
+  },
+  "tunnel_runners_garb": {
+   "name": "Tunnel Runner's Garb",
+   "defense_bonus": 5,
+   "stat_bonus": {
+    "dex": 1
+   },
+   "value": 1350,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "desc": "Worn by the miners who tried to escape. They ran in the dark. The leather remembers the route.",
+   "slot": "armor"
+  },
+  "deep_chaplains_vestment": {
+   "name": "Deep Chaplain's Vestment",
+   "defense_bonus": 5,
+   "stat_bonus": {
+    "wis": 1
+   },
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "desc": "A priest was assigned to bless each shift. He stopped blessing. He started praying.",
+   "slot": "armor"
+  },
+  "flesh_forged_cuirass": {
+   "name": "Flesh-Forged Cuirass",
+   "defense_bonus": 6,
+   "stat_bonus": {
+    "str": 1
+   },
+   "hp_bonus": 5,
+   "value": 2800,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "desc": "Aeridorian metal fused with living sinew. It tightens when you are afraid.",
+   "slot": "armor"
+  },
+  "deep_stalkers_hide": {
+   "name": "Deep Stalker's Hide",
+   "defense_bonus": 6,
+   "stat_bonus": {
+    "dex": 1
+   },
+   "value": 2700,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "desc": "Skinned from a Deep Stalker. The leather still shifts color in torchlight.",
+   "slot": "armor"
+  },
+  "the_vessels_mantle": {
+   "name": "The Vessel's Mantle",
+   "defense_bonus": 6,
+   "stat_bonus": {
+    "int": 1
+   },
+   "hp_bonus": 5,
+   "value": 2800,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "desc": "A cloak of woven resonance. It was meant for the Elder who feeds the mountain.",
+   "slot": "armor"
+  },
+  "eyeless_horrors_skin": {
+   "name": "Eyeless Horror's Skin",
+   "defense_bonus": 6,
+   "stat_bonus": {
+    "dex": 1
+   },
+   "value": 2700,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "desc": "It screams at a frequency only the wearer can hear. You get used to it. That's the worst part.",
+   "slot": "armor"
+  },
+  "core_chaplains_raiment": {
+   "name": "Core Chaplain's Raiment",
+   "defense_bonus": 6,
+   "stat_bonus": {
+    "wis": 1
+   },
+   "value": 2800,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "desc": "The last chaplain abandoned his faith on Floor 62. The robes kept praying without him.",
+   "slot": "armor"
+  },
+  "travelers_cloak": {
+   "name": "Traveler's Cloak",
+   "defense_bonus": 0,
+   "value": 8,
+   "tier": 1,
+   "slot": "armor"
+  },
+  "leather_armor": {
+   "name": "Leather Armor",
+   "defense_bonus": 2,
+   "value": 28,
+   "tier": 1,
+   "slot": "armor"
+  },
+  "mages_robe": {
+   "name": "Mage's Robe",
+   "defense_bonus": 1,
+   "value": 20,
+   "tier": 1,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "armor"
+  },
+  "bronze_armor": {
+   "name": "Bronze Armor",
+   "defense_bonus": 2,
+   "value": 38,
+   "tier": 1,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "armor"
+  },
+  "fur_cloak": {
+   "name": "Fur Cloak",
+   "defense_bonus": 2,
+   "value": 22,
+   "tier": 1,
+   "slot": "armor"
+  },
+  "studded_leather": {
+   "name": "Studded Leather",
+   "defense_bonus": 3,
+   "value": 258,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "armor"
+  },
+  "chainmail": {
+   "name": "Chainmail",
+   "defense_bonus": 3,
+   "value": 295,
+   "tier": 2,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "armor"
+  },
+  "silken_robe": {
+   "name": "Silken Robe",
+   "defense_bonus": 2,
+   "value": 262,
+   "tier": 2,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "armor"
+  },
+  "black_garb": {
+   "name": "Black Garb",
+   "defense_bonus": 3,
+   "value": 280,
+   "tier": 2,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "armor"
+  },
+  "half_plate": {
+   "name": "Half Plate",
+   "defense_bonus": 4,
+   "value": 920,
+   "tier": 3,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Paladin"
+   ],
+   "slot": "armor"
+  },
+  "flame_mail": {
+   "name": "Flame Mail",
+   "defense_bonus": 4,
+   "value": 970,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "armor"
+  },
+  "ice_armor": {
+   "name": "Ice Armor",
+   "defense_bonus": 4,
+   "value": 970,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "armor"
+  },
+  "mithral_shirt": {
+   "name": "Mithral Chain Shirt",
+   "defense_bonus": 4,
+   "value": 1150,
+   "tier": 3,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "invoker_vestment": {
+   "name": "Invoker's Vestment",
+   "defense_bonus": 3,
+   "value": 895,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "armor"
+  },
+  "full_plate": {
+   "name": "Full Plate",
+   "defense_bonus": 5,
+   "stat_bonus": {
+    "str": 1
+   },
+   "value": 1500,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Shadowknight",
+    "Paladin"
+   ],
+   "slot": "armor"
+  },
+  "diamond_armor": {
+   "name": "Diamond Armor",
+   "defense_bonus": 5,
+   "value": 1350,
+   "tier": 4,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "arcane_vestment": {
+   "name": "Arcane Vestment",
+   "defense_bonus": 5,
+   "stat_bonus": {
+    "int": 1
+   },
+   "hp_bonus": 5,
+   "value": 1200,
+   "tier": 4,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "void_vestment": {
+   "name": "Void Vestment",
+   "defense_bonus": 5,
+   "stat_bonus": {
+    "int": 1
+   },
+   "hp_bonus": 5,
+   "value": 1500,
+   "tier": 4,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "aeridorian_plate": {
+   "name": "Aeridorian Plate",
+   "defense_bonus": 6,
+   "value": 1700,
+   "tier": 5,
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "rubicite_armor": {
+   "name": "Rubicite Armor",
+   "defense_bonus": 6,
+   "value": 2666,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "armor"
+  },
+  "dragon_scale": {
+   "name": "Dragon Scale Mail",
+   "defense_bonus": 6,
+   "value": 3166,
+   "tier": 5,
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "ethereal_plate": {
+   "name": "Ethereal Plate",
+   "defense_bonus": 6,
+   "stat_bonus": {
+    "str": 1
+   },
+   "hp_bonus": 5,
+   "value": 3666,
+   "tier": 5,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "arcanist_shroud": {
+   "name": "Arcanist's Shroud",
+   "defense_bonus": 6,
+   "stat_bonus": {
+    "int": 1
+   },
+   "hp_bonus": 5,
+   "value": 3800,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "armor"
+  },
+  "archmage_robe": {
+   "name": "Robe of the Archmagi",
+   "defense_bonus": 6,
+   "stat_bonus": {
+    "int": 1
+   },
+   "hp_bonus": 5,
+   "value": 3166,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "armor"
+  },
+  "genji_armor": {
+   "name": "Genji Armor",
+   "defense_bonus": 6,
+   "value": 3000,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "armor"
+  },
+  "adamantine_plate": {
+   "name": "Adamantine Plate",
+   "defense_bonus": 6,
+   "stat_bonus": {
+    "str": 1
+   },
+   "hp_bonus": 5,
+   "value": 4000,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "armor"
+  },
+  "voice_of_silence_armor": {
+   "name": "Voice of Silence Armor",
+   "defense_bonus": 6,
+   "stat_bonus": {
+    "wis": 1
+   },
+   "hp_bonus": 5,
+   "value": 3000,
+   "tier": 5,
+   "classes": [
+    "Cleric",
+    "Paladin",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "armor"
+  },
+  "iron_plating": {
+   "name": "Iron Plating",
+   "defense_bonus": 2,
+   "value": 35,
+   "tier": 1,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "armor"
+  },
+  "battle_plate": {
+   "name": "Battle Plate",
+   "defense_bonus": 3,
+   "value": 290,
+   "tier": 2,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "knights_plate": {
+   "name": "Knight's Plate",
+   "defense_bonus": 4,
+   "value": 900,
+   "tier": 3,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "armor"
+  },
+  "warlord_plate": {
+   "name": "Warlord's Plate",
+   "defense_bonus": 5,
+   "stat_bonus": {
+    "str": 1
+   },
+   "value": 1500,
+   "tier": 4,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "champion_plate": {
+   "name": "Champion's Plate",
+   "defense_bonus": 6,
+   "stat_bonus": {
+    "str": 1
+   },
+   "hp_bonus": 5,
+   "value": 2833,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "armor"
+  },
+  "rangers_vest": {
+   "name": "Ranger's Vest",
+   "defense_bonus": 2,
+   "value": 25,
+   "tier": 1,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "armor"
+  },
+  "scouts_leathers": {
+   "name": "Scout's Leathers",
+   "defense_bonus": 3,
+   "value": 268,
+   "tier": 2,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "whisperwood_garb": {
+   "name": "Whisperwood Garb",
+   "defense_bonus": 4,
+   "value": 890,
+   "tier": 3,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "armor"
+  },
+  "ghost_leather": {
+   "name": "Ghost Leather",
+   "defense_bonus": 5,
+   "value": 1400,
+   "tier": 4,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "forest_sovereign_armor": {
+   "name": "Forest Sovereign Armor",
+   "defense_bonus": 6,
+   "value": 2766,
+   "tier": 5,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "armor"
+  },
+  "cutpurse_leathers": {
+   "name": "Cutpurse Leathers",
+   "defense_bonus": 2,
+   "value": 20,
+   "tier": 1,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "armor"
+  },
+  "shadow_garb": {
+   "name": "Shadow Garb",
+   "defense_bonus": 3,
+   "value": 275,
+   "tier": 2,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "armor"
+  },
+  "phantom_weave": {
+   "name": "Phantom Weave",
+   "defense_bonus": 4,
+   "value": 910,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "armor"
+  },
+  "void_cloth": {
+   "name": "Void Cloth",
+   "defense_bonus": 5,
+   "value": 1450,
+   "tier": 4,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "void_mantle": {
+   "name": "Void Mantle",
+   "defense_bonus": 6,
+   "value": 3900,
+   "tier": 5,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "armor"
+  },
+  "novice_robes": {
+   "name": "Novice Robes",
+   "defense_bonus": 1,
+   "value": 14,
+   "tier": 1,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "armor"
+  },
+  "channeler_robes": {
+   "name": "Channeler's Robes",
+   "defense_bonus": 3,
+   "value": 262,
+   "tier": 2,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "armor"
+  },
+  "acolyte_vestments": {
+   "name": "Acolyte's Vestments",
+   "defense_bonus": 2,
+   "value": 20,
+   "tier": 1,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "armor"
+  },
+  "shrine_chainmail": {
+   "name": "Shrine Chainmail",
+   "defense_bonus": 3,
+   "value": 278,
+   "tier": 2,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Warrior",
+    "Shadowknight",
+    "Paladin"
+   ],
+   "slot": "armor"
+  },
+  "cleric_plate": {
+   "name": "Cleric's Plate",
+   "defense_bonus": 4,
+   "value": 920,
+   "tier": 3,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Paladin"
+   ],
+   "slot": "armor"
+  },
+  "saint_plate": {
+   "name": "Saint's Plate",
+   "defense_bonus": 5,
+   "value": 1600,
+   "tier": 4,
+   "classes": [
+    "Cleric",
+    "Shaman",
+    "Paladin",
+    "High Priest"
+   ],
+   "droppable_only": true,
+   "slot": "armor"
+  },
+  "dragonscale_plate": {
+   "name": "Dragonscale Plate",
+   "defense_bonus": 7,
+   "value": 6000,
+   "tier": 6,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "stat_bonus": {
+    "str": 1
+   },
+   "hp_bonus": 5,
+   "slot": "armor"
+  },
+  "whisperwood_aegis": {
+   "name": "Whisperwood Aegis",
+   "defense_bonus": 7,
+   "value": 6500,
+   "tier": 6,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "stat_bonus": {
+    "dex": 1
+   },
+   "hp_bonus": 5,
+   "slot": "armor"
+  },
+  "resonance_vestment": {
+   "name": "Resonance Vestment",
+   "defense_bonus": 7,
+   "value": 7000,
+   "tier": 6,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "stat_bonus": {
+    "int": 1
+   },
+   "hp_bonus": 5,
+   "slot": "armor"
+  },
+  "shadowmeld_garb": {
+   "name": "Shadowmeld Garb",
+   "defense_bonus": 7,
+   "value": 6200,
+   "tier": 6,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "stat_bonus": {
+    "dex": 1
+   },
+   "hp_bonus": 5,
+   "slot": "armor"
+  },
+  "dawn_raiment": {
+   "name": "Dawn Raiment",
+   "defense_bonus": 7,
+   "value": 7200,
+   "tier": 6,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "stat_bonus": {
+    "wis": 1
+   },
+   "hp_bonus": 5,
+   "slot": "armor"
+  },
+  "aeridorian_warplate": {
+   "name": "Aeridorian Warplate",
+   "defense_bonus": 7,
+   "value": 5800,
+   "tier": 6,
+   "droppable_only": true,
+   "stat_bonus": {
+    "str": 1
+   },
+   "hp_bonus": 5,
+   "slot": "armor"
+  },
+  "worldroot_plate": {
+   "name": "Worldroot Plate",
+   "defense_bonus": 8,
+   "value": 16000,
+   "tier": 7,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "stat_bonus": {
+    "str": 1,
+    "con": 1
+   },
+   "hp_bonus": 5,
+   "slot": "armor"
+  },
+  "voidweave_robe": {
+   "name": "Voidweave Robe",
+   "defense_bonus": 8,
+   "value": 18000,
+   "tier": 7,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "stat_bonus": {
+    "int": 1
+   },
+   "hp_bonus": 5,
+   "slot": "armor"
+  },
+  "silent_ones_vestment": {
+   "name": "Silent Ones' Vestment",
+   "defense_bonus": 8,
+   "value": 17000,
+   "tier": 7,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "stat_bonus": {
+    "wis": 1
+   },
+   "hp_bonus": 5,
+   "slot": "armor"
+  },
+  "mythril_shadowmail": {
+   "name": "Mythril Shadowmail",
+   "defense_bonus": 8,
+   "value": 15000,
+   "tier": 7,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "stat_bonus": {
+    "dex": 1
+   },
+   "hp_bonus": 5,
+   "slot": "armor"
+  },
+  "aeridorian_aegis": {
+   "name": "Aeridorian Aegis",
+   "defense_bonus": 8,
+   "value": 20000,
+   "tier": 7,
+   "droppable_only": true,
+   "stat_bonus": {
+    "str": 1,
+    "con": 1
+   },
+   "hp_bonus": 5,
+   "slot": "armor"
+  },
+  "bone_armor": {
+   "name": "Bone Armor",
+   "defense_bonus": 5,
+   "value": 1500,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Cleric"
+   ],
+   "slot": "armor"
+  },
+  "slag_crusted_helm": {
+   "name": "Slag-Crusted Helm",
+   "defense_bonus": 2,
+   "value": 1300,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "desc": "The visor is welded shut by centuries of forge heat. Whoever wore it last did not die from combat.",
+   "slot": "head"
+  },
+  "tunnel_scouts_hood": {
+   "name": "Tunnel Scout's Hood",
+   "defense_bonus": 2,
+   "value": 1250,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "head"
+  },
+  "scholars_ashen_cowl": {
+   "name": "Scholar's Ashen Cowl",
+   "defense_bonus": 1,
+   "value": 1300,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "head"
+  },
+  "cowl_of_the_blind_leech": {
+   "name": "Cowl of the Blind Leech",
+   "defense_bonus": 2,
+   "value": 1250,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "desc": "A hood that covers the eyes. The wearer sees nothing, but feels the pulse of every living thing.",
+   "slot": "head"
+  },
+  "deep_chaplains_mitre": {
+   "name": "Deep Chaplain's Mitre",
+   "defense_bonus": 2,
+   "value": 1300,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "head"
+  },
+  "heartstone_visor": {
+   "name": "Heartstone Visor",
+   "defense_bonus": 2,
+   "hp_bonus": 5,
+   "value": 2600,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "head"
+  },
+  "void_stalkers_cowl": {
+   "name": "Void Stalker's Cowl",
+   "defense_bonus": 2,
+   "value": 2500,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "head"
+  },
+  "resonance_diadem_spine": {
+   "name": "Crystalline Mind-Crown",
+   "defense_bonus": 2,
+   "value": 2600,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "desc": "Grown from a shard of the mountain's core. It whispers solutions to problems you haven't encountered yet.",
+   "slot": "head"
+  },
+  "lurking_shadows_hood": {
+   "name": "Lurking Shadow's Hood",
+   "defense_bonus": 2,
+   "value": 2500,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "desc": "Woven from darkness itself. The wearer's face becomes difficult to remember.",
+   "slot": "head"
+  },
+  "core_chaplains_circlet": {
+   "name": "Core Chaplain's Circlet",
+   "defense_bonus": 2,
+   "value": 2600,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "head"
+  },
+  "worn_cap": {
+   "name": "Worn Cap",
+   "defense_bonus": 1,
+   "value": 6,
+   "tier": 1,
+   "slot": "head"
+  },
+  "iron_helm": {
+   "name": "Iron Helm",
+   "defense_bonus": 1,
+   "value": 24,
+   "tier": 1,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "head"
+  },
+  "scouts_hood": {
+   "name": "Scout's Hood",
+   "defense_bonus": 1,
+   "value": 20,
+   "tier": 1,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "head"
+  },
+  "mages_cap": {
+   "name": "Mage's Cap",
+   "defense_bonus": 1,
+   "value": 16,
+   "tier": 1,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "head"
+  },
+  "bronze_helm": {
+   "name": "Bronze Helm",
+   "defense_bonus": 1,
+   "value": 22,
+   "tier": 1,
+   "slot": "head"
+  },
+  "steel_visor": {
+   "name": "Steel Visor",
+   "defense_bonus": 1,
+   "value": 272,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "head"
+  },
+  "leather_coif": {
+   "name": "Leather Coif",
+   "defense_bonus": 1,
+   "value": 258,
+   "tier": 2,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "head"
+  },
+  "silken_cowl": {
+   "name": "Silken Cowl",
+   "defense_bonus": 1,
+   "value": 262,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "head"
+  },
+  "horned_helmet": {
+   "name": "Horned Helmet",
+   "defense_bonus": 1,
+   "value": 268,
+   "tier": 2,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "head"
+  },
+  "sages_hat": {
+   "name": "Sage's Hat",
+   "defense_bonus": 1,
+   "value": 272,
+   "tier": 2,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "head"
+  },
+  "siege_helm": {
+   "name": "Siege Helm",
+   "defense_bonus": 2,
+   "value": 840,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "head"
+  },
+  "stalkers_cowl": {
+   "name": "Stalker's Cowl",
+   "defense_bonus": 2,
+   "value": 820,
+   "tier": 3,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "arcane_circlet": {
+   "name": "Arcane Circlet",
+   "defense_bonus": 1,
+   "value": 830,
+   "tier": 3,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "head"
+  },
+  "flame_helm": {
+   "name": "Flame Helm",
+   "defense_bonus": 2,
+   "value": 835,
+   "tier": 3,
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "gold_hairpin": {
+   "name": "Gold Hairpin",
+   "defense_bonus": 2,
+   "value": 820,
+   "tier": 3,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "head"
+  },
+  "ribbon": {
+   "name": "Ribbon",
+   "defense_bonus": 2,
+   "value": 920,
+   "tier": 3,
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "executioner_hood": {
+   "name": "Executioner's Hood",
+   "defense_bonus": 1,
+   "value": 815,
+   "tier": 3,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "head"
+  },
+  "circlet_persuasion": {
+   "name": "Circlet of Persuasion",
+   "defense_bonus": 1,
+   "value": 975,
+   "tier": 3,
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "aeridorian_helm": {
+   "name": "Aeridorian Helm",
+   "defense_bonus": 2,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "head"
+  },
+  "shadowweave_mask": {
+   "name": "Shadowweave Mask",
+   "defense_bonus": 2,
+   "value": 1350,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "head"
+  },
+  "resonance_crown": {
+   "name": "Resonance Crown",
+   "defense_bonus": 2,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "head"
+  },
+  "diamond_helm": {
+   "name": "Diamond Helm",
+   "defense_bonus": 2,
+   "value": 1350,
+   "tier": 4,
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "void_helm": {
+   "name": "Void Helm",
+   "defense_bonus": 2,
+   "value": 3500,
+   "tier": 5,
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "brilliance_helm": {
+   "name": "Helm of Brilliance",
+   "defense_bonus": 2,
+   "value": 3750,
+   "tier": 5,
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "crown_stars": {
+   "name": "Crown of Stars",
+   "defense_bonus": 2,
+   "value": 3650,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "head"
+  },
+  "genji_helm": {
+   "name": "Genji Helm",
+   "defense_bonus": 2,
+   "value": 3500,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "head"
+  },
+  "soldiers_cap": {
+   "name": "Soldier's Cap",
+   "defense_bonus": 1,
+   "value": 18,
+   "tier": 1,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "head"
+  },
+  "battle_visor": {
+   "name": "Battle Visor",
+   "defense_bonus": 1,
+   "value": 268,
+   "tier": 2,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "warlord_helm": {
+   "name": "Warlord's Helm",
+   "defense_bonus": 2,
+   "value": 860,
+   "tier": 3,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "head"
+  },
+  "champion_helm": {
+   "name": "Champion's Helm",
+   "defense_bonus": 2,
+   "value": 1450,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "head"
+  },
+  "the_iron_crown": {
+   "name": "The Iron Crown",
+   "defense_bonus": 2,
+   "value": 2666,
+   "tier": 5,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "ranger_hat": {
+   "name": "Ranger's Hat",
+   "defense_bonus": 1,
+   "value": 18,
+   "tier": 1,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "head"
+  },
+  "camouflage_cowl": {
+   "name": "Camouflage Cowl",
+   "defense_bonus": 1,
+   "value": 260,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "head"
+  },
+  "whisperwood_cowl": {
+   "name": "Whisperwood Cowl",
+   "defense_bonus": 2,
+   "value": 840,
+   "tier": 3,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "head"
+  },
+  "hunters_visor": {
+   "name": "Hunter's Visor",
+   "defense_bonus": 2,
+   "value": 1400,
+   "tier": 4,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "forest_crown": {
+   "name": "Forest Crown",
+   "defense_bonus": 2,
+   "value": 3750,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "head"
+  },
+  "ember_cowl": {
+   "name": "Ember Cowl",
+   "defense_bonus": 1,
+   "value": 15,
+   "tier": 1,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "head"
+  },
+  "channeler_hat": {
+   "name": "Channeler's Hat",
+   "defense_bonus": 1,
+   "value": 258,
+   "tier": 2,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "head"
+  },
+  "invoker_circlet": {
+   "name": "Invoker's Circlet",
+   "defense_bonus": 2,
+   "value": 835,
+   "tier": 3,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "head"
+  },
+  "arcanist_circlet": {
+   "name": "Arcanist's Circlet",
+   "defense_bonus": 2,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "head"
+  },
+  "void_crown": {
+   "name": "Void Crown",
+   "defense_bonus": 2,
+   "value": 3750,
+   "tier": 5,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "shadow_cap": {
+   "name": "Shadow Cap",
+   "defense_bonus": 1,
+   "value": 15,
+   "tier": 1,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "head"
+  },
+  "phantom_hood": {
+   "name": "Phantom Hood",
+   "defense_bonus": 1,
+   "value": 258,
+   "tier": 2,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "void_cowl": {
+   "name": "Void Cowl",
+   "defense_bonus": 2,
+   "value": 850,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "head"
+  },
+  "ghost_mask": {
+   "name": "Ghost Mask",
+   "defense_bonus": 2,
+   "value": 1350,
+   "tier": 4,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "the_last_face": {
+   "name": "The Last Face",
+   "defense_bonus": 2,
+   "value": 3750,
+   "tier": 5,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "head"
+  },
+  "novice_hood": {
+   "name": "Novice Hood",
+   "defense_bonus": 1,
+   "value": 15,
+   "tier": 1,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "head"
+  },
+  "priest_mitre": {
+   "name": "Priest's Mitre",
+   "defense_bonus": 1,
+   "value": 262,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "head"
+  },
+  "temple_circlet": {
+   "name": "Temple Circlet",
+   "defense_bonus": 2,
+   "value": 840,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "head"
+  },
+  "high_priest_mitre": {
+   "name": "High Priest's Mitre",
+   "defense_bonus": 2,
+   "value": 1450,
+   "tier": 4,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "silence_crown": {
+   "name": "Silence Crown",
+   "defense_bonus": 2,
+   "value": 2666,
+   "tier": 5,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "head"
+  },
+  "dragonscale_helm": {
+   "name": "Dragonscale Helm",
+   "defense_bonus": 3,
+   "value": 5500,
+   "tier": 6,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "head"
+  },
+  "whisperwood_crown": {
+   "name": "Whisperwood Crown",
+   "defense_bonus": 3,
+   "value": 6200,
+   "tier": 6,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "resonance_diadem": {
+   "name": "Resonance Diadem",
+   "defense_bonus": 3,
+   "value": 6800,
+   "tier": 6,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "head"
+  },
+  "nightfall_mask": {
+   "name": "Nightfall Mask",
+   "defense_bonus": 3,
+   "value": 5800,
+   "tier": 6,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "head"
+  },
+  "dawn_circlet": {
+   "name": "Dawn Circlet",
+   "defense_bonus": 3,
+   "value": 6500,
+   "tier": 6,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 4,
+   "slot": "head"
+  },
+  "worldroot_crown": {
+   "name": "Worldroot Crown",
+   "defense_bonus": 3,
+   "value": 14000,
+   "tier": 7,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "head"
+  },
+  "voidweave_cowl": {
+   "name": "Voidweave Cowl",
+   "defense_bonus": 3,
+   "value": 16000,
+   "tier": 7,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "head"
+  },
+  "silent_ones_halo": {
+   "name": "Silent Ones' Halo",
+   "defense_bonus": 3,
+   "value": 15000,
+   "tier": 7,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "head"
+  },
+  "mythril_visor": {
+   "name": "Mythril Visor",
+   "defense_bonus": 3,
+   "value": 13000,
+   "tier": 7,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "head"
+  },
+  "aeridorian_crown": {
+   "name": "Aeridorian Crown",
+   "defense_bonus": 3,
+   "value": 18000,
+   "tier": 7,
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "head"
+  },
+  "miner_helmet": {
+   "name": "Miner's Helmet",
+   "defense_bonus": 2,
+   "value": 850,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "head"
+  },
+  "ironclad_stompers": {
+   "name": "Ironclad Stompers",
+   "defense_bonus": 2,
+   "value": 1300,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "boots"
+  },
+  "tunnel_runners_boots": {
+   "name": "Tunnel Runner's Boots",
+   "defense_bonus": 2,
+   "value": 1250,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "boots"
+  },
+  "emberwalk_slippers": {
+   "name": "Emberwalk Slippers",
+   "defense_bonus": 1,
+   "value": 1300,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "boots"
+  },
+  "striders_of_the_abyss": {
+   "name": "Striders of the Abyss",
+   "defense_bonus": 2,
+   "value": 1250,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "desc": "They make absolutely no sound. The perfect boots for abandoning your friends to the dark.",
+   "slot": "boots"
+  },
+  "deep_chaplains_sandals": {
+   "name": "Deep Chaplain's Sandals",
+   "defense_bonus": 2,
+   "value": 1300,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "boots"
+  },
+  "heartstone_greaves": {
+   "name": "Heartstone Greaves",
+   "defense_bonus": 2,
+   "hp_bonus": 5,
+   "value": 2600,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "boots"
+  },
+  "abyssal_striders": {
+   "name": "Abyssal Striders",
+   "defense_bonus": 2,
+   "value": 2500,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "boots"
+  },
+  "pulse_walkers_treads": {
+   "name": "Pulse-Walker's Treads",
+   "defense_bonus": 2,
+   "value": 2600,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "desc": "Boots that step in time with the mountain's heartbeat. You cannot walk off-rhythm.",
+   "slot": "boots"
+  },
+  "shadow_step_boots": {
+   "name": "Shadow-Step Boots",
+   "defense_bonus": 2,
+   "value": 2500,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "slot": "boots"
+  },
+  "core_chaplains_sandals": {
+   "name": "Core Chaplain's Sandals",
+   "defense_bonus": 2,
+   "value": 2600,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "boots"
+  },
+  "worn_boots": {
+   "name": "Worn Boots",
+   "defense_bonus": 1,
+   "value": 8,
+   "tier": 1,
+   "slot": "boots"
+  },
+  "heavy_boots": {
+   "name": "Heavy Boots",
+   "defense_bonus": 1,
+   "value": 26,
+   "tier": 1,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "boots"
+  },
+  "trackers_boots": {
+   "name": "Tracker's Boots",
+   "defense_bonus": 1,
+   "value": 22,
+   "tier": 1,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "boots"
+  },
+  "soft_slippers": {
+   "name": "Soft Slippers",
+   "defense_bonus": 1,
+   "value": 16,
+   "tier": 1,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "boots"
+  },
+  "bronze_sabatons": {
+   "name": "Bronze Sabatons",
+   "defense_bonus": 1,
+   "value": 24,
+   "tier": 1,
+   "slot": "boots"
+  },
+  "iron_shod_boots": {
+   "name": "Iron-Shod Boots",
+   "defense_bonus": 1,
+   "value": 268,
+   "tier": 2,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "boots"
+  },
+  "shadow_treads": {
+   "name": "Shadow Treads",
+   "defense_bonus": 1,
+   "value": 262,
+   "tier": 2,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "foresters_boots": {
+   "name": "Forester's Boots",
+   "defense_bonus": 1,
+   "value": 258,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "boots"
+  },
+  "ley_walkers": {
+   "name": "Ley-Walker Sandals",
+   "defense_bonus": 1,
+   "value": 258,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "boots"
+  },
+  "wardens_greaves": {
+   "name": "Warden's Greaves",
+   "defense_bonus": 1,
+   "value": 840,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "boots"
+  },
+  "whisperwood_boots": {
+   "name": "Whisperwood Boots",
+   "defense_bonus": 1,
+   "value": 830,
+   "tier": 3,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "boots"
+  },
+  "resonance_treads": {
+   "name": "Resonance Treads",
+   "defense_bonus": 1,
+   "value": 835,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "boots"
+  },
+  "flame_greaves": {
+   "name": "Flame Greaves",
+   "defense_bonus": 1,
+   "value": 825,
+   "tier": 3,
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "striding_boots": {
+   "name": "Boots of Striding",
+   "defense_bonus": 1,
+   "value": 820,
+   "tier": 3,
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "aeridorian_greaves": {
+   "name": "Aeridorian Greaves",
+   "defense_bonus": 2,
+   "value": 1450,
+   "tier": 4,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "shadow_striders": {
+   "name": "Shadow Striders",
+   "defense_bonus": 2,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "boots"
+  },
+  "diamond_boots": {
+   "name": "Diamond Boots",
+   "defense_bonus": 2,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "winged_boots": {
+   "name": "Winged Boots",
+   "defense_bonus": 2,
+   "value": 1600,
+   "tier": 4,
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "boots_speed": {
+   "name": "Boots of Speed",
+   "defense_bonus": 2,
+   "value": 1500,
+   "tier": 4,
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "void_striders": {
+   "name": "Void Striders",
+   "defense_bonus": 2,
+   "value": 3750,
+   "tier": 5,
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "hermes_boots": {
+   "name": "Hermes Boots",
+   "defense_bonus": 2,
+   "value": 2666,
+   "tier": 5,
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "genji_boots": {
+   "name": "Genji Boots",
+   "defense_bonus": 2,
+   "value": 2833,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "boots"
+  },
+  "seven_league_boots": {
+   "name": "7-League Boots",
+   "defense_bonus": 2,
+   "value": 3750,
+   "tier": 5,
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "iron_greaves": {
+   "name": "Iron Greaves",
+   "defense_bonus": 1,
+   "value": 272,
+   "tier": 2,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "battle_greaves": {
+   "name": "Battle Greaves",
+   "defense_bonus": 1,
+   "value": 850,
+   "tier": 3,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "boots"
+  },
+  "warlord_greaves": {
+   "name": "Warlord's Greaves",
+   "defense_bonus": 2,
+   "value": 1450,
+   "tier": 4,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "champion_sabatons": {
+   "name": "Champion's Sabatons",
+   "defense_bonus": 2,
+   "value": 2666,
+   "tier": 5,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "boots"
+  },
+  "trail_boots": {
+   "name": "Trail Boots",
+   "defense_bonus": 1,
+   "value": 260,
+   "tier": 2,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "boots"
+  },
+  "whisper_stride": {
+   "name": "Whisper Stride",
+   "defense_bonus": 1,
+   "value": 835,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "boots"
+  },
+  "silent_runner": {
+   "name": "Silent Runner",
+   "defense_bonus": 2,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "boots"
+  },
+  "forest_stride": {
+   "name": "Forest Stride",
+   "defense_bonus": 2,
+   "value": 3900,
+   "tier": 5,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "resonance_sandals": {
+   "name": "Resonance Sandals",
+   "defense_bonus": 1,
+   "value": 258,
+   "tier": 2,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "boots"
+  },
+  "arcane_walkers": {
+   "name": "Arcane Walkers",
+   "defense_bonus": 1,
+   "value": 830,
+   "tier": 3,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "boots"
+  },
+  "void_walkers": {
+   "name": "Void Walkers",
+   "defense_bonus": 2,
+   "value": 1400,
+   "tier": 4,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "blessed_sandals": {
+   "name": "Blessed Sandals",
+   "defense_bonus": 1,
+   "value": 260,
+   "tier": 2,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "boots"
+  },
+  "shrine_greaves": {
+   "name": "Shrine Greaves",
+   "defense_bonus": 1,
+   "value": 835,
+   "tier": 3,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "boots"
+  },
+  "saints_boots": {
+   "name": "Saint's Boots",
+   "defense_bonus": 2,
+   "value": 1450,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "boots"
+  },
+  "silence_treads": {
+   "name": "Silence Treads",
+   "defense_bonus": 2,
+   "value": 2666,
+   "tier": 5,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "dragonscale_greaves": {
+   "name": "Dragonscale Greaves",
+   "defense_bonus": 2,
+   "value": 5200,
+   "tier": 6,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "boots"
+  },
+  "whisperwood_stride": {
+   "name": "Whisperwood Stride",
+   "defense_bonus": 2,
+   "value": 5800,
+   "tier": 6,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "nightfall_treads": {
+   "name": "Nightfall Treads",
+   "defense_bonus": 2,
+   "value": 5500,
+   "tier": 6,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "dawn_sabatons": {
+   "name": "Dawn Sabatons",
+   "defense_bonus": 2,
+   "value": 6000,
+   "tier": 6,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "slot": "boots"
+  },
+  "worldroot_greaves": {
+   "name": "Worldroot Greaves",
+   "defense_bonus": 3,
+   "value": 14000,
+   "tier": 7,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "boots"
+  },
+  "voidwalker_boots": {
+   "name": "Voidwalker Boots",
+   "defense_bonus": 3,
+   "value": 15000,
+   "tier": 7,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 4,
+   "slot": "boots"
+  },
+  "silent_ones_sandals": {
+   "name": "Silent Ones' Sandals",
+   "defense_bonus": 3,
+   "value": 13500,
+   "tier": 7,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "boots"
+  },
+  "aeridorian_striders": {
+   "name": "Aeridorian Striders",
+   "defense_bonus": 3,
+   "value": 16000,
+   "tier": 7,
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "boots"
+  },
+  "slag_boots": {
+   "name": "Slag Boots",
+   "defense_bonus": 2,
+   "value": 3100,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "boots"
+  },
+  "pendant_of_the_lost_scout": {
+   "name": "Pendant of the Lost Scout",
+   "defense_bonus": 1,
+   "value": 1300,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "desc": "A silver locket containing a map back to Oakhaven. The map is crossed out. 'THEY KNOW' is scratched on the back.",
+   "slot": "accessory"
+  },
+  "bone_tooth_necklace": {
+   "name": "Bone-Tooth Necklace",
+   "defense_bonus": 1,
+   "value": 1250,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "accessory"
+  },
+  "resonance_warped_ring": {
+   "name": "Resonance-Warped Ring",
+   "defense_bonus": 1,
+   "value": 1300,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "desc": "A band of crystal that absorbs light. The crystal is cracked.",
+   "slot": "accessory"
+  },
+  "lockpicks_of_the_damned": {
+   "name": "Lockpicks of the Damned",
+   "value": 1250,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "desc": "Shaped from the finger bones of a thief who died mid-pick. They fit every lock in the Spine.",
+   "defense_bonus": 0,
+   "slot": "accessory"
+  },
+  "deep_chaplains_rosary": {
+   "name": "Deep Chaplain's Rosary",
+   "defense_bonus": 1,
+   "value": 1300,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "accessory"
+  },
+  "tithe_collectors_signet": {
+   "name": "Tithe-Collector's Signet",
+   "defense_bonus": 1,
+   "value": 2600,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "desc": "A heavy gold ring bearing the seal of Oakhaven. It burns to the touch. The mountain expects a meal.",
+   "slot": "accessory"
+  },
+  "deep_watcher_charm": {
+   "name": "Deep Watcher's Charm",
+   "defense_bonus": 1,
+   "value": 2500,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "accessory"
+  },
+  "crystalline_focus_ring": {
+   "name": "Crystalline Focus Ring",
+   "defense_bonus": 1,
+   "value": 2600,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "accessory"
+  },
+  "marrow_bite_ring": {
+   "name": "Marrow-Bite Ring",
+   "value": 2500,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Trickster",
+    "Shadowblade"
+   ],
+   "desc": "The band is carved from a single tooth. It bites back if you try to remove it.",
+   "defense_bonus": 0,
+   "slot": "accessory"
+  },
+  "vessels_rosary": {
+   "name": "Vessel's Rosary",
+   "defense_bonus": 1,
+   "value": 2600,
+   "tier": 5,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "desc": "Each bead is a crystallized tear from a different Oakhaven Elder. There have been many.",
+   "slot": "accessory"
+  },
+  "copper_ring": {
+   "name": "Copper Ring",
+   "defense_bonus": 0,
+   "value": 12,
+   "tier": 1,
+   "slot": "accessory"
+  },
+  "warriors_bracer": {
+   "name": "Warrior's Bracer",
+   "defense_bonus": 0,
+   "value": 25,
+   "tier": 1,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "accessory"
+  },
+  "scouts_bracer": {
+   "name": "Scout's Bracer",
+   "defense_bonus": 0,
+   "value": 20,
+   "tier": 1,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden",
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "accessory"
+  },
+  "scholars_bracelet": {
+   "name": "Scholar's Bracelet",
+   "defense_bonus": 0,
+   "value": 16,
+   "tier": 1,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "accessory"
+  },
+  "iron_ring": {
+   "name": "Iron Ring",
+   "defense_bonus": 1,
+   "value": 258,
+   "tier": 2,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "oak_bracelet": {
+   "name": "Oak Bracelet",
+   "defense_bonus": 1,
+   "value": 262,
+   "tier": 2,
+   "slot": "accessory"
+  },
+  "crystal_bracelet": {
+   "name": "Crystal Bracelet",
+   "defense_bonus": 1,
+   "value": 262,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "accessory"
+  },
+  "silver_ring": {
+   "name": "Silver Ring",
+   "defense_bonus": 1,
+   "value": 840,
+   "tier": 3,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "tricklebrook_charm": {
+   "name": "Tricklebrook Charm",
+   "defense_bonus": 1,
+   "value": 820,
+   "tier": 3,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "aeridor_bangle": {
+   "name": "Aeridor Bangle",
+   "defense_bonus": 1,
+   "value": 870,
+   "tier": 3,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "serpentine_bracer": {
+   "name": "Serpentine Bracer",
+   "defense_bonus": 1,
+   "value": 850,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster",
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "accessory"
+  },
+  "gold_ring": {
+   "name": "Gold Ring",
+   "defense_bonus": 1,
+   "value": 865,
+   "tier": 3,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "ring_protection": {
+   "name": "Ring of Protection",
+   "defense_bonus": 1,
+   "value": 920,
+   "tier": 3,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "periapt_poison": {
+   "name": "Periapt of Poison",
+   "defense_bonus": 1,
+   "value": 840,
+   "tier": 3,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "resonance_ring": {
+   "name": "Resonance Ring",
+   "defense_bonus": 1,
+   "value": 1450,
+   "tier": 4,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "elaras_token": {
+   "name": "Elara's Token",
+   "defense_bonus": 1,
+   "value": 0,
+   "tier": 4,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "djarns_ring": {
+   "name": "Djarn's Ring",
+   "defense_bonus": 1,
+   "value": 1550,
+   "tier": 4,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "bracers_defense": {
+   "name": "Bracers of Defense",
+   "defense_bonus": 1,
+   "value": 1450,
+   "tier": 4,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "amulet_health": {
+   "name": "Amulet of Health",
+   "defense_bonus": 1,
+   "value": 1350,
+   "tier": 4,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "ogre_gauntlets": {
+   "name": "Ogre Gauntlets",
+   "defense_bonus": 0,
+   "value": 1700,
+   "tier": 4,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "displacement_cloak": {
+   "name": "Displacement Cloak",
+   "defense_bonus": 1,
+   "value": 1850,
+   "tier": 4,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "void_band": {
+   "name": "Void Band",
+   "defense_bonus": 1,
+   "value": 3750,
+   "tier": 5,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "resonant_pearl": {
+   "name": "Resonant Pearl",
+   "defense_bonus": 0,
+   "value": 4333,
+   "tier": 5,
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "giant_belt": {
+   "name": "Giant Strength Belt",
+   "defense_bonus": 0,
+   "value": 2666,
+   "tier": 5,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "black_lotus": {
+   "name": "Black Lotus",
+   "defense_bonus": 0,
+   "value": 18333,
+   "tier": 5,
+   "classes": [
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "iron_gauntlets": {
+   "name": "Iron Gauntlets",
+   "defense_bonus": 1,
+   "value": 268,
+   "tier": 2,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "battle_bracer": {
+   "name": "Battle Bracer",
+   "defense_bonus": 1,
+   "value": 860,
+   "tier": 3,
+   "droppable_only": true,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "accessory"
+  },
+  "warlords_gauntlets": {
+   "name": "Warlord's Gauntlets",
+   "defense_bonus": 1,
+   "value": 1450,
+   "tier": 4,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "slot": "accessory"
+  },
+  "champion_bracers": {
+   "name": "Champion's Bracers",
+   "defense_bonus": 1,
+   "value": 2666,
+   "tier": 5,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "quiver_bracer": {
+   "name": "Quiver Bracer",
+   "defense_bonus": 1,
+   "value": 260,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "accessory"
+  },
+  "hunters_charm": {
+   "name": "Hunter's Charm",
+   "defense_bonus": 1,
+   "value": 855,
+   "tier": 3,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "slot": "accessory"
+  },
+  "forest_ring": {
+   "name": "Forest Ring",
+   "defense_bonus": 1,
+   "value": 1400,
+   "tier": 4,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "arcane_focus_ring": {
+   "name": "Arcane Focus Ring",
+   "defense_bonus": 0,
+   "value": 260,
+   "tier": 2,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "slot": "accessory"
+  },
+  "resonance_orb_acc": {
+   "name": "Resonance Orb",
+   "defense_bonus": 0,
+   "value": 860,
+   "tier": 3,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer",
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "accessory"
+  },
+  "void_focus": {
+   "name": "Void Focus",
+   "defense_bonus": 1,
+   "value": 1450,
+   "tier": 4,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "shadow_ring": {
+   "name": "Shadow Ring",
+   "defense_bonus": 1,
+   "value": 258,
+   "tier": 2,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "phantom_bracer": {
+   "name": "Phantom Bracer",
+   "defense_bonus": 1,
+   "value": 850,
+   "tier": 3,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "accessory"
+  },
+  "void_ring": {
+   "name": "Void Ring",
+   "defense_bonus": 1,
+   "value": 1400,
+   "tier": 4,
+   "droppable_only": true,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "slot": "accessory"
+  },
+  "holy_symbol": {
+   "name": "Holy Symbol",
+   "defense_bonus": 1,
+   "value": 262,
+   "tier": 2,
+   "droppable_only": true,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "accessory"
+  },
+  "blessed_rosary": {
+   "name": "Blessed Rosary",
+   "defense_bonus": 1,
+   "value": 855,
+   "tier": 3,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "accessory"
+  },
+  "saints_medallion": {
+   "name": "Saint's Medallion",
+   "defense_bonus": 1,
+   "value": 1450,
+   "tier": 4,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "silence_sigil": {
+   "name": "Silence Sigil",
+   "defense_bonus": 1,
+   "value": 2666,
+   "tier": 5,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman"
+   ],
+   "slot": "accessory"
+  },
+  "dragonscale_bracer": {
+   "name": "Dragonscale Bracer",
+   "defense_bonus": 2,
+   "attack_bonus": 1,
+   "value": 5500,
+   "tier": 6,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "whisperwood_talisman": {
+   "name": "Whisperwood Talisman",
+   "defense_bonus": 2,
+   "attack_bonus": 1,
+   "value": 6000,
+   "tier": 6,
+   "classes": [
+    "Ranger",
+    "Hunter",
+    "Warden"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "resonance_focus_t6": {
+   "name": "Resonance Focus",
+   "defense_bonus": 1,
+   "attack_bonus": 1,
+   "value": 6500,
+   "tier": 6,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "nightfall_ring": {
+   "name": "Nightfall Ring",
+   "defense_bonus": 2,
+   "attack_bonus": 1,
+   "value": 5800,
+   "tier": 6,
+   "classes": [
+    "Rogue",
+    "Shadowblade",
+    "Trickster"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "worldroot_signet": {
+   "name": "Worldroot Signet",
+   "defense_bonus": 2,
+   "attack_bonus": 1,
+   "value": 14000,
+   "tier": 7,
+   "classes": [
+    "Warrior",
+    "Paladin",
+    "Shadowknight"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "accessory"
+  },
+  "voidweave_band": {
+   "name": "Voidweave Band",
+   "defense_bonus": 2,
+   "attack_bonus": 1,
+   "value": 16000,
+   "tier": 7,
+   "classes": [
+    "Mage",
+    "Wizard",
+    "Necromancer"
+   ],
+   "droppable_only": true,
+   "slot": "accessory"
+  },
+  "silent_ones_medallion": {
+   "name": "Silent Ones' Medallion",
+   "defense_bonus": 2,
+   "attack_bonus": 1,
+   "value": 15000,
+   "tier": 7,
+   "classes": [
+    "Cleric",
+    "High Priest",
+    "Shaman",
+    "Paladin"
+   ],
+   "droppable_only": true,
+   "hp_bonus": 4,
+   "slot": "accessory"
+  },
+  "aeridorian_sigil": {
+   "name": "Aeridorian Sigil",
+   "defense_bonus": 2,
+   "attack_bonus": 1,
+   "value": 18000,
+   "tier": 7,
+   "droppable_only": true,
+   "hp_bonus": 5,
+   "slot": "accessory"
+  },
+  "potion_standard": {
+   "name": "Health Potion",
+   "hp_restore": 25,
+   "value": 40,
+   "tier": 2,
+   "description": "A standard restorative brew. Smells like copper and honey.",
+   "slot": "consumable"
+  },
+  "adventurers_pack": {
+   "name": "Adventurer's Pack",
+   "hp_restore": 0,
+   "value": 0,
+   "on_use": "starter_kit",
+   "description": "starter pack — use to open",
+   "slot": "consumable"
+  },
+  "lightstone": {
+   "name": "Lightstone",
+   "value": 25,
+   "description": "A wisp's core, still glowing. Permanent light source. Does not deplete.",
+   "tier": 2,
+   "slot": "consumable"
+  },
+  "healing_herb": {
+   "name": "Healing Herb",
+   "hp_restore": 8,
+   "value": 10,
+   "tier": 1,
+   "slot": "consumable"
+  },
+  "bandage": {
+   "name": "Bandage",
+   "hp_restore": 10,
+   "value": 6,
+   "tier": 1,
+   "slot": "consumable"
+  },
+  "tonic": {
+   "name": "Tonic",
+   "hp_restore": 15,
+   "value": 20,
+   "tier": 2,
+   "slot": "consumable"
+  },
+  "elixir": {
+   "name": "Elixir",
+   "hp_restore": 75,
+   "value": 100,
+   "tier": 4,
+   "slot": "consumable"
+  },
+  "greater_potion": {
+   "name": "Greater Potion",
+   "hp_restore": 50,
+   "value": 60,
+   "tier": 3,
+   "slot": "consumable"
+  },
+  "phoenix_feather": {
+   "name": "Phoenix Feather",
+   "hp_restore": 100,
+   "value": 500,
+   "description": "A feather of rebirth. Restores a great deal of HP.",
+   "tier": 4,
+   "slot": "consumable"
+  },
+  "ether": {
+   "name": "Ether",
+   "value": 60,
+   "description": "A shimmering blue liquid. Restores mental clarity.",
+   "tier": 3,
+   "slot": "consumable"
+  },
+  "eye_drops": {
+   "name": "Eye Drops",
+   "value": 12,
+   "deprecated": true,
+   "description": "Retired: blindness is not a supported character condition.",
+   "tier": 1,
+   "slot": "consumable"
+  },
+  "torch": {
+   "name": "Torch",
+   "value": 15,
+   "description": "A simple torch. Lights the way.",
+   "tier": 1,
+   "slot": "consumable"
+  },
+  "aeridor_shard": {
+   "name": "Aeridor Crystal Shard",
+   "value": 100,
+   "tier": 3,
+   "slot": "consumable"
+  },
+  "pilgrims_knife": {
+   "name": "Pilgrim's Knife",
+   "value": 100,
+   "tier": 3,
+   "slot": "consumable"
+  },
+  "lucky_charm": {
+   "name": "Lucky Charm",
+   "value": 40,
+   "on_use": "luck_roll_bonus",
+   "tier": 2,
+   "slot": "consumable"
+  },
+  "antidote": {
+   "name": "Antidote",
+   "value": 25,
+   "on_use": "cure_poison",
+   "tier": 2,
+   "description": "A sweet, herbal draught that neutralizes venoms.",
+   "slot": "consumable"
+  },
+  "smoke_bomb": {
+   "name": "Smoke Bomb",
+   "value": 30,
+   "on_use": "smoke_bomb",
+   "tier": 2,
+   "description": "Safely escape your own overworld encounter without spending a hunt or losing XP/Gold.",
+   "slot": "consumable"
+  },
+  "warding_salve": {
+   "name": "Warding Salve",
+   "value": 45,
+   "on_use": "def_boost",
+   "tier": 3,
+   "description": "Grants Fortified: +2 DEF until the next combat ends.",
+   "slot": "consumable"
+  },
+  "frenzy_draught": {
+   "name": "Frenzy Draught",
+   "value": 50,
+   "on_use": "atk_boost",
+   "tier": 3,
+   "description": "Grants Embered: +2 ATK until the next combat ends.",
+   "slot": "consumable"
+  },
+  "moonwater": {
+   "name": "Moonwater",
+   "value": 150,
+   "hp_restore": 150,
+   "tier": 4,
+   "description": "A shimmering water collected under full moonlight. Restores all HP.",
+   "slot": "consumable"
+  },
+  "trap_kit": {
+   "name": "Trap Kit",
+   "value": 60,
+   "deprecated": true,
+   "tier": 3,
+   "description": "Retired: dungeon trap placement is not supported.",
+   "slot": "consumable"
+  },
+  "silver_moss": {
+   "name": "Silvermoss",
+   "value": 40,
+   "description": "A glowing moss found near water.",
+   "tier": 2,
+   "slot": "consumable"
+  },
+  "silverleaf": {
+   "name": "Silverleaf",
+   "value": 200,
+   "description": "A rare, shimmering herb found on the Trade Road.",
+   "tier": 3,
+   "slot": "consumable"
+  },
+  "dire_root": {
+   "name": "Dire Root",
+   "value": 100,
+   "description": "A tough, bitter root from deep woods.",
+   "tier": 3,
+   "slot": "consumable"
+  },
+  "blood_thistle": {
+   "name": "Blood Thistle",
+   "value": 40,
+   "description": "A prickly red flower.",
+   "tier": 2,
+   "slot": "consumable"
+  },
+  "honey_sap": {
+   "name": "Honey Sap",
+   "value": 15,
+   "description": "Sweet, sticky sap from ancient trees.",
+   "tier": 1,
+   "slot": "consumable"
+  },
+  "gilded_mushroom": {
+   "name": "Gilded Mushroom",
+   "value": 600,
+   "description": "A rare, gold-capped mushroom. Hemlock pays well for these.",
+   "tier": 5,
+   "slot": "consumable"
+  },
+  "wingpost_letter": {
+   "name": "Wingpost Letter",
+   "value": 0,
+   "description": "A sealed letter addressed to 'Someone in Oakhaven'.",
+   "tier": 0,
+   "slot": "consumable"
+  },
+  "panacea": {
+   "name": "Panacea",
+   "value": 80,
+   "description": "Cures all status ailments.",
+   "tier": 4,
+   "deprecated": true,
+   "slot": "consumable"
+  },
+  "stone_thaw_needle": {
+   "name": "Stone-Thaw Needle",
+   "value": 40,
+   "description": "Cures petrification.",
+   "tier": 2,
+   "deprecated": true,
+   "slot": "consumable"
+  },
+  "hexbreaker_draught": {
+   "name": "Hexbreaker Draught",
+   "value": 40,
+   "description": "Cures the 'Toad' status.",
+   "tier": 2,
+   "deprecated": true,
+   "slot": "consumable"
+  },
+  "softening_draught": {
+   "name": "Softening Draught",
+   "value": 40,
+   "description": "Cures petrification.",
+   "tier": 2,
+   "deprecated": true,
+   "slot": "consumable"
+  },
+  "xp_tonic": {
+   "name": "Experience Tonic",
+   "value": 60,
+   "on_use": "xp_boost",
+   "description": "+25% XP on next hunt.",
+   "tier": 3,
+   "slot": "consumable"
+  },
+  "hunters_draught": {
+   "name": "Hunter's Draught",
+   "value": 55,
+   "on_use": "hunt_bonus",
+   "description": "+1 bonus hunt today.",
+   "tier": 3,
+   "slot": "consumable"
+  },
+  "ironbark_tonic": {
+   "name": "Ironbark Tonic",
+   "value": 50,
+   "on_use": "def_boost",
+   "description": "+2 DEF until next combat.",
+   "tier": 3,
+   "slot": "consumable"
+  },
+  "firebrew": {
+   "name": "Firebrew",
+   "value": 50,
+   "on_use": "atk_boost",
+   "description": "+2 ATK until next combat.",
+   "tier": 3,
+   "slot": "consumable"
+  },
+  "pearl": {
+   "name": "Pearl",
+   "value": 25,
+   "gem_tier": 1,
+   "description": "A lustrous white pearl. Smooth and cold to the touch.",
+   "slot": "consumable"
+  },
+  "topaz": {
+   "name": "Topaz",
+   "value": 50,
+   "gem_tier": 1,
+   "description": "A pale golden stone that catches candlelight well.",
+   "slot": "consumable"
+  },
+  "peridot": {
+   "name": "Peridot",
+   "value": 75,
+   "gem_tier": 1,
+   "description": "Pale green. Found in the ruins occasionally, origin unclear.",
+   "slot": "consumable"
+  },
+  "emerald": {
+   "name": "Emerald",
+   "value": 100,
+   "gem_tier": 1,
+   "description": "Deep green. Worth more than most people earn in a month.",
+   "slot": "consumable"
+  },
+  "opal": {
+   "name": "Opal",
+   "value": 150,
+   "gem_tier": 1,
+   "description": "Shifts color in different light. Hemlock keeps a jar of them behind the clock.",
+   "slot": "consumable"
+  },
+  "black_pearl": {
+   "name": "Black Pearl",
+   "value": 200,
+   "gem_tier": 2,
+   "description": "A dark lustrous pearl. Rare enough that Hemlock straightens up when you show him.",
+   "slot": "consumable"
+  },
+  "fire_opal": {
+   "name": "Fire Opal",
+   "value": 300,
+   "gem_tier": 2,
+   "description": "Burns orange and red inside. Warm to the touch in a way that doesn't make sense.",
+   "slot": "consumable"
+  },
+  "star_ruby": {
+   "name": "Star Ruby",
+   "value": 400,
+   "gem_tier": 2,
+   "description": "A six-pointed light moves inside it when you turn it. Nobody explains why.",
+   "slot": "consumable"
+  },
+  "fire_emerald": {
+   "name": "Fire Emerald",
+   "value": 500,
+   "gem_tier": 2,
+   "description": "Deep green threaded with veins of red. Aeridorian resonance does strange things to gems.",
+   "slot": "consumable"
+  },
+  "sapphire": {
+   "name": "Sapphire",
+   "value": 600,
+   "gem_tier": 3,
+   "description": "Clear blue. This belonged to someone important once. They aren't around anymore.",
+   "slot": "consumable"
+  },
+  "ruby": {
+   "name": "Ruby",
+   "value": 700,
+   "gem_tier": 3,
+   "description": "Blood red. The deep ruins produce them occasionally. Nobody asks how.",
+   "slot": "consumable"
+  },
+  "jacinth": {
+   "name": "Jacinth",
+   "value": 800,
+   "gem_tier": 3,
+   "description": "Orange-red. The Aeridorian archives describe it as a focusing stone. For what, they don't say.",
+   "slot": "consumable"
+  },
+  "black_sapphire": {
+   "name": "Black Sapphire",
+   "value": 850,
+   "gem_tier": 3,
+   "description": "Deep black with a blue core. The light inside moves on its own. Don't stare.",
+   "slot": "consumable"
+  },
+  "diamond": {
+   "name": "Diamond",
+   "value": 900,
+   "gem_tier": 3,
+   "description": "Flawless. Heavy. Elara wouldn't say where the one on her desk came from.",
+   "slot": "consumable"
+  },
+  "blue_diamond": {
+   "name": "Blue Diamond",
+   "value": 1000,
+   "gem_tier": 3,
+   "description": "The rarest thing you'll find in the ruins. The light inside it doesn't come from outside.",
+   "slot": "consumable"
+  },
+  "shift_log_page": {
+   "name": "Shift Log Page",
+   "value": 150,
+   "description": "Day 247. Something answers when we tap the lower wall.",
+   "slot": "consumable"
+  },
+  "burial_offering": {
+   "name": "Burial Offering",
+   "value": 200,
+   "description": "An offering from a civilization without a name. The material is unclassified.",
+   "slot": "consumable"
+  },
+  "forge_manifest": {
+   "name": "Forge Manifest",
+   "value": 250,
+   "description": "A production order. 50,000 units. Delivery: Aeridor Central. Status: Pending. Date: 600 years ago.",
+   "slot": "consumable"
+  },
+  "deep_fragment": {
+   "name": "Deep Fragment",
+   "value": 400,
+   "description": "Crystallized void. Elara won't touch it. Hemlock will buy it without asking questions.",
+   "slot": "consumable"
+  },
+  "mountain_shard": {
+   "name": "Mountain Shard",
+   "value": 500,
+   "description": "The mountain is aware you took this. It is not pleased but it does not pursue small grievances.",
+   "slot": "consumable"
+  },
+  "spine_memory": {
+   "name": "Spine Memory",
+   "value": 0,
+   "description": "A compressed memory of the Aeridorian collapse, from the mountain's perspective. It is not flattering to anyone.",
+   "slot": "consumable"
+  },
+  "stolen_trade_crate": {
+   "name": "Stolen Trade Crate",
+   "value": 75,
+   "description": "A heavy wooden crate recovered from the Whisperwood Blockade. Contains seized goods and coins.",
+   "slot": "consumable"
+  }
+ },
+ "shop": {
+  "weapons": [
+   "shortbow",
+   "rusty_hand_axe",
+   "rusty_stiletto",
+   "rusty_mace",
+   "wooden_staff",
+   "hunting_bow",
+   "skinning_knife",
+   "rusted_greatsword",
+   "apprentice_wand",
+   "novice_focus",
+   "shiv",
+   "throwing_knife",
+   "iron_flail",
+   "acolyte_mace"
+  ],
+  "armor": [
+   "leather_armor",
+   "mages_robe",
+   "bronze_armor",
+   "fur_cloak",
+   "iron_plating",
+   "rangers_vest",
+   "cutpurse_leathers",
+   "novice_robes",
+   "acolyte_vestments"
+  ],
+  "headgear": [
+   "iron_helm",
+   "scouts_hood",
+   "mages_cap",
+   "bronze_helm",
+   "soldiers_cap",
+   "ranger_hat",
+   "shadow_cap",
+   "ember_cowl",
+   "novice_hood"
+  ],
+  "boots": [
+   "worn_boots",
+   "heavy_boots",
+   "trackers_boots",
+   "soft_slippers",
+   "bronze_sabatons"
+  ],
+  "accessories": [
+   "copper_ring",
+   "warriors_bracer",
+   "scouts_bracer",
+   "scholars_bracelet"
+  ],
+  "consumables": [
+   "healing_herb",
+   "bandage",
+   "tonic",
+   "torch"
+  ]
+ },
+ "loot": {
+  "gear": {
+   "trivial": [
+    [
+     "none",
+     40
+    ],
+    [
+     "rusty_dagger",
+     8
+    ],
+    [
+     "wooden_staff",
+     6
+    ],
+    [
+     "wooden_club",
+     6
+    ],
+    [
+     "shortbow",
+     5
+    ],
+    [
+     "hand_axe",
+     5
+    ],
+    [
+     "travelers_cloak",
+     6
+    ],
+    [
+     "worn_cap",
+     5
+    ],
+    [
+     "worn_boots",
+     5
+    ],
+    [
+     "bronze_helm",
+     4
+    ],
+    [
+     "bronze_sabatons",
+     4
+    ],
+    [
+     "copper_ring",
+     4
+    ],
+    [
+     "rusted_greatsword",
+     3
+    ],
+    [
+     "hunting_bow",
+     3
+    ],
+    [
+     "skinning_knife",
+     2
+    ],
+    [
+     "apprentice_wand",
+     2
+    ],
+    [
+     "novice_focus",
+     2
+    ],
+    [
+     "shiv",
+     3
+    ],
+    [
+     "throwing_knife",
+     3
+    ],
+    [
+     "acolyte_mace",
+     2
+    ],
+    [
+     "iron_flail",
+     2
+    ],
+    [
+     "iron_plating",
+     2
+    ],
+    [
+     "rangers_vest",
+     2
+    ],
+    [
+     "cutpurse_leathers",
+     2
+    ],
+    [
+     "novice_robes",
+     2
+    ],
+    [
+     "acolyte_vestments",
+     2
+    ],
+    [
+     "soldiers_cap",
+     2
+    ],
+    [
+     "ranger_hat",
+     2
+    ],
+    [
+     "shadow_cap",
+     2
+    ],
+    [
+     "ember_cowl",
+     2
+    ],
+    [
+     "novice_hood",
+     2
+    ],
+    [
+     "warriors_bracer",
+     3
+    ],
+    [
+     "scouts_bracer",
+     3
+    ],
+    [
+     "scholars_bracelet",
+     2
+    ],
+    [
+     "iron_sword",
+     3
+    ],
+    [
+     "spear",
+     2
+    ],
+    [
+     "leather_armor",
+     3
+    ]
+   ],
+   "easy": [
+    [
+     "none",
+     25
+    ],
+    [
+     "bronze_armor",
+     5
+    ],
+    [
+     "bronze_helm",
+     4
+    ],
+    [
+     "bronze_sabatons",
+     4
+    ],
+    [
+     "iron_helm",
+     4
+    ],
+    [
+     "mages_cap",
+     4
+    ],
+    [
+     "heavy_boots",
+     4
+    ],
+    [
+     "soft_slippers",
+     4
+    ],
+    [
+     "scouts_hood",
+     5
+    ],
+    [
+     "trackers_boots",
+     5
+    ],
+    [
+     "copper_ring",
+     5
+    ],
+    [
+     "iron_staff",
+     4
+    ],
+    [
+     "iron_sword",
+     5
+    ],
+    [
+     "spear",
+     4
+    ],
+    [
+     "crossbow",
+     4
+    ],
+    [
+     "battle_axe",
+     4
+    ],
+    [
+     "mages_robe",
+     4
+    ],
+    [
+     "leather_armor",
+     5
+    ],
+    [
+     "warriors_bracer",
+     4
+    ],
+    [
+     "scouts_bracer",
+     4
+    ],
+    [
+     "scholars_bracelet",
+     4
+    ],
+    [
+     "horned_helmet",
+     3
+    ],
+    [
+     "sages_hat",
+     3
+    ],
+    [
+     "studded_leather",
+     4
+    ],
+    [
+     "chainmail",
+     3
+    ],
+    [
+     "silken_robe",
+     3
+    ],
+    [
+     "black_garb",
+     3
+    ],
+    [
+     "iron_ring",
+     3
+    ],
+    [
+     "oak_bracelet",
+     3
+    ],
+    [
+     "iron_greatsword",
+     3
+    ],
+    [
+     "iron_halberd",
+     3
+    ],
+    [
+     "composite_bow",
+     3
+    ],
+    [
+     "forester_shortbow",
+     3
+    ],
+    [
+     "crystal_wand",
+     3
+    ],
+    [
+     "resonance_focus",
+     3
+    ],
+    [
+     "shadow_blade",
+     3
+    ],
+    [
+     "assassin_stiletto",
+     3
+    ],
+    [
+     "shrine_warhammer",
+     3
+    ],
+    [
+     "silver_mace",
+     3
+    ],
+    [
+     "battle_plate",
+     3
+    ],
+    [
+     "scouts_leathers",
+     3
+    ],
+    [
+     "shadow_garb",
+     3
+    ],
+    [
+     "channeler_robes",
+     3
+    ],
+    [
+     "shrine_chainmail",
+     3
+    ],
+    [
+     "battle_visor",
+     3
+    ],
+    [
+     "camouflage_cowl",
+     3
+    ],
+    [
+     "phantom_hood",
+     3
+    ],
+    [
+     "channeler_hat",
+     3
+    ],
+    [
+     "priest_mitre",
+     3
+    ],
+    [
+     "iron_greaves",
+     3
+    ],
+    [
+     "trail_boots",
+     3
+    ],
+    [
+     "resonance_sandals",
+     3
+    ],
+    [
+     "blessed_sandals",
+     3
+    ],
+    [
+     "iron_gauntlets",
+     3
+    ],
+    [
+     "quiver_bracer",
+     3
+    ],
+    [
+     "shadow_ring",
+     3
+    ],
+    [
+     "arcane_focus_ring",
+     3
+    ],
+    [
+     "holy_symbol",
+     3
+    ],
+    [
+     "crystal_bracelet",
+     3
+    ],
+    [
+     "mithral_shirt",
+     2
+    ],
+    [
+     "flametongue",
+     1
+    ],
+    [
+     "winged_boots",
+     1
+    ]
+   ],
+   "medium": [
+    [
+     "none",
+     12
+    ],
+    [
+     "leather_coif",
+     5
+    ],
+    [
+     "shadow_treads",
+     4
+    ],
+    [
+     "iron_ring",
+     4
+    ],
+    [
+     "oak_bracelet",
+     4
+    ],
+    [
+     "studded_leather",
+     4
+    ],
+    [
+     "chainmail",
+     4
+    ],
+    [
+     "black_garb",
+     3
+    ],
+    [
+     "fur_cloak",
+     3
+    ],
+    [
+     "steel_visor",
+     3
+    ],
+    [
+     "silken_cowl",
+     3
+    ],
+    [
+     "iron_shod_boots",
+     3
+    ],
+    [
+     "foresters_boots",
+     3
+    ],
+    [
+     "ley_walkers",
+     3
+    ],
+    [
+     "crystal_bracelet",
+     3
+    ],
+    [
+     "longsword",
+     5
+    ],
+    [
+     "steel_blade",
+     5
+    ],
+    [
+     "silken_robe",
+     4
+    ],
+    [
+     "flame_sword",
+     3
+    ],
+    [
+     "ice_brand",
+     3
+    ],
+    [
+     "flametongue",
+     3
+    ],
+    [
+     "frostbrand",
+     3
+    ],
+    [
+     "mithral_shirt",
+     3
+    ],
+    [
+     "flame_helm",
+     4
+    ],
+    [
+     "flame_greaves",
+     4
+    ],
+    [
+     "executioner_hood",
+     3
+    ],
+    [
+     "striding_boots",
+     3
+    ],
+    [
+     "serpentine_bracer",
+     3
+    ],
+    [
+     "ring_protection",
+     3
+    ],
+    [
+     "periapt_poison",
+     3
+    ],
+    [
+     "silver_ring",
+     3
+    ],
+    [
+     "gold_ring",
+     2
+    ],
+    [
+     "steel_greatsword",
+     3
+    ],
+    [
+     "war_halberd",
+     3
+    ],
+    [
+     "whisperwood_recurve",
+     3
+    ],
+    [
+     "hunters_knife",
+     3
+    ],
+    [
+     "aeridor_wand",
+     3
+    ],
+    [
+     "elder_orb",
+     3
+    ],
+    [
+     "gutting_knife",
+     3
+    ],
+    [
+     "obsidian_dagger",
+     3
+    ],
+    [
+     "temple_hammer",
+     3
+    ],
+    [
+     "sanctuary_mace",
+     3
+    ],
+    [
+     "knights_plate",
+     3
+    ],
+    [
+     "whisperwood_garb",
+     3
+    ],
+    [
+     "phantom_weave",
+     3
+    ],
+    [
+     "invoker_vestment",
+     3
+    ],
+    [
+     "cleric_plate",
+     3
+    ],
+    [
+     "warlord_helm",
+     3
+    ],
+    [
+     "whisperwood_cowl",
+     3
+    ],
+    [
+     "void_cowl",
+     3
+    ],
+    [
+     "invoker_circlet",
+     3
+    ],
+    [
+     "temple_circlet",
+     3
+    ],
+    [
+     "battle_greaves",
+     3
+    ],
+    [
+     "whisper_stride",
+     3
+    ],
+    [
+     "arcane_walkers",
+     3
+    ],
+    [
+     "shrine_greaves",
+     3
+    ],
+    [
+     "whisperwood_boots",
+     3
+    ],
+    [
+     "battle_bracer",
+     3
+    ],
+    [
+     "hunters_charm",
+     3
+    ],
+    [
+     "phantom_bracer",
+     3
+    ],
+    [
+     "resonance_orb_acc",
+     3
+    ],
+    [
+     "blessed_rosary",
+     3
+    ],
+    [
+     "diamond_armor",
+     1
+    ],
+    [
+     "masamune",
+     1
+    ],
+    [
+     "circlet_persuasion",
+     2
+    ]
+   ],
+   "hard": [
+    [
+     "none",
+     6
+    ],
+    [
+     "siege_helm",
+     4
+    ],
+    [
+     "whisperwood_boots",
+     4
+    ],
+    [
+     "silver_ring",
+     5
+    ],
+    [
+     "aeridor_bangle",
+     5
+    ],
+    [
+     "gold_ring",
+     4
+    ],
+    [
+     "flame_mail",
+     4
+    ],
+    [
+     "ice_armor",
+     4
+    ],
+    [
+     "defender",
+     3
+    ],
+    [
+     "diamond_helm",
+     3
+    ],
+    [
+     "diamond_boots",
+     3
+    ],
+    [
+     "circlet_persuasion",
+     3
+    ],
+    [
+     "ribbon",
+     3
+    ],
+    [
+     "tricklebrook_charm",
+     3
+    ],
+    [
+     "knights_plate",
+     3
+    ],
+    [
+     "whisperwood_garb",
+     3
+    ],
+    [
+     "phantom_weave",
+     3
+    ],
+    [
+     "invoker_vestment",
+     3
+    ],
+    [
+     "cleric_plate",
+     3
+    ],
+    [
+     "warlord_helm",
+     3
+    ],
+    [
+     "whisperwood_cowl",
+     3
+    ],
+    [
+     "battle_greaves",
+     3
+    ],
+    [
+     "whisper_stride",
+     3
+    ],
+    [
+     "battle_bracer",
+     3
+    ],
+    [
+     "hunters_charm",
+     3
+    ],
+    [
+     "phantom_bracer",
+     3
+    ],
+    [
+     "resonance_orb_acc",
+     3
+    ],
+    [
+     "blessed_rosary",
+     3
+    ],
+    [
+     "miners_rebellion_pick",
+     2
+    ],
+    [
+     "soot_stained_cleaver",
+     2
+    ],
+    [
+     "bone_woven_bow",
+     2
+    ],
+    [
+     "echo_chime_focus",
+     2
+    ],
+    [
+     "crypt_warden_mace",
+     2
+    ],
+    [
+     "rusted_ironclad_plate",
+     2
+    ],
+    [
+     "scouts_bone_leather",
+     2
+    ],
+    [
+     "ash_woven_robes",
+     2
+    ],
+    [
+     "tunnel_runners_garb",
+     2
+    ],
+    [
+     "deep_chaplains_vestment",
+     2
+    ],
+    [
+     "slag_crusted_helm",
+     2
+    ],
+    [
+     "tunnel_scouts_hood",
+     2
+    ],
+    [
+     "scholars_ashen_cowl",
+     2
+    ],
+    [
+     "cowl_of_the_blind_leech",
+     2
+    ],
+    [
+     "deep_chaplains_mitre",
+     2
+    ],
+    [
+     "ironclad_stompers",
+     2
+    ],
+    [
+     "tunnel_runners_boots",
+     2
+    ],
+    [
+     "emberwalk_slippers",
+     2
+    ],
+    [
+     "striders_of_the_abyss",
+     2
+    ],
+    [
+     "deep_chaplains_sandals",
+     2
+    ],
+    [
+     "pendant_of_the_lost_scout",
+     2
+    ],
+    [
+     "bone_tooth_necklace",
+     2
+    ],
+    [
+     "resonance_warped_ring",
+     2
+    ],
+    [
+     "lockpicks_of_the_damned",
+     2
+    ],
+    [
+     "deep_chaplains_rosary",
+     2
+    ],
+    [
+     "sun_blade",
+     3
+    ],
+    [
+     "disruption_mace",
+     3
+    ],
+    [
+     "boots_speed",
+     2
+    ],
+    [
+     "bracers_defense",
+     2
+    ],
+    [
+     "amulet_health",
+     2
+    ],
+    [
+     "resonance_staff",
+     3
+    ],
+    [
+     "shining_staff",
+     3
+    ],
+    [
+     "archer_saints_bow",
+     3
+    ],
+    [
+     "ghoulbane",
+     3
+    ],
+    [
+     "sword_of_the_drowned_king",
+     3
+    ],
+    [
+     "arcane_vestment",
+     3
+    ],
+    [
+     "half_plate",
+     3
+    ],
+    [
+     "arcane_circlet",
+     3
+    ],
+    [
+     "gold_hairpin",
+     3
+    ],
+    [
+     "wardens_greaves",
+     3
+    ],
+    [
+     "resonance_ring",
+     2
+    ],
+    [
+     "aeridorian_greatsword",
+     2
+    ],
+    [
+     "champion_spear",
+     2
+    ],
+    [
+     "aeridor_longbow",
+     2
+    ],
+    [
+     "moonbow",
+     2
+    ],
+    [
+     "void_orb",
+     2
+    ],
+    [
+     "the_whispering_wand",
+     2
+    ],
+    [
+     "whisper_blade",
+     2
+    ],
+    [
+     "the_quiet_death",
+     2
+    ],
+    [
+     "dawn_hammer",
+     2
+    ],
+    [
+     "silent_one_mace",
+     2
+    ],
+    [
+     "warlord_plate",
+     2
+    ],
+    [
+     "ghost_leather",
+     2
+    ],
+    [
+     "void_cloth",
+     2
+    ],
+    [
+     "void_vestment",
+     2
+    ],
+    [
+     "saint_plate",
+     2
+    ],
+    [
+     "champion_helm",
+     2
+    ],
+    [
+     "hunters_visor",
+     2
+    ],
+    [
+     "arcanist_circlet",
+     2
+    ],
+    [
+     "ghost_mask",
+     2
+    ],
+    [
+     "high_priest_mitre",
+     2
+    ],
+    [
+     "warlord_greaves",
+     2
+    ],
+    [
+     "silent_runner",
+     2
+    ],
+    [
+     "void_walkers",
+     2
+    ],
+    [
+     "saints_boots",
+     2
+    ],
+    [
+     "warlords_gauntlets",
+     2
+    ],
+    [
+     "forest_ring",
+     2
+    ],
+    [
+     "void_focus",
+     2
+    ],
+    [
+     "void_ring",
+     2
+    ],
+    [
+     "saints_medallion",
+     2
+    ],
+    [
+     "ogre_gauntlets",
+     2
+    ],
+    [
+     "djarns_ring",
+     2
+    ]
+   ],
+   "deadly": [
+    [
+     "aeridorian_helm",
+     5
+    ],
+    [
+     "shadow_striders",
+     5
+    ],
+    [
+     "resonance_ring",
+     5
+    ],
+    [
+     "stalkers_cowl",
+     5
+    ],
+    [
+     "resonance_treads",
+     5
+    ],
+    [
+     "diamond_armor",
+     5
+    ],
+    [
+     "djarns_ring",
+     4
+    ],
+    [
+     "blood_sword",
+     3
+    ],
+    [
+     "masamune",
+     3
+    ],
+    [
+     "fiery_avenger",
+     3
+    ],
+    [
+     "aeridorian_axe",
+     4
+    ],
+    [
+     "soulfire",
+     3
+    ],
+    [
+     "full_plate",
+     3
+    ],
+    [
+     "aeridorian_plate",
+     3
+    ],
+    [
+     "shadowweave_mask",
+     3
+    ],
+    [
+     "resonance_crown",
+     3
+    ],
+    [
+     "aeridorian_greaves",
+     3
+    ],
+    [
+     "displacement_cloak",
+     3
+    ],
+    [
+     "winged_boots",
+     3
+    ],
+    [
+     "aeridorian_greatsword",
+     3
+    ],
+    [
+     "champion_spear",
+     3
+    ],
+    [
+     "aeridor_longbow",
+     3
+    ],
+    [
+     "moonbow",
+     3
+    ],
+    [
+     "void_orb",
+     3
+    ],
+    [
+     "the_whispering_wand",
+     3
+    ],
+    [
+     "whisper_blade",
+     3
+    ],
+    [
+     "the_quiet_death",
+     3
+    ],
+    [
+     "dawn_hammer",
+     3
+    ],
+    [
+     "silent_one_mace",
+     3
+    ],
+    [
+     "warlord_plate",
+     3
+    ],
+    [
+     "ghost_leather",
+     3
+    ],
+    [
+     "void_cloth",
+     3
+    ],
+    [
+     "void_vestment",
+     3
+    ],
+    [
+     "saint_plate",
+     3
+    ],
+    [
+     "champion_helm",
+     3
+    ],
+    [
+     "hunters_visor",
+     3
+    ],
+    [
+     "arcanist_circlet",
+     3
+    ],
+    [
+     "ghost_mask",
+     3
+    ],
+    [
+     "high_priest_mitre",
+     3
+    ],
+    [
+     "warlord_greaves",
+     3
+    ],
+    [
+     "silent_runner",
+     3
+    ],
+    [
+     "void_walkers",
+     3
+    ],
+    [
+     "saints_boots",
+     3
+    ],
+    [
+     "warlords_gauntlets",
+     3
+    ],
+    [
+     "forest_ring",
+     3
+    ],
+    [
+     "void_focus",
+     3
+    ],
+    [
+     "void_ring",
+     3
+    ],
+    [
+     "saints_medallion",
+     3
+    ],
+    [
+     "heart_forged_greatsword",
+     2
+    ],
+    [
+     "void_touched_longbow",
+     2
+    ],
+    [
+     "aeridorian_spine_staff",
+     2
+    ],
+    [
+     "elaras_betrayal_dagger",
+     2
+    ],
+    [
+     "forge_masters_hammer",
+     2
+    ],
+    [
+     "flesh_forged_cuirass",
+     2
+    ],
+    [
+     "deep_stalkers_hide",
+     2
+    ],
+    [
+     "the_vessels_mantle",
+     2
+    ],
+    [
+     "eyeless_horrors_skin",
+     2
+    ],
+    [
+     "core_chaplains_raiment",
+     2
+    ],
+    [
+     "heartstone_visor",
+     2
+    ],
+    [
+     "void_stalkers_cowl",
+     2
+    ],
+    [
+     "resonance_diadem_spine",
+     2
+    ],
+    [
+     "lurking_shadows_hood",
+     2
+    ],
+    [
+     "core_chaplains_circlet",
+     2
+    ],
+    [
+     "heartstone_greaves",
+     2
+    ],
+    [
+     "abyssal_striders",
+     2
+    ],
+    [
+     "pulse_walkers_treads",
+     2
+    ],
+    [
+     "shadow_step_boots",
+     2
+    ],
+    [
+     "core_chaplains_sandals",
+     2
+    ],
+    [
+     "tithe_collectors_signet",
+     2
+    ],
+    [
+     "deep_watcher_charm",
+     2
+    ],
+    [
+     "crystalline_focus_ring",
+     2
+    ],
+    [
+     "marrow_bite_ring",
+     2
+    ],
+    [
+     "vessels_rosary",
+     2
+    ],
+    [
+     "holy_avenger",
+     3
+    ],
+    [
+     "vorpal_sword",
+     3
+    ],
+    [
+     "staff_magi",
+     3
+    ],
+    [
+     "stardust_rod",
+     3
+    ],
+    [
+     "dragon_scale",
+     3
+    ],
+    [
+     "ethereal_plate",
+     3
+    ],
+    [
+     "genji_armor",
+     3
+    ],
+    [
+     "hermes_boots",
+     2
+    ],
+    [
+     "genji_boots",
+     2
+    ],
+    [
+     "genji_helm",
+     2
+    ],
+    [
+     "ogre_gauntlets",
+     2
+    ],
+    [
+     "giant_belt",
+     2
+    ],
+    [
+     "resonant_pearl",
+     1
+    ],
+    [
+     "mjolnir",
+     3
+    ],
+    [
+     "resonance_bow",
+     3
+    ],
+    [
+     "spine_cleaver",
+     2
+    ],
+    [
+     "champions_legacy",
+     2
+    ],
+    [
+     "silent_stalker_bow",
+     2
+    ],
+    [
+     "null_scepter",
+     2
+    ],
+    [
+     "voidstep_blade",
+     2
+    ],
+    [
+     "the_last_laugh",
+     2
+    ],
+    [
+     "morvenna_flail",
+     2
+    ],
+    [
+     "voice_of_dawn",
+     2
+    ],
+    [
+     "champion_plate",
+     2
+    ],
+    [
+     "forest_sovereign_armor",
+     2
+    ],
+    [
+     "void_mantle",
+     2
+    ],
+    [
+     "arcanist_shroud",
+     2
+    ],
+    [
+     "voice_of_silence_armor",
+     2
+    ],
+    [
+     "the_iron_crown",
+     2
+    ],
+    [
+     "forest_crown",
+     2
+    ],
+    [
+     "void_crown",
+     2
+    ],
+    [
+     "the_last_face",
+     2
+    ],
+    [
+     "silence_crown",
+     2
+    ],
+    [
+     "champion_sabatons",
+     2
+    ],
+    [
+     "forest_stride",
+     2
+    ],
+    [
+     "silence_treads",
+     2
+    ],
+    [
+     "champion_bracers",
+     2
+    ],
+    [
+     "silence_sigil",
+     2
+    ],
+    [
+     "ruinbreaker",
+     1
+    ],
+    [
+     "oathkeeper",
+     1
+    ],
+    [
+     "whisperwind_bow",
+     1
+    ],
+    [
+     "resonance_spire",
+     1
+    ],
+    [
+     "nightfall_edge",
+     1
+    ],
+    [
+     "dawnforged_mace",
+     1
+    ],
+    [
+     "dragon_slayer",
+     1
+    ],
+    [
+     "stormcaller",
+     1
+    ],
+    [
+     "dragonscale_plate",
+     1
+    ],
+    [
+     "whisperwood_aegis",
+     1
+    ],
+    [
+     "resonance_vestment",
+     1
+    ],
+    [
+     "shadowmeld_garb",
+     1
+    ],
+    [
+     "dawn_raiment",
+     1
+    ],
+    [
+     "aeridorian_warplate",
+     1
+    ],
+    [
+     "dragonscale_helm",
+     1
+    ],
+    [
+     "whisperwood_crown",
+     1
+    ],
+    [
+     "resonance_diadem",
+     1
+    ],
+    [
+     "dragonscale_greaves",
+     1
+    ],
+    [
+     "nightfall_treads",
+     1
+    ],
+    [
+     "dragonscale_bracer",
+     1
+    ],
+    [
+     "whisperwood_talisman",
+     1
+    ]
+   ],
+   "boss": [
+    [
+     "masamune",
+     5
+    ],
+    [
+     "fiery_avenger",
+     5
+    ],
+    [
+     "sun_blade",
+     4
+    ],
+    [
+     "displacement_cloak",
+     4
+    ],
+    [
+     "ogre_gauntlets",
+     4
+    ],
+    [
+     "rubicite_armor",
+     5
+    ],
+    [
+     "excalibur_ff",
+     5
+    ],
+    [
+     "ragnarok_ff",
+     5
+    ],
+    [
+     "apex_blade",
+     4
+    ],
+    [
+     "adamantine_plate",
+     5
+    ],
+    [
+     "brilliance_helm",
+     5
+    ],
+    [
+     "crown_stars",
+     5
+    ],
+    [
+     "seven_league_boots",
+     5
+    ],
+    [
+     "archmage_robe",
+     5
+    ],
+    [
+     "black_lotus",
+     2
+    ],
+    [
+     "void_blade",
+     5
+    ],
+    [
+     "void_helm",
+     6
+    ],
+    [
+     "void_striders",
+     6
+    ],
+    [
+     "void_band",
+     6
+    ],
+    [
+     "dragon_scale",
+     5
+    ],
+    [
+     "ethereal_plate",
+     5
+    ],
+    [
+     "genji_armor",
+     5
+    ],
+    [
+     "genji_boots",
+     4
+    ],
+    [
+     "genji_helm",
+     4
+    ],
+    [
+     "hermes_boots",
+     4
+    ],
+    [
+     "resonant_pearl",
+     3
+    ],
+    [
+     "holy_avenger",
+     5
+    ],
+    [
+     "vorpal_sword",
+     5
+    ],
+    [
+     "staff_magi",
+     5
+    ],
+    [
+     "stardust_rod",
+     5
+    ],
+    [
+     "mjolnir",
+     4
+    ],
+    [
+     "soulfire",
+     4
+    ],
+    [
+     "spine_cleaver",
+     4
+    ],
+    [
+     "champions_legacy",
+     4
+    ],
+    [
+     "silent_stalker_bow",
+     4
+    ],
+    [
+     "null_scepter",
+     4
+    ],
+    [
+     "voidstep_blade",
+     4
+    ],
+    [
+     "the_last_laugh",
+     4
+    ],
+    [
+     "morvenna_flail",
+     4
+    ],
+    [
+     "voice_of_dawn",
+     4
+    ],
+    [
+     "champion_plate",
+     4
+    ],
+    [
+     "forest_sovereign_armor",
+     4
+    ],
+    [
+     "void_mantle",
+     4
+    ],
+    [
+     "arcanist_shroud",
+     4
+    ],
+    [
+     "voice_of_silence_armor",
+     4
+    ],
+    [
+     "the_iron_crown",
+     4
+    ],
+    [
+     "forest_crown",
+     4
+    ],
+    [
+     "void_crown",
+     4
+    ],
+    [
+     "the_last_face",
+     4
+    ],
+    [
+     "silence_crown",
+     4
+    ],
+    [
+     "champion_sabatons",
+     4
+    ],
+    [
+     "forest_stride",
+     4
+    ],
+    [
+     "silence_treads",
+     4
+    ],
+    [
+     "champion_bracers",
+     4
+    ],
+    [
+     "silence_sigil",
+     4
+    ],
+    [
+     "giant_belt",
+     4
+    ],
+    [
+     "elaras_token",
+     1
+    ],
+    [
+     "heart_forged_greatsword",
+     3
+    ],
+    [
+     "void_touched_longbow",
+     3
+    ],
+    [
+     "aeridorian_spine_staff",
+     3
+    ],
+    [
+     "elaras_betrayal_dagger",
+     3
+    ],
+    [
+     "forge_masters_hammer",
+     3
+    ],
+    [
+     "flesh_forged_cuirass",
+     3
+    ],
+    [
+     "the_vessels_mantle",
+     3
+    ],
+    [
+     "eyeless_horrors_skin",
+     3
+    ],
+    [
+     "tithe_collectors_signet",
+     3
+    ],
+    [
+     "marrow_bite_ring",
+     3
+    ],
+    [
+     "vessels_rosary",
+     3
+    ],
+    [
+     "ruinbreaker",
+     3
+    ],
+    [
+     "oathkeeper",
+     3
+    ],
+    [
+     "whisperwind_bow",
+     3
+    ],
+    [
+     "predators_fang",
+     3
+    ],
+    [
+     "resonance_spire",
+     3
+    ],
+    [
+     "aethervane",
+     3
+    ],
+    [
+     "nightfall_edge",
+     3
+    ],
+    [
+     "deaths_whisper",
+     3
+    ],
+    [
+     "dawnforged_mace",
+     3
+    ],
+    [
+     "silence_speaker",
+     3
+    ],
+    [
+     "dragon_slayer",
+     3
+    ],
+    [
+     "stormcaller",
+     3
+    ],
+    [
+     "dragonscale_plate",
+     3
+    ],
+    [
+     "whisperwood_aegis",
+     3
+    ],
+    [
+     "resonance_vestment",
+     3
+    ],
+    [
+     "shadowmeld_garb",
+     3
+    ],
+    [
+     "dawn_raiment",
+     3
+    ],
+    [
+     "aeridorian_warplate",
+     3
+    ],
+    [
+     "dragonscale_helm",
+     3
+    ],
+    [
+     "whisperwood_crown",
+     3
+    ],
+    [
+     "resonance_diadem",
+     3
+    ],
+    [
+     "nightfall_mask",
+     3
+    ],
+    [
+     "dawn_circlet",
+     3
+    ],
+    [
+     "dragonscale_greaves",
+     3
+    ],
+    [
+     "whisperwood_stride",
+     3
+    ],
+    [
+     "nightfall_treads",
+     3
+    ],
+    [
+     "dawn_sabatons",
+     3
+    ],
+    [
+     "dragonscale_bracer",
+     3
+    ],
+    [
+     "whisperwood_talisman",
+     3
+    ],
+    [
+     "resonance_focus_t6",
+     3
+    ],
+    [
+     "nightfall_ring",
+     3
+    ],
+    [
+     "worldsplitter",
+     1
+    ],
+    [
+     "morvenna_scythe",
+     1
+    ],
+    [
+     "starfall_bow",
+     1
+    ],
+    [
+     "resonance_singularity",
+     1
+    ],
+    [
+     "aeridorian_cipher",
+     1
+    ],
+    [
+     "phantom_reaver",
+     1
+    ],
+    [
+     "voice_of_the_silent_ones",
+     1
+    ],
+    [
+     "aeridorian_terminus",
+     1
+    ],
+    [
+     "crown_of_ruin",
+     1
+    ],
+    [
+     "the_end",
+     1
+    ],
+    [
+     "worldroot_plate",
+     1
+    ],
+    [
+     "voidweave_robe",
+     1
+    ],
+    [
+     "silent_ones_vestment",
+     1
+    ],
+    [
+     "mythril_shadowmail",
+     1
+    ],
+    [
+     "aeridorian_aegis",
+     1
+    ],
+    [
+     "worldroot_crown",
+     1
+    ],
+    [
+     "voidweave_cowl",
+     1
+    ],
+    [
+     "silent_ones_halo",
+     1
+    ],
+    [
+     "mythril_visor",
+     1
+    ],
+    [
+     "aeridorian_crown",
+     1
+    ],
+    [
+     "worldroot_greaves",
+     1
+    ],
+    [
+     "voidwalker_boots",
+     1
+    ],
+    [
+     "silent_ones_sandals",
+     1
+    ],
+    [
+     "aeridorian_striders",
+     1
+    ],
+    [
+     "worldroot_signet",
+     1
+    ],
+    [
+     "voidweave_band",
+     1
+    ],
+    [
+     "silent_ones_medallion",
+     1
+    ],
+    [
+     "aeridorian_sigil",
+     1
+    ]
+   ]
+  },
+  "consumable": {
+   "trivial": [
+    [
+     "none",
+     20
+    ],
+    [
+     "healing_herb",
+     20
+    ],
+    [
+     "bandage",
+     15
+    ],
+    [
+     "honey_sap",
+     22
+    ],
+    [
+     "eye_drops",
+     8
+    ],
+    [
+     "torch",
+     6
+    ],
+    [
+     "wingpost_letter",
+     5
+    ],
+    [
+     "pearl",
+     8
+    ],
+    [
+     "topaz",
+     5
+    ],
+    [
+     "peridot",
+     3
+    ]
+   ],
+   "easy": [
+    [
+     "none",
+     10
+    ],
+    [
+     "healing_herb",
+     14
+    ],
+    [
+     "bandage",
+     12
+    ],
+    [
+     "tonic",
+     8
+    ],
+    [
+     "greater_potion",
+     6
+    ],
+    [
+     "blood_thistle",
+     18
+    ],
+    [
+     "silver_moss",
+     14
+    ],
+    [
+     "honey_sap",
+     14
+    ],
+    [
+     "lucky_charm",
+     8
+    ],
+    [
+     "pearl",
+     6
+    ],
+    [
+     "topaz",
+     5
+    ],
+    [
+     "peridot",
+     4
+    ],
+    [
+     "emerald",
+     3
+    ],
+    [
+     "opal",
+     2
+    ]
+   ],
+   "medium": [
+    [
+     "none",
+     8
+    ],
+    [
+     "tonic",
+     14
+    ],
+    [
+     "greater_potion",
+     10
+    ],
+    [
+     "healing_herb",
+     8
+    ],
+    [
+     "bandage",
+     8
+    ],
+    [
+     "silver_moss",
+     16
+    ],
+    [
+     "dire_root",
+     14
+    ],
+    [
+     "blood_thistle",
+     14
+    ],
+    [
+     "silverleaf",
+     6
+    ],
+    [
+     "honey_sap",
+     10
+    ],
+    [
+     "pilgrims_knife",
+     3
+    ],
+    [
+     "aeridor_shard",
+     3
+    ],
+    [
+     "ether",
+     16
+    ],
+    [
+     "emerald",
+     5
+    ],
+    [
+     "opal",
+     4
+    ],
+    [
+     "black_pearl",
+     2
+    ],
+    [
+     "fire_opal",
+     1
+    ]
+   ],
+   "hard": [
+    [
+     "none",
+     4
+    ],
+    [
+     "tonic",
+     10
+    ],
+    [
+     "elixir",
+     8
+    ],
+    [
+     "greater_potion",
+     8
+    ],
+    [
+     "aeridor_shard",
+     14
+    ],
+    [
+     "dire_root",
+     16
+    ],
+    [
+     "silver_moss",
+     12
+    ],
+    [
+     "silverleaf",
+     10
+    ],
+    [
+     "blood_thistle",
+     10
+    ],
+    [
+     "honey_sap",
+     8
+    ],
+    [
+     "phoenix_feather",
+     3
+    ],
+    [
+     "ether",
+     9
+    ],
+    [
+     "opal",
+     3
+    ],
+    [
+     "black_pearl",
+     5
+    ],
+    [
+     "fire_opal",
+     4
+    ],
+    [
+     "star_ruby",
+     3
+    ],
+    [
+     "fire_emerald",
+     2
+    ]
+   ],
+   "deadly": [
+    [
+     "tonic",
+     6
+    ],
+    [
+     "elixir",
+     12
+    ],
+    [
+     "phoenix_feather",
+     8
+    ],
+    [
+     "aeridor_shard",
+     16
+    ],
+    [
+     "dire_root",
+     12
+    ],
+    [
+     "gilded_mushroom",
+     10
+    ],
+    [
+     "silverleaf",
+     8
+    ],
+    [
+     "blood_thistle",
+     10
+    ],
+    [
+     "silver_moss",
+     10
+    ],
+    [
+     "honey_sap",
+     8
+    ],
+    [
+     "ether",
+     12
+    ],
+    [
+     "fire_emerald",
+     4
+    ],
+    [
+     "sapphire",
+     3
+    ],
+    [
+     "ruby",
+     2
+    ],
+    [
+     "star_ruby",
+     3
+    ],
+    [
+     "jacinth",
+     2
+    ]
+   ],
+   "boss": [
+    [
+     "elixir",
+     25
+    ],
+    [
+     "phoenix_feather",
+     18
+    ],
+    [
+     "gilded_mushroom",
+     22
+    ],
+    [
+     "dire_root",
+     10
+    ],
+    [
+     "silverleaf",
+     6
+    ],
+    [
+     "blood_thistle",
+     8
+    ],
+    [
+     "silver_moss",
+     8
+    ],
+    [
+     "honey_sap",
+     6
+    ],
+    [
+     "ether",
+     13
+    ],
+    [
+     "sapphire",
+     5
+    ],
+    [
+     "ruby",
+     4
+    ],
+    [
+     "jacinth",
+     3
+    ],
+    [
+     "black_sapphire",
+     2
+    ],
+    [
+     "diamond",
+     2
+    ],
+    [
+     "blue_diamond",
+     1
+    ]
+   ]
+  }
+ },
+ "alchemy": {
+  "recipes": {
+   "potion": {
+    "name": "Health Potion",
+    "ingredients": [
+     "blood_thistle",
+     "honey_sap"
+    ],
+    "result": "potion_standard",
+    "description": "A standard restorative brew. Smells like copper and honey."
+   },
+   "hi_potion_brew": {
+    "name": "Greater Potion",
+    "ingredients": [
+     "blood_thistle",
+     "silver_moss"
+    ],
+    "result": "greater_potion",
+    "description": "A stronger restorative — the moss stabilizes the thistle's potency."
+   },
+   "elixir_brew": {
+    "name": "Elixir",
+    "ingredients": [
+     "silverleaf",
+     "dire_root"
+    ],
+    "result": "elixir",
+    "description": "A deep green draught. The Silverleaf's shimmer fades as the root absorbs it."
+   },
+   "xp_tonic": {
+    "name": "Experience Tonic",
+    "ingredients": [
+     "silverleaf",
+     "emerald"
+    ],
+    "result": "xp_tonic",
+    "description": "The emerald dissolves into a luminous green liquid. Sharpens the mind."
+   },
+   "hunters_draught": {
+    "name": "Hunter's Draught",
+    "ingredients": [
+     "dire_root",
+     "topaz"
+    ],
+    "result": "hunters_draught",
+    "description": "A bitter amber tonic. The topaz dust settles into an oily film that smells like pine."
+   },
+   "ironbark_tonic": {
+    "name": "Ironbark Tonic",
+    "ingredients": [
+     "dire_root",
+     "pearl"
+    ],
+    "result": "ironbark_tonic",
+    "description": "The root hardens as it absorbs the pearl's essence. Skin toughens on contact."
+   },
+   "firebrew": {
+    "name": "Firebrew",
+    "ingredients": [
+     "blood_thistle",
+     "fire_opal"
+    ],
+    "result": "firebrew",
+    "description": "The opal cracks and bleeds fire into the brew. Handle with care."
+   },
+   "phoenix_brew": {
+    "name": "Phoenix Brew",
+    "ingredients": [
+     "silverleaf",
+     "star_ruby"
+    ],
+    "result": "phoenix_feather",
+    "description": "The star ruby ignites the silverleaf. It burns without consuming. Life from flames."
+   },
+   "smoke_bomb": {
+    "name": "Smoke Bomb",
+    "ingredients": [
+     "blood_thistle",
+     "topaz"
+    ],
+    "result": "smoke_bomb",
+    "description": "Safely escape your own overworld encounter without spending a hunt or losing XP/Gold."
+   },
+   "antidote": {
+    "name": "Antidote",
+    "ingredients": [
+     "silver_moss",
+     "honey_sap"
+    ],
+    "result": "antidote",
+    "description": "A sweet, herbal draught that neutralizes venoms."
+   },
+   "warding_salve": {
+    "name": "Warding Salve",
+    "ingredients": [
+     "silver_moss",
+     "pearl"
+    ],
+    "result": "warding_salve",
+    "description": "Grants Fortified: +2 DEF until the next combat ends."
+   },
+   "frenzy_draught": {
+    "name": "Frenzy Draught",
+    "ingredients": [
+     "blood_thistle",
+     "star_ruby"
+    ],
+    "result": "frenzy_draught",
+    "description": "Grants Embered: +2 ATK until the next combat ends."
+   },
+   "moonwater": {
+    "name": "Moonwater",
+    "ingredients": [
+     "silverleaf",
+     "black_pearl"
+    ],
+    "result": "moonwater",
+    "description": "A shimmering water collected under full moonlight. Restores all HP."
+   }
+  },
+  "discovers": {
+   "blood_thistle": "potion",
+   "honey_sap": "potion",
+   "silver_moss": "hi_potion_brew",
+   "dire_root": "elixir_brew",
+   "silverleaf": "elixir_brew",
+   "emerald": "xp_tonic",
+   "topaz": "hunters_draught",
+   "pearl": "ironbark_tonic",
+   "fire_opal": "firebrew",
+   "star_ruby": "phoenix_brew",
+   "black_pearl": "moonwater"
+  },
+  "secondary": {
+   "blood_thistle": [
+    "hi_potion_brew",
+    "firebrew",
+    "smoke_bomb",
+    "frenzy_draught"
+   ],
+   "honey_sap": [
+    "potion",
+    "antidote"
+   ],
+   "silver_moss": [
+    "hi_potion_brew",
+    "antidote",
+    "warding_salve"
+   ],
+   "dire_root": [
+    "elixir_brew",
+    "hunters_draught",
+    "ironbark_tonic"
+   ],
+   "silverleaf": [
+    "xp_tonic",
+    "phoenix_brew",
+    "moonwater"
+   ],
+   "pearl": [
+    "ironbark_tonic",
+    "warding_salve"
+   ],
+   "topaz": [
+    "hunters_draught",
+    "smoke_bomb"
+   ],
+   "fire_opal": [
+    "firebrew"
+   ],
+   "star_ruby": [
+    "phoenix_brew",
+    "frenzy_draught"
+   ],
+   "black_pearl": [
+    "moonwater"
+   ]
+  }
+ }
+}
